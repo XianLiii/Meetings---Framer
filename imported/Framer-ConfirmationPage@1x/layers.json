@@ -1,0 +1,907 @@
+[
+	{
+		"objectId": "2BE9A906-96A6-4132-B947-EE6EA22032C9",
+		"kind": "artboard",
+		"name": "ConfirmationPage",
+		"originalName": "ConfirmationPage",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 356,
+			"y": 62,
+			"width": 750,
+			"height": 1334
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(249, 250, 252, 1)",
+		"children": [
+			{
+				"objectId": "B81F1A5E-E629-49EA-9818-D164C9DC84F4",
+				"kind": "group",
+				"name": "StatusBar",
+				"originalName": "StatusBar",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 13,
+					"y": 11,
+					"width": 721,
+					"height": 20
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-StatusBar-qjgxrjfb.png",
+					"frame": {
+						"x": 13,
+						"y": 11,
+						"width": 721,
+						"height": 20
+					}
+				},
+				"children": [
+					{
+						"objectId": "E1694018-A7C7-47DE-B10F-9FAC8E202A85",
+						"kind": "group",
+						"name": "Pin_Left1",
+						"originalName": "Pin Left",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 13,
+							"y": 11,
+							"width": 188,
+							"height": 20
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Pin_Left-rte2otqw.png",
+							"frame": {
+								"x": 13,
+								"y": 11,
+								"width": 188,
+								"height": 20
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "226B8A28-587C-4DBA-9B6A-D5B1725DD443",
+						"kind": "group",
+						"name": "Pin_Right",
+						"originalName": "Pin Right",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 619,
+							"y": 11,
+							"width": 115,
+							"height": 20
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Pin_Right-mji2qjhb.png",
+							"frame": {
+								"x": 619,
+								"y": 11,
+								"width": 115,
+								"height": 20
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "42BFB697-E787-4493-A4B1-EE76367651BB",
+				"kind": "group",
+				"name": "Pin_Left",
+				"originalName": "Pin Left",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 36,
+					"width": 110,
+					"height": 88
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Pin_Left-ndjcrki2.png",
+					"frame": {
+						"x": 0,
+						"y": 36,
+						"width": 110,
+						"height": 88
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "42ED0A0D-B629-4D65-BD4D-DEF488FC53E6",
+				"kind": "text",
+				"name": "Title",
+				"originalName": "Title",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 91,
+					"y": 145,
+					"width": 557,
+					"height": 31
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "Are you sure to confirm this time slots?",
+					"css": [
+						"/* Are you sure to conf: */",
+						"font-family: SFUIText-Regular;",
+						"font-size: 32px;",
+						"color: #B3B6BE;",
+						"letter-spacing: -0.77px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-Title-ndjfrdbb.png",
+					"frame": {
+						"x": 91,
+						"y": 145,
+						"width": 557,
+						"height": 31
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "BDC6B5D5-2F3C-4E51-BCB6-3CA11E748ACE",
+				"kind": "group",
+				"name": "ConfirmContent1",
+				"originalName": "ConfirmContent1",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": -206,
+					"y": 237,
+					"width": 1168,
+					"height": 472
+				},
+				"visible": false,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "60FEC019-DA90-4680-8F65-8E24630737B1",
+						"kind": "group",
+						"name": "Time",
+						"originalName": "Time",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 191,
+							"y": 250,
+							"width": 326,
+							"height": 101
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Time-njbgrumw.png",
+							"frame": {
+								"x": 191,
+								"y": 250,
+								"width": 326,
+								"height": 101
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "B1B75C6C-4206-4FC2-92C2-6A05CB82CC4D",
+						"kind": "group",
+						"name": "Going",
+						"originalName": "Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 435,
+							"width": 1168,
+							"height": 253
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Going-qjfcnzvd.png",
+							"frame": {
+								"x": -206,
+								"y": 435,
+								"width": 1168,
+								"height": 253
+							}
+						},
+						"children": [
+							{
+								"objectId": "F94A324B-D391-41F2-9E27-25A8EEDDA179",
+								"kind": "group",
+								"name": "Bitmap",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.26349039220826853,
+									"width": 40,
+									"height": 38.03106080547509
+								},
+								"layerFrame": {
+									"x": 33,
+									"y": 647,
+									"width": 42,
+									"height": 41
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-rjk0qtmy.png",
+									"frame": {
+										"x": 33,
+										"y": 647,
+										"width": 42,
+										"height": 41
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "12775525-EBC6-4ABD-AF90-A4683C455C3B",
+								"kind": "group",
+								"name": "Bitmap1",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.3266649118186251,
+									"width": 40,
+									"height": 39.93261384574884
+								},
+								"layerFrame": {
+									"x": 85,
+									"y": 509,
+									"width": 42,
+									"height": 43
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-mti3nzu1.png",
+									"frame": {
+										"x": 85,
+										"y": 509,
+										"width": 42,
+										"height": 43
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "2249D419-384C-4533-8C4E-3886010AEEBB",
+								"kind": "group",
+								"name": "Bitmap2",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.30983153461411916,
+									"width": 40,
+									"height": 40.930929191892496
+								},
+								"layerFrame": {
+									"x": 33,
+									"y": 509,
+									"width": 42,
+									"height": 44
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-mji0ouq0.png",
+									"frame": {
+										"x": 33,
+										"y": 509,
+										"width": 42,
+										"height": 44
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "67F0FBAA-ABE9-4260-B332-327D0F4924F2",
+						"kind": "group",
+						"name": "Not_Going",
+						"originalName": "Not Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 572,
+							"width": 1168,
+							"height": 137
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Not_Going-njdgmezc.png",
+							"frame": {
+								"x": -206,
+								"y": 572,
+								"width": 1168,
+								"height": 137
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "E7017AB9-77F7-41A4-BD02-C4C809CDC2E2",
+				"kind": "group",
+				"name": "ConfirmContent2",
+				"originalName": "ConfirmContent2",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": -206,
+					"y": 237,
+					"width": 1168,
+					"height": 472
+				},
+				"visible": false,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "BBA20B8A-195A-4E62-B8CF-AD39F94AD73F",
+						"kind": "group",
+						"name": "Time1",
+						"originalName": "Time",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 191,
+							"y": 250,
+							"width": 320,
+							"height": 101
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Time-qkjbmjbc.png",
+							"frame": {
+								"x": 191,
+								"y": 250,
+								"width": 320,
+								"height": 101
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "843453FD-A6DF-4860-8A9D-25DF7F8ACC03",
+						"kind": "group",
+						"name": "Going1",
+						"originalName": "Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 435,
+							"width": 1168,
+							"height": 137
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Going-odqznduz.png",
+							"frame": {
+								"x": -206,
+								"y": 435,
+								"width": 1168,
+								"height": 137
+							}
+						},
+						"children": [
+							{
+								"objectId": "D9CD203F-1A1E-4441-B5A4-60D03C52F88F",
+								"kind": "group",
+								"name": "Bitmap3",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.26349039220826853,
+									"width": 40,
+									"height": 38.03106080547509
+								},
+								"layerFrame": {
+									"x": 140,
+									"y": 507,
+									"width": 42,
+									"height": 41
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-rdldrdiw.png",
+									"frame": {
+										"x": 140,
+										"y": 507,
+										"width": 42,
+										"height": 41
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "99BCEA89-B791-4392-A234-17F226173382",
+								"kind": "group",
+								"name": "Bitmap4",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.3266649118186251,
+									"width": 40,
+									"height": 39.93261384574884
+								},
+								"layerFrame": {
+									"x": 85,
+									"y": 509,
+									"width": 42,
+									"height": 43
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-otlcq0vb.png",
+									"frame": {
+										"x": 85,
+										"y": 509,
+										"width": 42,
+										"height": 43
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "FD7B84F7-F38A-4FAC-93DD-3D36E7A867C3",
+								"kind": "group",
+								"name": "Bitmap5",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.30983153461411916,
+									"width": 40,
+									"height": 40.930929191892496
+								},
+								"layerFrame": {
+									"x": 33,
+									"y": 509,
+									"width": 42,
+									"height": 44
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-rkq3qjg0.png",
+									"frame": {
+										"x": 33,
+										"y": 509,
+										"width": 42,
+										"height": 44
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "16E4A1CD-5766-47CE-97AD-17911597CE47",
+						"kind": "group",
+						"name": "Not_Going1",
+						"originalName": "Not Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 572,
+							"width": 1168,
+							"height": 137
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Not_Going-mtzfneex.png",
+							"frame": {
+								"x": -206,
+								"y": 572,
+								"width": 1168,
+								"height": 137
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "48CB13E5-82F5-43D6-9710-7AB39E79564D",
+				"kind": "group",
+				"name": "ConfirmContent3",
+				"originalName": "ConfirmContent3",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": -206,
+					"y": 237,
+					"width": 1168,
+					"height": 472
+				},
+				"visible": false,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "A926D0B0-94FB-4752-8A1D-7DF8861269FF",
+						"kind": "group",
+						"name": "Time2",
+						"originalName": "Time",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 191,
+							"y": 250,
+							"width": 324,
+							"height": 101
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Time-qtkynkqw.png",
+							"frame": {
+								"x": 191,
+								"y": 250,
+								"width": 324,
+								"height": 101
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "64469388-DEE5-437F-B119-558F4CB6B403",
+						"kind": "group",
+						"name": "Going2",
+						"originalName": "Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 435,
+							"width": 1168,
+							"height": 255
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Going-njq0njkz.png",
+							"frame": {
+								"x": -206,
+								"y": 435,
+								"width": 1168,
+								"height": 255
+							}
+						},
+						"children": [
+							{
+								"objectId": "CA5B2F6E-214E-41EC-A124-1D91D168DFAD",
+								"kind": "group",
+								"name": "Bitmap6",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.26349039220826853,
+									"width": 40,
+									"height": 38.03106080547509
+								},
+								"layerFrame": {
+									"x": 33,
+									"y": 647,
+									"width": 42,
+									"height": 41
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-q0e1qjjg.png",
+									"frame": {
+										"x": 33,
+										"y": 647,
+										"width": 42,
+										"height": 41
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "FCA26528-62CF-4B58-A538-A5FD6742233B",
+								"kind": "group",
+								"name": "Bitmap7",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.3266649118186251,
+									"width": 40,
+									"height": 39.93261384574884
+								},
+								"layerFrame": {
+									"x": 243,
+									"y": 647,
+									"width": 42,
+									"height": 43
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-rknbmjy1.png",
+									"frame": {
+										"x": 243,
+										"y": 647,
+										"width": 42,
+										"height": 43
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "610D3542-3B9D-4738-A026-37684D2808BB",
+								"kind": "group",
+								"name": "Bitmap8",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.30983153461411916,
+									"width": 40,
+									"height": 40.930929191892496
+								},
+								"layerFrame": {
+									"x": 33,
+									"y": 509,
+									"width": 42,
+									"height": 44
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-njewrdm1.png",
+									"frame": {
+										"x": 33,
+										"y": 509,
+										"width": 42,
+										"height": 44
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "D9BEE8FA-B62E-41F6-B584-1C0DA1354098",
+						"kind": "group",
+						"name": "Not_Going2",
+						"originalName": "Not Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 572,
+							"width": 1168,
+							"height": 137
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Not_Going-rdlcruu4.png",
+							"frame": {
+								"x": -206,
+								"y": 572,
+								"width": 1168,
+								"height": 137
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "8EF84871-6AEB-4D9F-9954-D71CA1FFBCB5",
+				"kind": "group",
+				"name": "Alert",
+				"originalName": "Alert",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 3,
+					"y": 734,
+					"width": 750,
+					"height": 88
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Alert-oevgodq4.png",
+					"frame": {
+						"x": 3,
+						"y": 734,
+						"width": 750,
+						"height": 88
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "15CA4ECE-6831-4CA0-9021-1F2C4D708671",
+				"kind": "text",
+				"name": "Notice",
+				"originalName": "Notice",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 101,
+					"y": 1133,
+					"width": 547,
+					"height": 52
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "NOTICE !\nYou cannot change event time after confirmation. ",
+					"css": [
+						"/* NOTICE ! You cannot: */",
+						"font-family: SFUIText-Regular;",
+						"font-size: 24px;",
+						"color: rgba(255,63,0,0.70);",
+						"letter-spacing: -0.58px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-Notice-mtvdqtrf.png",
+					"frame": {
+						"x": 101,
+						"y": 1133,
+						"width": 547,
+						"height": 52
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "CDDAF811-8B5F-4035-8D34-658544BBDC96",
+				"kind": "group",
+				"name": "Btn",
+				"originalName": "Btn",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 10,
+					"y": 1212,
+					"width": 729,
+					"height": 110
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Btn-q0requy4.png",
+					"frame": {
+						"x": 10,
+						"y": 1212,
+						"width": 729,
+						"height": 110
+					}
+				},
+				"children": [
+					{
+						"objectId": "85779452-3C51-4CC4-B978-4E69C54729F6",
+						"kind": "text",
+						"name": "ConfirmeText",
+						"originalName": "ConfirmeText",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 318,
+							"y": 1250,
+							"width": 119,
+							"height": 27
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1,
+							"string": "Confirm",
+							"css": [
+								"/* Confirm: */",
+								"font-family: SFUIText-Regular;",
+								"font-size: 34px;",
+								"color: #FFFFFF;",
+								"letter-spacing: -0.82px;"
+							]
+						},
+						"image": {
+							"path": "images/Layer-ConfirmeText-odu3nzk0.png",
+							"frame": {
+								"x": 318,
+								"y": 1250,
+								"width": 119,
+								"height": 27
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "BAD38114-0E7F-4FA1-BF71-CEE7A1FB510E",
+						"kind": "group",
+						"name": "BarPressed",
+						"originalName": "BarPressed",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 10,
+							"y": 1211,
+							"width": 729,
+							"height": 111
+						},
+						"visible": false,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-BarPressed-qkfemzgx.png",
+							"frame": {
+								"x": 10,
+								"y": 1211,
+								"width": 729,
+								"height": 111
+							}
+						},
+						"children": []
+					}
+				]
+			}
+		]
+	}
+]
