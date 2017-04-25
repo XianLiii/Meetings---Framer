@@ -30,12 +30,14 @@ PUBLIC:
 
 Colors
 Public Funtions
+General panels: change cover photo, event options, view in map, invitees
 -----------------------------------------------------------------###
 
 # Colors
 White="#ffffff"
 Grey="#D8DADF"
 lightGrey="#fcfcfc"
+bgGrey="#F8F8F8"
 
 paleOrange="#FFF6EF"
 lightOrange="FFEEE0"
@@ -210,7 +212,6 @@ moveHostingEventLinkTo=(card)->
 
 
 
-
 ###-----------------------------------------------------------------
 PAGE MANAGEMENT:
 page_Meetings
@@ -221,7 +222,7 @@ page_DetailsAsHost
 page_Meetings=new Layer
 	width: Screen.width
 	height: Screen.height
-	backgroundColor: lightGrey
+	backgroundColor: bgGrey
 
 page_DetailsAsInvitee=new Layer
 	width: Screen.width
@@ -251,6 +252,8 @@ scrollMeetings = ScrollComponent.wrap(sketchMeetings.ScrollGroup)
 scrollMeetings.contentInset = {bottom: 130}
 scrollMeetings.scrollHorizontal = false
 scrollMeetings.propagateEvents = false
+#高度为空白区域
+scrollMeetings.height=1096
 
 
 # Meetings Status
@@ -274,9 +277,7 @@ newInvitationNotice=new Layer
 	width: 200
 	borderRadius: 100
 	shadowBlur: 4
-	backgroundColor: Orange
-	shadowSpread: 1
-	shadowColor: "rgba(194,112,1,1)"
+	backgroundColor: Red
 	shadowY: 0
 	opacity: 0
 	
@@ -302,7 +303,7 @@ MeetingsStatus1=()->
 		y: 150
 		opacity: 1
 		options: 
-			time: 0.5
+			time: 1
 			curve: Bezier.ease
 		
 	meetingTitle.text="Invitations(1)"
@@ -538,7 +539,6 @@ subpage_MeetingContent=ScrollComponent.wrap(sketchDetailsInvitee.DetailsUnconfir
 subpage_MeetingContent.contentInset = {bottom: 120}
 subpage_MeetingContent.scrollHorizontal = false
 subpage_MeetingContent.propagateEvents = false
-subpage_MeetingContent.height=1028
 
 subpage_VotePanel=new Layer
 	x: Align.center
@@ -1082,8 +1082,6 @@ ConfirmButton.onTapStart (event, layer) ->
 	textConfirmButton.color="#fff"
 
 ConfirmButton.onTapEnd (event, layer) ->
-	bg_ConfirmButton.backgroundColor=lightOrange
-	textConfirmButton.color=darkOrange
 	showConfirmationPageAt(currentTimeslotId)
 	
 #Confirm Button Default Status
