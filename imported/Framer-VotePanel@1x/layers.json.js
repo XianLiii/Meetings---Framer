@@ -24,9 +24,9 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 6,
-					"y": 20,
+					"y": 19,
 					"width": 730,
-					"height": 420
+					"height": 421
 				},
 				"visible": true,
 				"metadata": {
@@ -41,9 +41,9 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 25,
-							"y": 20,
-							"width": 700,
-							"height": 58
+							"y": 19,
+							"width": 687,
+							"height": 59
 						},
 						"visible": true,
 						"metadata": {
@@ -53,9 +53,9 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 							"path": "images/Layer-VPHeader-oerfq0m4.png",
 							"frame": {
 								"x": 25,
-								"y": 20,
-								"width": 700,
-								"height": 58
+								"y": 19,
+								"width": 687,
+								"height": 59
 							}
 						},
 						"children": [
@@ -66,10 +66,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"originalName": "Hide",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 675,
-									"y": 20,
-									"width": 50,
-									"height": 50
+									"x": 691,
+									"y": 39,
+									"width": 21,
+									"height": 13
 								},
 								"visible": true,
 								"metadata": {
@@ -78,10 +78,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Hide-mue0ndc4.png",
 									"frame": {
-										"x": 675,
-										"y": 20,
-										"width": 50,
-										"height": 50
+										"x": 691,
+										"y": 39,
+										"width": 21,
+										"height": 13
 									}
 								},
 								"children": [
@@ -121,10 +121,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"originalName": "ViewInCal",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 445,
-									"y": 20,
-									"width": 210,
-									"height": 50
+									"x": 400,
+									"y": 19,
+									"width": 256,
+									"height": 52
 								},
 								"visible": true,
 								"metadata": {
@@ -133,13 +133,69 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-ViewInCal-mjjgmje4.png",
 									"frame": {
-										"x": 445,
-										"y": 20,
-										"width": 210,
-										"height": 50
+										"x": 400,
+										"y": 19,
+										"width": 256,
+										"height": 52
 									}
 								},
-								"children": []
+								"children": [
+									{
+										"objectId": "3DD518F0-AC76-46D5-8B3D-98B9156474E2",
+										"kind": "group",
+										"name": "Icon_View_in_calendar",
+										"originalName": "Icon - View in calendar",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 414,
+											"y": 32,
+											"width": 32,
+											"height": 28
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Icon_View_in_calendar-m0rente4.png",
+											"frame": {
+												"x": 414,
+												"y": 32,
+												"width": 32,
+												"height": 28
+											}
+										},
+										"children": [
+											{
+												"objectId": "68A40668-1972-416D-AD80-C6D1179B72AD",
+												"kind": "group",
+												"name": "timePressed",
+												"originalName": "timePressed",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 389,
+													"y": 12,
+													"width": 80,
+													"height": 81
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-timePressed-njhbnda2.png",
+													"frame": {
+														"x": 389,
+														"y": 12,
+														"width": 80,
+														"height": 81
+													}
+												},
+												"children": []
+											}
+										]
+									}
+								]
 							},
 							{
 								"objectId": "959273B4-57E0-49BD-9FF2-7C84330C3EB4",
@@ -150,7 +206,7 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 25,
 									"y": 20,
-									"width": 164,
+									"width": 268,
 									"height": 58
 								},
 								"visible": true,
@@ -162,7 +218,7 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 									"frame": {
 										"x": 25,
 										"y": 20,
-										"width": 164,
+										"width": 268,
 										"height": 58
 									}
 								},
@@ -234,7 +290,7 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 											"height": 27.57251908396944
 										},
 										"layerFrame": {
-											"x": 633,
+											"x": 628,
 											"y": 368,
 											"width": 32,
 											"height": 31
@@ -246,7 +302,7 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bitmap-mjffqum0.png",
 											"frame": {
-												"x": 633,
+												"x": 628,
 												"y": 368,
 												"width": 32,
 												"height": 31
@@ -291,9 +347,9 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 35,
-									"y": 356,
-									"width": 58,
-									"height": 58
+									"y": 353,
+									"width": 60,
+									"height": 60
 								},
 								"visible": true,
 								"metadata": {
@@ -303,9 +359,9 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 									"path": "images/Layer-Unselected-rjkwn0u1.png",
 									"frame": {
 										"x": 35,
-										"y": 356,
-										"width": 58,
-										"height": 58
+										"y": 353,
+										"width": 60,
+										"height": 60
 									}
 								},
 								"children": []
@@ -317,10 +373,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"originalName": "Selected",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 35,
-									"y": 356,
-									"width": 58,
-									"height": 58
+									"x": 33,
+									"y": 351,
+									"width": 64,
+									"height": 64
 								},
 								"visible": true,
 								"metadata": {
@@ -329,10 +385,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Selected-mdzfq0re.png",
 									"frame": {
-										"x": 35,
-										"y": 356,
-										"width": 58,
-										"height": 58
+										"x": 33,
+										"y": 351,
+										"width": 64,
+										"height": 64
 									}
 								},
 								"children": []
@@ -403,7 +459,7 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 											"height": 27.57251908396944
 										},
 										"layerFrame": {
-											"x": 635,
+											"x": 630,
 											"y": 258,
 											"width": 32,
 											"height": 31
@@ -415,7 +471,7 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bitmap-rdq1njaw.png",
 											"frame": {
-												"x": 635,
+												"x": 630,
 												"y": 258,
 												"width": 32,
 												"height": 31
@@ -435,7 +491,7 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 											"height": 27.57251908396944
 										},
 										"layerFrame": {
-											"x": 619,
+											"x": 614,
 											"y": 258,
 											"width": 32,
 											"height": 31
@@ -447,7 +503,7 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bitmap-ntvbrjy4.png",
 											"frame": {
-												"x": 619,
+												"x": 614,
 												"y": 258,
 												"width": 32,
 												"height": 31
@@ -492,9 +548,9 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 35,
-									"y": 246,
-									"width": 58,
-									"height": 58
+									"y": 250,
+									"width": 60,
+									"height": 60
 								},
 								"visible": true,
 								"metadata": {
@@ -504,9 +560,9 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 									"path": "images/Layer-Unselected-mem3ndrg.png",
 									"frame": {
 										"x": 35,
-										"y": 246,
-										"width": 58,
-										"height": 58
+										"y": 250,
+										"width": 60,
+										"height": 60
 									}
 								},
 								"children": []
@@ -518,10 +574,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"originalName": "Selected",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 35,
-									"y": 246,
-									"width": 58,
-									"height": 58
+									"x": 33,
+									"y": 248,
+									"width": 64,
+									"height": 64
 								},
 								"visible": true,
 								"metadata": {
@@ -530,10 +586,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Selected-mkvemeng.png",
 									"frame": {
-										"x": 35,
-										"y": 246,
-										"width": 58,
-										"height": 58
+										"x": 33,
+										"y": 248,
+										"width": 64,
+										"height": 64
 									}
 								},
 								"children": []
@@ -604,10 +660,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 											"height": 27.57251908396944
 										},
 										"layerFrame": {
-											"x": 633,
-											"y": 148,
+											"x": 628,
+											"y": 147,
 											"width": 32,
-											"height": 31
+											"height": 33
 										},
 										"visible": true,
 										"metadata": {
@@ -616,10 +672,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bitmap-qjncmdhe.png",
 											"frame": {
-												"x": 633,
-												"y": 148,
+												"x": 628,
+												"y": 147,
 												"width": 32,
-												"height": 31
+												"height": 33
 											}
 										},
 										"children": []
@@ -636,10 +692,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 											"height": 28.00000000000004
 										},
 										"layerFrame": {
-											"x": 620,
-											"y": 149,
-											"width": 30,
-											"height": 30
+											"x": 614,
+											"y": 148,
+											"width": 32,
+											"height": 32
 										},
 										"visible": true,
 										"metadata": {
@@ -648,10 +704,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bitmap-mzvdqtc1.png",
 											"frame": {
-												"x": 620,
-												"y": 149,
-												"width": 30,
-												"height": 30
+												"x": 614,
+												"y": 148,
+												"width": 32,
+												"height": 32
 											}
 										},
 										"children": []
@@ -668,10 +724,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 											"height": 27.57251908396944
 										},
 										"layerFrame": {
-											"x": 607,
+											"x": 602,
 											"y": 148,
 											"width": 32,
-											"height": 31
+											"height": 32
 										},
 										"visible": true,
 										"metadata": {
@@ -680,10 +736,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bitmap-mui5nje5.png",
 											"frame": {
-												"x": 607,
+												"x": 602,
 												"y": 148,
 												"width": 32,
-												"height": 31
+												"height": 32
 											}
 										},
 										"children": []
@@ -725,9 +781,9 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 35,
-									"y": 136,
-									"width": 58,
-									"height": 58
+									"y": 140,
+									"width": 60,
+									"height": 60
 								},
 								"visible": true,
 								"metadata": {
@@ -737,9 +793,9 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 									"path": "images/Layer-Unselected-odgyquyx.png",
 									"frame": {
 										"x": 35,
-										"y": 136,
-										"width": 58,
-										"height": 58
+										"y": 140,
+										"width": 60,
+										"height": 60
 									}
 								},
 								"children": []
@@ -751,10 +807,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"originalName": "Selected",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 35,
-									"y": 136,
-									"width": 58,
-									"height": 58
+									"x": 33,
+									"y": 138,
+									"width": 64,
+									"height": 64
 								},
 								"visible": true,
 								"metadata": {
@@ -763,10 +819,10 @@ window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Selected-oumzrtfg.png",
 									"frame": {
-										"x": 35,
-										"y": 136,
-										"width": 58,
-										"height": 58
+										"x": 33,
+										"y": 138,
+										"width": 64,
+										"height": 64
 									}
 								},
 								"children": []
