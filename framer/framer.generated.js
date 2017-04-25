@@ -3,3729 +3,6 @@
 
 if (!window.Framer && window._bridge) {window._bridge('runtime.error', {message:'[framer.js] Framer library missing or corrupt. Select File → Update Framer Library.'})}
 window.__imported__ = window.__imported__ || {};
-window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
-	{
-		"objectId": "E1A89B9D-842F-41A9-BC99-6E1E696F08A3",
-		"kind": "artboard",
-		"name": "VotePanel",
-		"originalName": "VotePanel",
-		"maskFrame": null,
-		"layerFrame": {
-			"x": 788,
-			"y": 579,
-			"width": 750,
-			"height": 1334
-		},
-		"visible": true,
-		"metadata": {},
-		"backgroundColor": "rgba(255, 255, 255, 1)",
-		"children": [
-			{
-				"objectId": "B4721606-49F4-4724-BE83-8938BE8B7545",
-				"kind": "group",
-				"name": "VoteUISet",
-				"originalName": "VoteUISet",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 6,
-					"y": 20,
-					"width": 730,
-					"height": 420
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"children": [
-					{
-						"objectId": "8DECC89C-54E3-47BF-8034-1BC1D4D17BC7",
-						"kind": "group",
-						"name": "VPHeader",
-						"originalName": "VPHeader",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 25,
-							"y": 20,
-							"width": 700,
-							"height": 58
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-VPHeader-oerfq0m4.png",
-							"frame": {
-								"x": 25,
-								"y": 20,
-								"width": 700,
-								"height": 58
-							}
-						},
-						"children": [
-							{
-								"objectId": "1A447823-A9E1-45A0-AC51-978D41D9D072",
-								"kind": "group",
-								"name": "Hide",
-								"originalName": "Hide",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 675,
-									"y": 20,
-									"width": 50,
-									"height": 50
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Hide-mue0ndc4.png",
-									"frame": {
-										"x": 675,
-										"y": 20,
-										"width": 50,
-										"height": 50
-									}
-								},
-								"children": [
-									{
-										"objectId": "7E5229B2-3BD9-4480-89C2-707EE02CFDF9",
-										"kind": "group",
-										"name": "Arow",
-										"originalName": "Arow",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 691,
-											"y": 39,
-											"width": 21,
-											"height": 13
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Arow-n0u1mji5.png",
-											"frame": {
-												"x": 691,
-												"y": 39,
-												"width": 21,
-												"height": 13
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "22F218C0-CA42-4A35-8339-7378BBCFA132",
-								"kind": "group",
-								"name": "ViewInCal",
-								"originalName": "ViewInCal",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 445,
-									"y": 20,
-									"width": 210,
-									"height": 50
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-ViewInCal-mjjgmje4.png",
-									"frame": {
-										"x": 445,
-										"y": 20,
-										"width": 210,
-										"height": 50
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "959273B4-57E0-49BD-9FF2-7C84330C3EB4",
-								"kind": "group",
-								"name": "Title_Repeat",
-								"originalName": "Title&Repeat",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 25,
-									"y": 20,
-									"width": 164,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Title_Repeat-otu5mjcz.png",
-									"frame": {
-										"x": 25,
-										"y": 20,
-										"width": 164,
-										"height": 58
-									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "FD9FFF06-38C3-4866-9901-29F5221E56ED",
-						"kind": "group",
-						"name": "Timeslots_Line3",
-						"originalName": "Timeslots_Line3",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 6,
-							"y": 330,
-							"width": 730,
-							"height": 110
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Timeslots_Line3-rkq5rkzg.png",
-							"frame": {
-								"x": 6,
-								"y": 330,
-								"width": 730,
-								"height": 110
-							}
-						},
-						"children": [
-							{
-								"objectId": "75C3DB60-B8EB-4540-9580-B34C0F0CF8E9",
-								"kind": "group",
-								"name": "VotedPeople",
-								"originalName": "VotedPeople",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 559,
-									"y": 330,
-									"width": 177,
-									"height": 110
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-VotedPeople-nzvdm0rc.png",
-									"frame": {
-										"x": 559,
-										"y": 330,
-										"width": 177,
-										"height": 110
-									}
-								},
-								"children": [
-									{
-										"objectId": "21EAC4B4-CB8E-488A-AFB1-14D49F922676",
-										"kind": "group",
-										"name": "Bitmap",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0.9160305343509663,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 633,
-											"y": 368,
-											"width": 32,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-mjffqum0.png",
-											"frame": {
-												"x": 633,
-												"y": 368,
-												"width": 32,
-												"height": 31
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "1219712F-5E5C-4E82-897E-5602B5E38A3C",
-								"kind": "group",
-								"name": "Time",
-								"originalName": "Time",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 116,
-									"y": 356,
-									"width": 210,
-									"height": 64
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Time-mtixotcx.png",
-									"frame": {
-										"x": 116,
-										"y": 356,
-										"width": 210,
-										"height": 64
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "F907E5FF-63B0-4C97-B549-59A4AB39B584",
-								"kind": "group",
-								"name": "Unselected",
-								"originalName": "Unselected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 356,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Unselected-rjkwn0u1.png",
-									"frame": {
-										"x": 35,
-										"y": 356,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "06ECDD9B-38AA-4A32-B7E9-0C536F08358B",
-								"kind": "group",
-								"name": "Selected",
-								"originalName": "Selected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 356,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Selected-mdzfq0re.png",
-									"frame": {
-										"x": 35,
-										"y": 356,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "5B5C4286-CAD1-4966-BEBA-733225E01B06",
-						"kind": "group",
-						"name": "Timeslots_Line2",
-						"originalName": "Timeslots_Line2",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 6,
-							"y": 220,
-							"width": 730,
-							"height": 110
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Timeslots_Line2-nui1qzqy.png",
-							"frame": {
-								"x": 6,
-								"y": 220,
-								"width": 730,
-								"height": 110
-							}
-						},
-						"children": [
-							{
-								"objectId": "68C57737-3A0E-46F2-8AB5-0F7F511B33AF",
-								"kind": "group",
-								"name": "VotedPeople1",
-								"originalName": "VotedPeople",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 559,
-									"y": 220,
-									"width": 177,
-									"height": 110
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-VotedPeople-njhdntc3.png",
-									"frame": {
-										"x": 559,
-										"y": 220,
-										"width": 177,
-										"height": 110
-									}
-								},
-								"children": [
-									{
-										"objectId": "D456004D-E0A5-43B4-9E2C-D79982C61FD8",
-										"kind": "group",
-										"name": "Bitmap1",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 635,
-											"y": 258,
-											"width": 32,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-rdq1njaw.png",
-											"frame": {
-												"x": 635,
-												"y": 258,
-												"width": 32,
-												"height": 31
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "55AF6869-EAC5-4578-B743-B7C6D967D17B",
-										"kind": "group",
-										"name": "Bitmap2",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0.9160305343509663,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 619,
-											"y": 258,
-											"width": 32,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-ntvbrjy4.png",
-											"frame": {
-												"x": 619,
-												"y": 258,
-												"width": 32,
-												"height": 31
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "6DC0915F-6F36-4CC4-8F12-D4A16028B138",
-								"kind": "group",
-								"name": "Time1",
-								"originalName": "Time",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 115,
-									"y": 246,
-									"width": 229,
-									"height": 63
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Time-nkrdmdkx.png",
-									"frame": {
-										"x": 115,
-										"y": 246,
-										"width": 229,
-										"height": 63
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "0C744F2F-4357-40DF-BA6B-B9F22090E9F7",
-								"kind": "group",
-								"name": "Unselected1",
-								"originalName": "Unselected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 246,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Unselected-mem3ndrg.png",
-									"frame": {
-										"x": 35,
-										"y": 246,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "2ED0CF4E-7E2C-4E73-AC64-14A663200F6D",
-								"kind": "group",
-								"name": "Selected1",
-								"originalName": "Selected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 246,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Selected-mkvemeng.png",
-									"frame": {
-										"x": 35,
-										"y": 246,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "F6820F84-3F68-4113-BFFE-F0F905ED2954",
-						"kind": "group",
-						"name": "Timeslots_Line1",
-						"originalName": "Timeslots_Line1",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 6,
-							"y": 110,
-							"width": 730,
-							"height": 110
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Timeslots_Line1-rjy4mjbg.png",
-							"frame": {
-								"x": 6,
-								"y": 110,
-								"width": 730,
-								"height": 110
-							}
-						},
-						"children": [
-							{
-								"objectId": "D6BF07BF-505C-4FAF-9A0A-2401EFCB25E0",
-								"kind": "group",
-								"name": "VotedPeople2",
-								"originalName": "VotedPeople",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 559,
-									"y": 110,
-									"width": 177,
-									"height": 110
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-VotedPeople-rdzcrja3.png",
-									"frame": {
-										"x": 559,
-										"y": 110,
-										"width": 177,
-										"height": 110
-									}
-								},
-								"children": [
-									{
-										"objectId": "B3B08D67-B56D-4A1D-B372-8DFAE87F8BD3",
-										"kind": "group",
-										"name": "Bitmap3",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0.9160305343509663,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 633,
-											"y": 148,
-											"width": 32,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-qjncmdhe.png",
-											"frame": {
-												"x": 633,
-												"y": 148,
-												"width": 32,
-												"height": 31
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "35CA75B0-F26F-4AB6-BCA5-E438C7CA5A59",
-										"kind": "group",
-										"name": "Bitmap4",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0,
-											"width": 28,
-											"height": 28.00000000000004
-										},
-										"layerFrame": {
-											"x": 620,
-											"y": 149,
-											"width": 30,
-											"height": 30
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-mzvdqtc1.png",
-											"frame": {
-												"x": 620,
-												"y": 149,
-												"width": 30,
-												"height": 30
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "1B961912-FC83-4D88-B47C-111B37EB35C8",
-										"kind": "group",
-										"name": "Bitmap5",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 607,
-											"y": 148,
-											"width": 32,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-mui5nje5.png",
-											"frame": {
-												"x": 607,
-												"y": 148,
-												"width": 32,
-												"height": 31
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "84531533-70C4-46EE-9315-003CF498917A",
-								"kind": "group",
-								"name": "Time2",
-								"originalName": "Time",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 116,
-									"y": 136,
-									"width": 210,
-									"height": 63
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Time-odq1mze1.png",
-									"frame": {
-										"x": 116,
-										"y": 136,
-										"width": 210,
-										"height": 63
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "882AF13D-5414-4604-B11D-AADBF616FDC4",
-								"kind": "group",
-								"name": "Unselected2",
-								"originalName": "Unselected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 136,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Unselected-odgyquyx.png",
-									"frame": {
-										"x": 35,
-										"y": 136,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "9C3E1F80-1EB1-4D85-AC30-E1EA9DA14B5E",
-								"kind": "group",
-								"name": "Selected2",
-								"originalName": "Selected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 136,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Selected-oumzrtfg.png",
-									"frame": {
-										"x": 35,
-										"y": 136,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							}
-						]
-					}
-				]
-			}
-		]
-	}
-]
-window.__imported__ = window.__imported__ || {};
-window.__imported__["Framer-ConfirmPanel@1x/layers.json.js"] = [
-	{
-		"objectId": "E1A89B9D-842F-41A9-BC99-6E1E696F08A3",
-		"kind": "artboard",
-		"name": "VotePanel",
-		"originalName": "VotePanel",
-		"maskFrame": null,
-		"layerFrame": {
-			"x": 788,
-			"y": 579,
-			"width": 750,
-			"height": 1334
-		},
-		"visible": true,
-		"metadata": {},
-		"backgroundColor": "rgba(255, 255, 255, 1)",
-		"children": [
-			{
-				"objectId": "B4721606-49F4-4724-BE83-8938BE8B7545",
-				"kind": "group",
-				"name": "VoteUISet",
-				"originalName": "VoteUISet",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 6,
-					"y": 20,
-					"width": 730,
-					"height": 420
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"children": [
-					{
-						"objectId": "8DECC89C-54E3-47BF-8034-1BC1D4D17BC7",
-						"kind": "group",
-						"name": "VPHeader",
-						"originalName": "VPHeader",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 25,
-							"y": 20,
-							"width": 700,
-							"height": 58
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-VPHeader-oerfq0m4.png",
-							"frame": {
-								"x": 25,
-								"y": 20,
-								"width": 700,
-								"height": 58
-							}
-						},
-						"children": [
-							{
-								"objectId": "1A447823-A9E1-45A0-AC51-978D41D9D072",
-								"kind": "group",
-								"name": "Hide",
-								"originalName": "Hide",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 675,
-									"y": 20,
-									"width": 50,
-									"height": 50
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Hide-mue0ndc4.png",
-									"frame": {
-										"x": 675,
-										"y": 20,
-										"width": 50,
-										"height": 50
-									}
-								},
-								"children": [
-									{
-										"objectId": "7E5229B2-3BD9-4480-89C2-707EE02CFDF9",
-										"kind": "group",
-										"name": "Arow",
-										"originalName": "Arow",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 691,
-											"y": 39,
-											"width": 21,
-											"height": 13
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Arow-n0u1mji5.png",
-											"frame": {
-												"x": 691,
-												"y": 39,
-												"width": 21,
-												"height": 13
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "22F218C0-CA42-4A35-8339-7378BBCFA132",
-								"kind": "group",
-								"name": "ViewInCal",
-								"originalName": "ViewInCal",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 445,
-									"y": 20,
-									"width": 210,
-									"height": 50
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-ViewInCal-mjjgmje4.png",
-									"frame": {
-										"x": 445,
-										"y": 20,
-										"width": 210,
-										"height": 50
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "959273B4-57E0-49BD-9FF2-7C84330C3EB4",
-								"kind": "group",
-								"name": "Title_Repeat",
-								"originalName": "Title&Repeat",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 25,
-									"y": 20,
-									"width": 164,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Title_Repeat-otu5mjcz.png",
-									"frame": {
-										"x": 25,
-										"y": 20,
-										"width": 164,
-										"height": 58
-									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "FD9FFF06-38C3-4866-9901-29F5221E56ED",
-						"kind": "group",
-						"name": "Timeslots_Line3",
-						"originalName": "Timeslots_Line3",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 6,
-							"y": 330,
-							"width": 730,
-							"height": 110
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Timeslots_Line3-rkq5rkzg.png",
-							"frame": {
-								"x": 6,
-								"y": 330,
-								"width": 730,
-								"height": 110
-							}
-						},
-						"children": [
-							{
-								"objectId": "75C3DB60-B8EB-4540-9580-B34C0F0CF8E9",
-								"kind": "group",
-								"name": "VotedPeople",
-								"originalName": "VotedPeople",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 559,
-									"y": 330,
-									"width": 177,
-									"height": 110
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-VotedPeople-nzvdm0rc.png",
-									"frame": {
-										"x": 559,
-										"y": 330,
-										"width": 177,
-										"height": 110
-									}
-								},
-								"children": [
-									{
-										"objectId": "8365C758-84F3-4C82-897D-C02196089D05",
-										"kind": "group",
-										"name": "Bitmap",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0.9160305343509663,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 627,
-											"y": 368,
-											"width": 30,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-odm2num3.png",
-											"frame": {
-												"x": 627,
-												"y": 368,
-												"width": 30,
-												"height": 31
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "1219712F-5E5C-4E82-897E-5602B5E38A3C",
-								"kind": "group",
-								"name": "Time",
-								"originalName": "Time",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 115,
-									"y": 356,
-									"width": 221,
-									"height": 63
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Time-mtixotcx.png",
-									"frame": {
-										"x": 115,
-										"y": 356,
-										"width": 221,
-										"height": 63
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "F907E5FF-63B0-4C97-B549-59A4AB39B584",
-								"kind": "group",
-								"name": "Unselected",
-								"originalName": "Unselected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 356,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Unselected-rjkwn0u1.png",
-									"frame": {
-										"x": 35,
-										"y": 356,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "06ECDD9B-38AA-4A32-B7E9-0C536F08358B",
-								"kind": "group",
-								"name": "Selected",
-								"originalName": "Selected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 356,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Selected-mdzfq0re.png",
-									"frame": {
-										"x": 35,
-										"y": 356,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "5B5C4286-CAD1-4966-BEBA-733225E01B06",
-						"kind": "group",
-						"name": "Timeslots_Line2",
-						"originalName": "Timeslots_Line2",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 6,
-							"y": 220,
-							"width": 730,
-							"height": 110
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Timeslots_Line2-nui1qzqy.png",
-							"frame": {
-								"x": 6,
-								"y": 220,
-								"width": 730,
-								"height": 110
-							}
-						},
-						"children": [
-							{
-								"objectId": "68C57737-3A0E-46F2-8AB5-0F7F511B33AF",
-								"kind": "group",
-								"name": "VotedPeople1",
-								"originalName": "VotedPeople",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 559,
-									"y": 220,
-									"width": 177,
-									"height": 110
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-VotedPeople-njhdntc3.png",
-									"frame": {
-										"x": 559,
-										"y": 220,
-										"width": 177,
-										"height": 110
-									}
-								},
-								"children": [
-									{
-										"objectId": "402A0DD8-1986-41AF-910E-2DBAA199F541",
-										"kind": "group",
-										"name": "Bitmap1",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0.9160305343509663,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 627,
-											"y": 258,
-											"width": 30,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-ndayqtbe.png",
-											"frame": {
-												"x": 627,
-												"y": 258,
-												"width": 30,
-												"height": 31
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "BDFE372F-5031-4B3D-AFD3-9FF90551363A",
-										"kind": "group",
-										"name": "Bitmap2",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0.9160305343509663,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 613,
-											"y": 258,
-											"width": 30,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-qkrgrtm3.png",
-											"frame": {
-												"x": 613,
-												"y": 258,
-												"width": 30,
-												"height": 31
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "54B472A6-2121-408B-8910-0101356FB51E",
-										"kind": "group",
-										"name": "Bitmap3",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0.9160305343509663,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 599,
-											"y": 258,
-											"width": 30,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-ntrcndcy.png",
-											"frame": {
-												"x": 599,
-												"y": 258,
-												"width": 30,
-												"height": 31
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "6DC0915F-6F36-4CC4-8F12-D4A16028B138",
-								"kind": "group",
-								"name": "Time1",
-								"originalName": "Time",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 115,
-									"y": 246,
-									"width": 222,
-									"height": 63
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Time-nkrdmdkx.png",
-									"frame": {
-										"x": 115,
-										"y": 246,
-										"width": 222,
-										"height": 63
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "0C744F2F-4357-40DF-BA6B-B9F22090E9F7",
-								"kind": "group",
-								"name": "Unselected1",
-								"originalName": "Unselected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 246,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Unselected-mem3ndrg.png",
-									"frame": {
-										"x": 35,
-										"y": 246,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "2ED0CF4E-7E2C-4E73-AC64-14A663200F6D",
-								"kind": "group",
-								"name": "Selected1",
-								"originalName": "Selected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 246,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Selected-mkvemeng.png",
-									"frame": {
-										"x": 35,
-										"y": 246,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "F6820F84-3F68-4113-BFFE-F0F905ED2954",
-						"kind": "group",
-						"name": "Timeslots_Line1",
-						"originalName": "Timeslots_Line1",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 6,
-							"y": 110,
-							"width": 730,
-							"height": 110
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Timeslots_Line1-rjy4mjbg.png",
-							"frame": {
-								"x": 6,
-								"y": 110,
-								"width": 730,
-								"height": 110
-							}
-						},
-						"children": [
-							{
-								"objectId": "D6BF07BF-505C-4FAF-9A0A-2401EFCB25E0",
-								"kind": "group",
-								"name": "VotedPeople2",
-								"originalName": "VotedPeople",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 559,
-									"y": 110,
-									"width": 177,
-									"height": 110
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-VotedPeople-rdzcrja3.png",
-									"frame": {
-										"x": 559,
-										"y": 110,
-										"width": 177,
-										"height": 110
-									}
-								},
-								"children": [
-									{
-										"objectId": "0AA8F9E7-50D0-49E5-9D47-4931C6FD8E10",
-										"kind": "group",
-										"name": "Bitmap4",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0.9160305343509663,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 627,
-											"y": 149,
-											"width": 30,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-mefboey5.png",
-											"frame": {
-												"x": 627,
-												"y": 149,
-												"width": 30,
-												"height": 31
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "66C24D7F-7F1D-4E10-91C5-3CF1D3E78EEC",
-										"kind": "group",
-										"name": "Bitmap5",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0.9160305343509663,
-											"width": 28,
-											"height": 27.57251908396944
-										},
-										"layerFrame": {
-											"x": 613,
-											"y": 148,
-											"width": 30,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-njzdmjre.png",
-											"frame": {
-												"x": 613,
-												"y": 148,
-												"width": 30,
-												"height": 31
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "84531533-70C4-46EE-9315-003CF498917A",
-								"kind": "group",
-								"name": "Time2",
-								"originalName": "Time",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 116,
-									"y": 136,
-									"width": 210,
-									"height": 63
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Time-odq1mze1.png",
-									"frame": {
-										"x": 116,
-										"y": 136,
-										"width": 210,
-										"height": 63
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "882AF13D-5414-4604-B11D-AADBF616FDC4",
-								"kind": "group",
-								"name": "Unselected2",
-								"originalName": "Unselected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 136,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Unselected-odgyquyx.png",
-									"frame": {
-										"x": 35,
-										"y": 136,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "9C3E1F80-1EB1-4D85-AC30-E1EA9DA14B5E",
-								"kind": "group",
-								"name": "Selected2",
-								"originalName": "Selected",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 35,
-									"y": 136,
-									"width": 58,
-									"height": 58
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Selected-oumzrtfg.png",
-									"frame": {
-										"x": 35,
-										"y": 136,
-										"width": 58,
-										"height": 58
-									}
-								},
-								"children": []
-							}
-						]
-					}
-				]
-			}
-		]
-	}
-]
-window.__imported__ = window.__imported__ || {};
-window.__imported__["Framer-ConfirmationPage@1x/layers.json.js"] = [
-	{
-		"objectId": "2BE9A906-96A6-4132-B947-EE6EA22032C9",
-		"kind": "artboard",
-		"name": "ConfirmationPage",
-		"originalName": "ConfirmationPage",
-		"maskFrame": null,
-		"layerFrame": {
-			"x": 356,
-			"y": 62,
-			"width": 750,
-			"height": 1334
-		},
-		"visible": true,
-		"metadata": {},
-		"backgroundColor": "rgba(249, 250, 252, 1)",
-		"children": [
-			{
-				"objectId": "B81F1A5E-E629-49EA-9818-D164C9DC84F4",
-				"kind": "group",
-				"name": "StatusBar",
-				"originalName": "StatusBar",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 13,
-					"y": 11,
-					"width": 721,
-					"height": 20
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"image": {
-					"path": "images/Layer-StatusBar-qjgxrjfb.png",
-					"frame": {
-						"x": 13,
-						"y": 11,
-						"width": 721,
-						"height": 20
-					}
-				},
-				"children": [
-					{
-						"objectId": "E1694018-A7C7-47DE-B10F-9FAC8E202A85",
-						"kind": "group",
-						"name": "Pin_Left1",
-						"originalName": "Pin Left",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 13,
-							"y": 11,
-							"width": 188,
-							"height": 20
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Pin_Left-rte2otqw.png",
-							"frame": {
-								"x": 13,
-								"y": 11,
-								"width": 188,
-								"height": 20
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "226B8A28-587C-4DBA-9B6A-D5B1725DD443",
-						"kind": "group",
-						"name": "Pin_Right",
-						"originalName": "Pin Right",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 619,
-							"y": 11,
-							"width": 115,
-							"height": 20
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Pin_Right-mji2qjhb.png",
-							"frame": {
-								"x": 619,
-								"y": 11,
-								"width": 115,
-								"height": 20
-							}
-						},
-						"children": []
-					}
-				]
-			},
-			{
-				"objectId": "42BFB697-E787-4493-A4B1-EE76367651BB",
-				"kind": "group",
-				"name": "Pin_Left",
-				"originalName": "Pin Left",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 0,
-					"y": 36,
-					"width": 110,
-					"height": 88
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"image": {
-					"path": "images/Layer-Pin_Left-ndjcrki2.png",
-					"frame": {
-						"x": 0,
-						"y": 36,
-						"width": 110,
-						"height": 88
-					}
-				},
-				"children": []
-			},
-			{
-				"objectId": "42ED0A0D-B629-4D65-BD4D-DEF488FC53E6",
-				"kind": "text",
-				"name": "Title",
-				"originalName": "Title",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 91,
-					"y": 145,
-					"width": 557,
-					"height": 31
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1,
-					"string": "Are you sure to confirm this time slots?",
-					"css": [
-						"/* Are you sure to conf: */",
-						"font-family: SFUIText-Regular;",
-						"font-size: 32px;",
-						"color: #B3B6BE;",
-						"letter-spacing: -0.77px;"
-					]
-				},
-				"image": {
-					"path": "images/Layer-Title-ndjfrdbb.png",
-					"frame": {
-						"x": 91,
-						"y": 145,
-						"width": 557,
-						"height": 31
-					}
-				},
-				"children": []
-			},
-			{
-				"objectId": "BDC6B5D5-2F3C-4E51-BCB6-3CA11E748ACE",
-				"kind": "group",
-				"name": "ConfirmContent1",
-				"originalName": "ConfirmContent1",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": -206,
-					"y": 237,
-					"width": 1168,
-					"height": 472
-				},
-				"visible": false,
-				"metadata": {
-					"opacity": 1
-				},
-				"children": [
-					{
-						"objectId": "60FEC019-DA90-4680-8F65-8E24630737B1",
-						"kind": "group",
-						"name": "Time",
-						"originalName": "Time",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 191,
-							"y": 250,
-							"width": 326,
-							"height": 101
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Time-njbgrumw.png",
-							"frame": {
-								"x": 191,
-								"y": 250,
-								"width": 326,
-								"height": 101
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "B1B75C6C-4206-4FC2-92C2-6A05CB82CC4D",
-						"kind": "group",
-						"name": "Going",
-						"originalName": "Going",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -206,
-							"y": 435,
-							"width": 1168,
-							"height": 253
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Going-qjfcnzvd.png",
-							"frame": {
-								"x": -206,
-								"y": 435,
-								"width": 1168,
-								"height": 253
-							}
-						},
-						"children": [
-							{
-								"objectId": "F94A324B-D391-41F2-9E27-25A8EEDDA179",
-								"kind": "group",
-								"name": "Bitmap",
-								"originalName": "Bitmap",
-								"maskFrame": {
-									"x": 0,
-									"y": 0.26349039220826853,
-									"width": 40,
-									"height": 38.03106080547509
-								},
-								"layerFrame": {
-									"x": 33,
-									"y": 647,
-									"width": 42,
-									"height": 41
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Bitmap-rjk0qtmy.png",
-									"frame": {
-										"x": 33,
-										"y": 647,
-										"width": 42,
-										"height": 41
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "12775525-EBC6-4ABD-AF90-A4683C455C3B",
-								"kind": "group",
-								"name": "Bitmap1",
-								"originalName": "Bitmap",
-								"maskFrame": {
-									"x": 0,
-									"y": 0.3266649118186251,
-									"width": 40,
-									"height": 39.93261384574884
-								},
-								"layerFrame": {
-									"x": 85,
-									"y": 509,
-									"width": 42,
-									"height": 43
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Bitmap-mti3nzu1.png",
-									"frame": {
-										"x": 85,
-										"y": 509,
-										"width": 42,
-										"height": 43
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "2249D419-384C-4533-8C4E-3886010AEEBB",
-								"kind": "group",
-								"name": "Bitmap2",
-								"originalName": "Bitmap",
-								"maskFrame": {
-									"x": 0,
-									"y": 0.30983153461411916,
-									"width": 40,
-									"height": 40.930929191892496
-								},
-								"layerFrame": {
-									"x": 33,
-									"y": 509,
-									"width": 42,
-									"height": 44
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Bitmap-mji0ouq0.png",
-									"frame": {
-										"x": 33,
-										"y": 509,
-										"width": 42,
-										"height": 44
-									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "67F0FBAA-ABE9-4260-B332-327D0F4924F2",
-						"kind": "group",
-						"name": "Not_Going",
-						"originalName": "Not Going",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -206,
-							"y": 572,
-							"width": 1168,
-							"height": 137
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Not_Going-njdgmezc.png",
-							"frame": {
-								"x": -206,
-								"y": 572,
-								"width": 1168,
-								"height": 137
-							}
-						},
-						"children": []
-					}
-				]
-			},
-			{
-				"objectId": "E7017AB9-77F7-41A4-BD02-C4C809CDC2E2",
-				"kind": "group",
-				"name": "ConfirmContent2",
-				"originalName": "ConfirmContent2",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": -206,
-					"y": 237,
-					"width": 1168,
-					"height": 472
-				},
-				"visible": false,
-				"metadata": {
-					"opacity": 1
-				},
-				"children": [
-					{
-						"objectId": "BBA20B8A-195A-4E62-B8CF-AD39F94AD73F",
-						"kind": "group",
-						"name": "Time1",
-						"originalName": "Time",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 191,
-							"y": 250,
-							"width": 320,
-							"height": 101
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Time-qkjbmjbc.png",
-							"frame": {
-								"x": 191,
-								"y": 250,
-								"width": 320,
-								"height": 101
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "843453FD-A6DF-4860-8A9D-25DF7F8ACC03",
-						"kind": "group",
-						"name": "Going1",
-						"originalName": "Going",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -206,
-							"y": 435,
-							"width": 1168,
-							"height": 137
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Going-odqznduz.png",
-							"frame": {
-								"x": -206,
-								"y": 435,
-								"width": 1168,
-								"height": 137
-							}
-						},
-						"children": [
-							{
-								"objectId": "D9CD203F-1A1E-4441-B5A4-60D03C52F88F",
-								"kind": "group",
-								"name": "Bitmap3",
-								"originalName": "Bitmap",
-								"maskFrame": {
-									"x": 0,
-									"y": 0.26349039220826853,
-									"width": 40,
-									"height": 38.03106080547509
-								},
-								"layerFrame": {
-									"x": 140,
-									"y": 507,
-									"width": 42,
-									"height": 41
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Bitmap-rdldrdiw.png",
-									"frame": {
-										"x": 140,
-										"y": 507,
-										"width": 42,
-										"height": 41
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "99BCEA89-B791-4392-A234-17F226173382",
-								"kind": "group",
-								"name": "Bitmap4",
-								"originalName": "Bitmap",
-								"maskFrame": {
-									"x": 0,
-									"y": 0.3266649118186251,
-									"width": 40,
-									"height": 39.93261384574884
-								},
-								"layerFrame": {
-									"x": 85,
-									"y": 509,
-									"width": 42,
-									"height": 43
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Bitmap-otlcq0vb.png",
-									"frame": {
-										"x": 85,
-										"y": 509,
-										"width": 42,
-										"height": 43
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "FD7B84F7-F38A-4FAC-93DD-3D36E7A867C3",
-								"kind": "group",
-								"name": "Bitmap5",
-								"originalName": "Bitmap",
-								"maskFrame": {
-									"x": 0,
-									"y": 0.30983153461411916,
-									"width": 40,
-									"height": 40.930929191892496
-								},
-								"layerFrame": {
-									"x": 33,
-									"y": 509,
-									"width": 42,
-									"height": 44
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Bitmap-rkq3qjg0.png",
-									"frame": {
-										"x": 33,
-										"y": 509,
-										"width": 42,
-										"height": 44
-									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "16E4A1CD-5766-47CE-97AD-17911597CE47",
-						"kind": "group",
-						"name": "Not_Going1",
-						"originalName": "Not Going",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -206,
-							"y": 572,
-							"width": 1168,
-							"height": 137
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Not_Going-mtzfneex.png",
-							"frame": {
-								"x": -206,
-								"y": 572,
-								"width": 1168,
-								"height": 137
-							}
-						},
-						"children": []
-					}
-				]
-			},
-			{
-				"objectId": "48CB13E5-82F5-43D6-9710-7AB39E79564D",
-				"kind": "group",
-				"name": "ConfirmContent3",
-				"originalName": "ConfirmContent3",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": -206,
-					"y": 237,
-					"width": 1168,
-					"height": 472
-				},
-				"visible": false,
-				"metadata": {
-					"opacity": 1
-				},
-				"children": [
-					{
-						"objectId": "A926D0B0-94FB-4752-8A1D-7DF8861269FF",
-						"kind": "group",
-						"name": "Time2",
-						"originalName": "Time",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 191,
-							"y": 250,
-							"width": 324,
-							"height": 101
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Time-qtkynkqw.png",
-							"frame": {
-								"x": 191,
-								"y": 250,
-								"width": 324,
-								"height": 101
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "64469388-DEE5-437F-B119-558F4CB6B403",
-						"kind": "group",
-						"name": "Going2",
-						"originalName": "Going",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -206,
-							"y": 435,
-							"width": 1168,
-							"height": 255
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Going-njq0njkz.png",
-							"frame": {
-								"x": -206,
-								"y": 435,
-								"width": 1168,
-								"height": 255
-							}
-						},
-						"children": [
-							{
-								"objectId": "CA5B2F6E-214E-41EC-A124-1D91D168DFAD",
-								"kind": "group",
-								"name": "Bitmap6",
-								"originalName": "Bitmap",
-								"maskFrame": {
-									"x": 0,
-									"y": 0.26349039220826853,
-									"width": 40,
-									"height": 38.03106080547509
-								},
-								"layerFrame": {
-									"x": 33,
-									"y": 647,
-									"width": 42,
-									"height": 41
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Bitmap-q0e1qjjg.png",
-									"frame": {
-										"x": 33,
-										"y": 647,
-										"width": 42,
-										"height": 41
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "FCA26528-62CF-4B58-A538-A5FD6742233B",
-								"kind": "group",
-								"name": "Bitmap7",
-								"originalName": "Bitmap",
-								"maskFrame": {
-									"x": 0,
-									"y": 0.3266649118186251,
-									"width": 40,
-									"height": 39.93261384574884
-								},
-								"layerFrame": {
-									"x": 243,
-									"y": 647,
-									"width": 42,
-									"height": 43
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Bitmap-rknbmjy1.png",
-									"frame": {
-										"x": 243,
-										"y": 647,
-										"width": 42,
-										"height": 43
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "610D3542-3B9D-4738-A026-37684D2808BB",
-								"kind": "group",
-								"name": "Bitmap8",
-								"originalName": "Bitmap",
-								"maskFrame": {
-									"x": 0,
-									"y": 0.30983153461411916,
-									"width": 40,
-									"height": 40.930929191892496
-								},
-								"layerFrame": {
-									"x": 33,
-									"y": 509,
-									"width": 42,
-									"height": 44
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Bitmap-njewrdm1.png",
-									"frame": {
-										"x": 33,
-										"y": 509,
-										"width": 42,
-										"height": 44
-									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "D9BEE8FA-B62E-41F6-B584-1C0DA1354098",
-						"kind": "group",
-						"name": "Not_Going2",
-						"originalName": "Not Going",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -206,
-							"y": 572,
-							"width": 1168,
-							"height": 137
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Not_Going-rdlcruu4.png",
-							"frame": {
-								"x": -206,
-								"y": 572,
-								"width": 1168,
-								"height": 137
-							}
-						},
-						"children": []
-					}
-				]
-			},
-			{
-				"objectId": "8EF84871-6AEB-4D9F-9954-D71CA1FFBCB5",
-				"kind": "group",
-				"name": "Alert",
-				"originalName": "Alert",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 3,
-					"y": 734,
-					"width": 750,
-					"height": 88
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"image": {
-					"path": "images/Layer-Alert-oevgodq4.png",
-					"frame": {
-						"x": 3,
-						"y": 734,
-						"width": 750,
-						"height": 88
-					}
-				},
-				"children": []
-			},
-			{
-				"objectId": "15CA4ECE-6831-4CA0-9021-1F2C4D708671",
-				"kind": "text",
-				"name": "Notice",
-				"originalName": "Notice",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 101,
-					"y": 1133,
-					"width": 547,
-					"height": 52
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1,
-					"string": "NOTICE !\nYou cannot change event time after confirmation. ",
-					"css": [
-						"/* NOTICE ! You cannot: */",
-						"font-family: SFUIText-Regular;",
-						"font-size: 24px;",
-						"color: rgba(255,63,0,0.70);",
-						"letter-spacing: -0.58px;"
-					]
-				},
-				"image": {
-					"path": "images/Layer-Notice-mtvdqtrf.png",
-					"frame": {
-						"x": 101,
-						"y": 1133,
-						"width": 547,
-						"height": 52
-					}
-				},
-				"children": []
-			},
-			{
-				"objectId": "CDDAF811-8B5F-4035-8D34-658544BBDC96",
-				"kind": "group",
-				"name": "Btn",
-				"originalName": "Btn",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 10,
-					"y": 1212,
-					"width": 729,
-					"height": 110
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"image": {
-					"path": "images/Layer-Btn-q0requy4.png",
-					"frame": {
-						"x": 10,
-						"y": 1212,
-						"width": 729,
-						"height": 110
-					}
-				},
-				"children": [
-					{
-						"objectId": "85779452-3C51-4CC4-B978-4E69C54729F6",
-						"kind": "text",
-						"name": "ConfirmeText",
-						"originalName": "ConfirmeText",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 318,
-							"y": 1250,
-							"width": 119,
-							"height": 27
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1,
-							"string": "Confirm",
-							"css": [
-								"/* Confirm: */",
-								"font-family: SFUIText-Regular;",
-								"font-size: 34px;",
-								"color: #FFFFFF;",
-								"letter-spacing: -0.82px;"
-							]
-						},
-						"image": {
-							"path": "images/Layer-ConfirmeText-odu3nzk0.png",
-							"frame": {
-								"x": 318,
-								"y": 1250,
-								"width": 119,
-								"height": 27
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "BAD38114-0E7F-4FA1-BF71-CEE7A1FB510E",
-						"kind": "group",
-						"name": "BarPressed",
-						"originalName": "BarPressed",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 10,
-							"y": 1211,
-							"width": 729,
-							"height": 111
-						},
-						"visible": false,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-BarPressed-qkfemzgx.png",
-							"frame": {
-								"x": 10,
-								"y": 1211,
-								"width": 729,
-								"height": 111
-							}
-						},
-						"children": []
-					}
-				]
-			}
-		]
-	}
-]
-window.__imported__ = window.__imported__ || {};
-window.__imported__["Framer-HostMeetingContents@1x/layers.json.js"] = [
-	{
-		"objectId": "926D8589-D6F5-4674-950E-8817B1194BE4",
-		"kind": "artboard",
-		"name": "MeetingContent",
-		"originalName": "MeetingContent",
-		"maskFrame": null,
-		"layerFrame": {
-			"x": 38,
-			"y": -645,
-			"width": 750,
-			"height": 2450
-		},
-		"visible": true,
-		"metadata": {},
-		"backgroundColor": "rgba(255, 255, 255, 1)",
-		"children": [
-			{
-				"objectId": "6486DD0F-62CE-47DB-A80D-501EE900262A",
-				"kind": "group",
-				"name": "NavBar",
-				"originalName": "NavBar",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": -1,
-					"y": -1,
-					"width": 765,
-					"height": 130
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"children": [
-					{
-						"objectId": "2799FA48-8F52-4027-8A01-470985EA75F3",
-						"kind": "group",
-						"name": "btnBack",
-						"originalName": "btnBack",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 30,
-							"y": 63,
-							"width": 112,
-							"height": 42
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-btnBack-mjc5ouzb.png",
-							"frame": {
-								"x": 30,
-								"y": 63,
-								"width": 112,
-								"height": 42
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "E66C5659-6C42-4D1B-B044-E33C31A86204",
-						"kind": "text",
-						"name": "btnOptions",
-						"originalName": "btnOptions",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 694,
-							"y": 88,
-							"width": 24,
-							"height": 6
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1,
-							"string": " ...",
-							"css": [
-								"/* Edit: */",
-								"font-family: SFUIText-Regular;",
-								"font-size: 34px;",
-								"color: #222222;",
-								"letter-spacing: -0.82px;"
-							]
-						},
-						"image": {
-							"path": "images/Layer-btnOptions-rty2qzu2.png",
-							"frame": {
-								"x": 694,
-								"y": 88,
-								"width": 24,
-								"height": 6
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "A2651A85-515F-41EC-832E-8F8831AEEC9B",
-						"kind": "group",
-						"name": "Navigation_Bar_Back",
-						"originalName": "Navigation Bar/Back",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -1,
-							"y": -1,
-							"width": 765,
-							"height": 130
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Navigation_Bar_Back-qti2ntfb.png",
-							"frame": {
-								"x": -1,
-								"y": -1,
-								"width": 765,
-								"height": 130
-							}
-						},
-						"children": [
-							{
-								"objectId": "2629F110-E7E5-4834-9DA3-EA82B3812BC8",
-								"kind": "group",
-								"name": "Status_Bar_White_100_",
-								"originalName": "Status Bar/White/100%",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 13,
-									"y": 11,
-									"width": 719,
-									"height": 20
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Status_Bar_White_100_-mjyyouyx.png",
-									"frame": {
-										"x": 13,
-										"y": 11,
-										"width": 719,
-										"height": 20
-									}
-								},
-								"children": [
-									{
-										"objectId": "5FB6F684-680D-4DBC-9D65-5016BD07951A",
-										"kind": "group",
-										"name": "Pin_Left",
-										"originalName": "Pin Left",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 13,
-											"y": 11,
-											"width": 188,
-											"height": 20
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Pin_Left-nuzcnky2.png",
-											"frame": {
-												"x": 13,
-												"y": 11,
-												"width": 188,
-												"height": 20
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "748EB9EE-6794-404E-A66B-72BFE3F3CB3A",
-										"kind": "group",
-										"name": "Pin_Right",
-										"originalName": "Pin Right",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 617,
-											"y": 11,
-											"width": 115,
-											"height": 20
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Pin_Right-nzq4rui5.png",
-											"frame": {
-												"x": 617,
-												"y": 11,
-												"width": 115,
-												"height": 20
-											}
-										},
-										"children": []
-									}
-								]
-							}
-						]
-					}
-				]
-			},
-			{
-				"objectId": "22571A0F-1031-4153-AD39-FDD0F6D17542",
-				"kind": "group",
-				"name": "DetailsUnconfirmed",
-				"originalName": "DetailsUnconfirmed",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 0,
-					"y": 146,
-					"width": 750,
-					"height": 632
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"children": [
-					{
-						"objectId": "D601425A-B72A-4E7C-A62A-861A8D6F770E",
-						"kind": "group",
-						"name": "UnconfirmedNotice",
-						"originalName": "UnconfirmedNotice",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 0,
-							"y": 146,
-							"width": 750,
-							"height": 632
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-UnconfirmedNotice-rdywmtqy.png",
-							"frame": {
-								"x": 0,
-								"y": 146,
-								"width": 750,
-								"height": 632
-							}
-						},
-						"children": [
-							{
-								"objectId": "28DFA6C4-BFC6-4AE7-A20C-79104BFB5B32",
-								"kind": "group",
-								"name": "Notice",
-								"originalName": "Notice",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 47,
-									"y": 146,
-									"width": 670,
-									"height": 183
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Notice-mjherke2.png",
-									"frame": {
-										"x": 47,
-										"y": 146,
-										"width": 670,
-										"height": 183
-									}
-								},
-								"children": [
-									{
-										"objectId": "19C0F04E-E4BB-4C61-9968-EB0DE677F9EB",
-										"kind": "group",
-										"name": "Bitmap",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0,
-											"width": 40,
-											"height": 39.99999999999986
-										},
-										"layerFrame": {
-											"x": 47,
-											"y": 146,
-											"width": 42,
-											"height": 42
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-mtldmeyw.png",
-											"frame": {
-												"x": 47,
-												"y": 146,
-												"width": 42,
-												"height": 42
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "122EC901-9FBC-44AD-B20A-B17D96C7E81A",
-										"kind": "group",
-										"name": "invitees",
-										"originalName": "invitees",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 97,
-											"y": 298,
-											"width": 191,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-invitees-mtiyrum5.png",
-											"frame": {
-												"x": 97,
-												"y": 298,
-												"width": 191,
-												"height": 31
-											}
-										},
-										"children": [
-											{
-												"objectId": "70C4E31A-ECAA-4C7F-8AF2-83515944F71A",
-												"kind": "text",
-												"name": "Invites",
-												"originalName": "Invites",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 166,
-													"y": 304,
-													"width": 122,
-													"height": 19
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1,
-													"string": "6 Invitees >",
-													"css": [
-														"/* 6 Invitees >: */",
-														"font-family: SFUIText-Regular;",
-														"font-size: 24px;",
-														"color: #929292;",
-														"letter-spacing: -0.58px;"
-													]
-												},
-												"image": {
-													"path": "images/Layer-Invites-nzbdneuz.png",
-													"frame": {
-														"x": 166,
-														"y": 304,
-														"width": 122,
-														"height": 19
-													}
-												},
-												"children": []
-											},
-											{
-												"objectId": "CD811AF9-4042-4312-8BA6-758008400E93",
-												"kind": "group",
-												"name": "Bitmap1",
-												"originalName": "Bitmap",
-												"maskFrame": {
-													"x": 0,
-													"y": 0.9160305343509663,
-													"width": 28,
-													"height": 27.57251908396944
-												},
-												"layerFrame": {
-													"x": 125,
-													"y": 298,
-													"width": 30,
-													"height": 31
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Bitmap-q0q4mtfb.png",
-													"frame": {
-														"x": 125,
-														"y": 298,
-														"width": 30,
-														"height": 31
-													}
-												},
-												"children": []
-											},
-											{
-												"objectId": "0AA1F0C1-A34F-41F8-83AE-0CFEC222FB7C",
-												"kind": "group",
-												"name": "Bitmap2",
-												"originalName": "Bitmap",
-												"maskFrame": {
-													"x": 0,
-													"y": 0.9160305343509663,
-													"width": 28,
-													"height": 27.57251908396944
-												},
-												"layerFrame": {
-													"x": 111,
-													"y": 298,
-													"width": 30,
-													"height": 31
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Bitmap-mefbmuyw.png",
-													"frame": {
-														"x": 111,
-														"y": 298,
-														"width": 30,
-														"height": 31
-													}
-												},
-												"children": []
-											},
-											{
-												"objectId": "9A09EF26-1AE4-476B-B983-02F1B2DD8A09",
-												"kind": "group",
-												"name": "Bitmap3",
-												"originalName": "Bitmap",
-												"maskFrame": {
-													"x": 0,
-													"y": 0.9160305343509663,
-													"width": 28,
-													"height": 27.57251908396944
-												},
-												"layerFrame": {
-													"x": 97,
-													"y": 298,
-													"width": 30,
-													"height": 31
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Bitmap-ouewouvg.png",
-													"frame": {
-														"x": 97,
-														"y": 298,
-														"width": 30,
-														"height": 31
-													}
-												},
-												"children": []
-											}
-										]
-									}
-								]
-							},
-							{
-								"objectId": "6E02F5B5-C0F9-45FF-B1F0-7D5C108F7B39",
-								"kind": "group",
-								"name": "Event_Title",
-								"originalName": "Event Title",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 42,
-									"y": 389,
-									"width": 608,
-									"height": 40
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"children": [
-									{
-										"objectId": "F83716B8-ED59-4014-BD9F-6078FDE128DD",
-										"kind": "text",
-										"name": "Group",
-										"originalName": "Group",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 42,
-											"y": 389,
-											"width": 608,
-											"height": 40
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1,
-											"string": "Telstra Competition Discussion",
-											"css": [
-												"/* Telstra Competition: */",
-												"font-family: SFUIText-Semibold;",
-												"font-size: 42px;",
-												"color: #222222;",
-												"letter-spacing: -1.01px;"
-											]
-										},
-										"image": {
-											"path": "images/Layer-Group-rjgznze2.png",
-											"frame": {
-												"x": 42,
-												"y": 389,
-												"width": 608,
-												"height": 40
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "9B714A08-9A85-4CB3-B1F5-651D26DDC02C",
-								"kind": "group",
-								"name": "Location",
-								"originalName": "Location",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 43,
-									"y": 460,
-									"width": 667,
-									"height": 101
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Location-oui3mtrb.png",
-									"frame": {
-										"x": 43,
-										"y": 460,
-										"width": 667,
-										"height": 101
-									}
-								},
-								"children": [
-									{
-										"objectId": "1D2AFD89-2277-4BFC-954C-6C009DB9FCB9",
-										"kind": "group",
-										"name": "icon",
-										"originalName": "icon",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 630,
-											"y": 461,
-											"width": 80,
-											"height": 80
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"children": [
-											{
-												"objectId": "EA2A7C6F-A32B-4C82-BCED-6289F676149B",
-												"kind": "group",
-												"name": "Icon_View_in_map",
-												"originalName": "Icon - View in map",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 630,
-													"y": 461,
-													"width": 80,
-													"height": 80
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Icon_View_in_map-rueyqtdd.png",
-													"frame": {
-														"x": 630,
-														"y": 461,
-														"width": 80,
-														"height": 80
-													}
-												},
-												"children": [
-													{
-														"objectId": "01042FA0-FBFA-4B9D-946F-CC35FE811A77",
-														"kind": "group",
-														"name": "locationPressed",
-														"originalName": "locationPressed",
-														"maskFrame": null,
-														"layerFrame": {
-															"x": 630,
-															"y": 461,
-															"width": 80,
-															"height": 81
-														},
-														"visible": false,
-														"metadata": {
-															"opacity": 1
-														},
-														"image": {
-															"path": "images/Layer-locationPressed-mdewndjg.png",
-															"frame": {
-																"x": 630,
-																"y": 461,
-																"width": 80,
-																"height": 81
-															}
-														},
-														"children": []
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							{
-								"objectId": "77C34C80-C960-4B7F-8767-3EB087EDE919",
-								"kind": "group",
-								"name": "Messages",
-								"originalName": "Messages",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 0,
-									"y": 603,
-									"width": 750,
-									"height": 88
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Messages-nzddmzrd.png",
-									"frame": {
-										"x": 0,
-										"y": 603,
-										"width": 750,
-										"height": 88
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "A1C4D38C-4D24-4985-B528-15B06571EB65",
-								"kind": "group",
-								"name": "Calendar",
-								"originalName": "Calendar",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 0,
-									"y": 690,
-									"width": 750,
-									"height": 88
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Calendar-qtfdneqz.png",
-									"frame": {
-										"x": 0,
-										"y": 690,
-										"width": 750,
-										"height": 88
-									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "F332D20B-FFC5-4CA1-AF21-8561022B1C43",
-						"kind": "group",
-						"name": "ConfirmedNotice",
-						"originalName": "ConfirmedNotice",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -43,
-							"y": 128,
-							"width": 1061,
-							"height": 1328
-						},
-						"visible": false,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-ConfirmedNotice-rjmzmkqy.png",
-							"frame": {
-								"x": -43,
-								"y": 128,
-								"width": 1061,
-								"height": 1328
-							}
-						},
-						"children": [
-							{
-								"objectId": "8918C6F5-E593-4E79-866C-94D5B2F448CB",
-								"kind": "group",
-								"name": "Notice1",
-								"originalName": "Notice",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 47,
-									"y": 146,
-									"width": 670,
-									"height": 183
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Notice-odkxoem2.png",
-									"frame": {
-										"x": 47,
-										"y": 146,
-										"width": 670,
-										"height": 183
-									}
-								},
-								"children": [
-									{
-										"objectId": "A399A10D-7D64-4B7F-B412-9ED4C77F6B8D",
-										"kind": "group",
-										"name": "Bitmap4",
-										"originalName": "Bitmap",
-										"maskFrame": {
-											"x": 0,
-											"y": 0,
-											"width": 40,
-											"height": 39.99999999999986
-										},
-										"layerFrame": {
-											"x": 47,
-											"y": 146,
-											"width": 42,
-											"height": 42
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Bitmap-qtm5ouex.png",
-											"frame": {
-												"x": 47,
-												"y": 146,
-												"width": 42,
-												"height": 42
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "229349C7-C73A-4677-9928-2801673CC28E",
-										"kind": "group",
-										"name": "invitees1",
-										"originalName": "invitees",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 97,
-											"y": 298,
-											"width": 172,
-											"height": 31
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-invitees-mji5mzq5.png",
-											"frame": {
-												"x": 97,
-												"y": 298,
-												"width": 172,
-												"height": 31
-											}
-										},
-										"children": [
-											{
-												"objectId": "4D050B19-5E5A-4239-9961-B1C6112D40F1",
-												"kind": "text",
-												"name": "Going",
-												"originalName": "Going",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 166,
-													"y": 304,
-													"width": 103,
-													"height": 23
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1,
-													"string": "6 Going >",
-													"css": [
-														"/* 6 Going >: */",
-														"font-family: SFUIText-Regular;",
-														"font-size: 24px;",
-														"color: #929292;",
-														"letter-spacing: -0.58px;"
-													]
-												},
-												"image": {
-													"path": "images/Layer-Going-neqwntbc.png",
-													"frame": {
-														"x": 166,
-														"y": 304,
-														"width": 103,
-														"height": 23
-													}
-												},
-												"children": []
-											},
-											{
-												"objectId": "09A3F17F-D88D-40B7-B64C-5DEBD8A69CF5",
-												"kind": "group",
-												"name": "Bitmap5",
-												"originalName": "Bitmap",
-												"maskFrame": {
-													"x": 0,
-													"y": 0.9160305343509663,
-													"width": 28,
-													"height": 27.57251908396944
-												},
-												"layerFrame": {
-													"x": 125,
-													"y": 298,
-													"width": 30,
-													"height": 31
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Bitmap-mdlbm0yx.png",
-													"frame": {
-														"x": 125,
-														"y": 298,
-														"width": 30,
-														"height": 31
-													}
-												},
-												"children": []
-											},
-											{
-												"objectId": "98F145E7-28FD-4306-8969-51FA241E5056",
-												"kind": "group",
-												"name": "Bitmap6",
-												"originalName": "Bitmap",
-												"maskFrame": {
-													"x": 0,
-													"y": 0.9160305343509663,
-													"width": 28,
-													"height": 27.57251908396944
-												},
-												"layerFrame": {
-													"x": 111,
-													"y": 298,
-													"width": 30,
-													"height": 31
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Bitmap-othgmtq1.png",
-													"frame": {
-														"x": 111,
-														"y": 298,
-														"width": 30,
-														"height": 31
-													}
-												},
-												"children": []
-											},
-											{
-												"objectId": "1F4DFF83-27B7-400D-8EFE-2C546C44E6BB",
-												"kind": "group",
-												"name": "Bitmap7",
-												"originalName": "Bitmap",
-												"maskFrame": {
-													"x": 0,
-													"y": 0.9160305343509663,
-													"width": 28,
-													"height": 27.57251908396944
-												},
-												"layerFrame": {
-													"x": 97,
-													"y": 298,
-													"width": 30,
-													"height": 31
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Bitmap-muy0rezg.png",
-													"frame": {
-														"x": 97,
-														"y": 298,
-														"width": 30,
-														"height": 31
-													}
-												},
-												"children": []
-											}
-										]
-									}
-								]
-							},
-							{
-								"objectId": "A7E8C710-93AA-4B6F-86B3-5B489D11B39B",
-								"kind": "group",
-								"name": "Rules",
-								"originalName": "Rules",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": -43,
-									"y": 128,
-									"width": 819,
-									"height": 1328
-								},
-								"visible": false,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Rules-qtdfoem3.png",
-									"frame": {
-										"x": -43,
-										"y": 128,
-										"width": 819,
-										"height": 1328
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "1AADD813-86BC-4441-945A-460720FDF17A",
-								"kind": "group",
-								"name": "Event_Title1",
-								"originalName": "Event Title",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 42,
-									"y": 389,
-									"width": 608,
-									"height": 40
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"children": [
-									{
-										"objectId": "17C36B59-7760-44CF-A584-E9D481D140BE",
-										"kind": "text",
-										"name": "Group1",
-										"originalName": "Group",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 42,
-											"y": 389,
-											"width": 608,
-											"height": 40
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1,
-											"string": "Telstra Competition Discussion",
-											"css": [
-												"/* Telstra Competition: */",
-												"font-family: SFUIText-Semibold;",
-												"font-size: 42px;",
-												"color: #222222;",
-												"letter-spacing: -1.01px;"
-											]
-										},
-										"image": {
-											"path": "images/Layer-Group-mtddmzzc.png",
-											"frame": {
-												"x": 42,
-												"y": 389,
-												"width": 608,
-												"height": 40
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "4161EE6E-5E86-45CF-B862-0A9DB02094A4",
-								"kind": "group",
-								"name": "Time",
-								"originalName": "Time",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 43,
-									"y": 460,
-									"width": 667,
-									"height": 100
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Time-nde2muvf.png",
-									"frame": {
-										"x": 43,
-										"y": 460,
-										"width": 667,
-										"height": 100
-									}
-								},
-								"children": [
-									{
-										"objectId": "D3DD8A28-F551-408D-A4AC-DA6E3FA15107",
-										"kind": "group",
-										"name": "Icon_View_in_calendar",
-										"originalName": "Icon - View in calendar",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 630,
-											"y": 461,
-											"width": 80,
-											"height": 80
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Icon_View_in_calendar-rdnerdhb.png",
-											"frame": {
-												"x": 630,
-												"y": 461,
-												"width": 80,
-												"height": 80
-											}
-										},
-										"children": [
-											{
-												"objectId": "3FF90559-60D4-481A-8AE1-C909262221B6",
-												"kind": "group",
-												"name": "timePressed",
-												"originalName": "timePressed",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 630,
-													"y": 461,
-													"width": 80,
-													"height": 81
-												},
-												"visible": false,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-timePressed-m0zgota1.png",
-													"frame": {
-														"x": 630,
-														"y": 461,
-														"width": 80,
-														"height": 81
-													}
-												},
-												"children": []
-											}
-										]
-									}
-								]
-							},
-							{
-								"objectId": "D1BA9D81-BA9C-4175-838E-55AE3835A576",
-								"kind": "group",
-								"name": "Location1",
-								"originalName": "Location",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 43,
-									"y": 593,
-									"width": 667,
-									"height": 101
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Location-rdfcqtle.png",
-									"frame": {
-										"x": 43,
-										"y": 593,
-										"width": 667,
-										"height": 101
-									}
-								},
-								"children": [
-									{
-										"objectId": "65F3662A-2255-4022-96D9-C5E636A529B0",
-										"kind": "group",
-										"name": "icon1",
-										"originalName": "icon",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 630,
-											"y": 594,
-											"width": 80,
-											"height": 80
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"children": [
-											{
-												"objectId": "0CB46D48-C9C2-422E-8029-0B2FCD504509",
-												"kind": "group",
-												"name": "Icon_View_in_map1",
-												"originalName": "Icon - View in map",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 630,
-													"y": 594,
-													"width": 80,
-													"height": 80
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Icon_View_in_map-mencndze.png",
-													"frame": {
-														"x": 630,
-														"y": 594,
-														"width": 80,
-														"height": 80
-													}
-												},
-												"children": [
-													{
-														"objectId": "FC5A3DD1-F1DB-4A94-81AB-902627008122",
-														"kind": "group",
-														"name": "locationPressed1",
-														"originalName": "locationPressed",
-														"maskFrame": null,
-														"layerFrame": {
-															"x": 630,
-															"y": 594,
-															"width": 80,
-															"height": 81
-														},
-														"visible": false,
-														"metadata": {
-															"opacity": 1
-														},
-														"image": {
-															"path": "images/Layer-locationPressed-rkm1qtne.png",
-															"frame": {
-																"x": 630,
-																"y": 594,
-																"width": 80,
-																"height": 81
-															}
-														},
-														"children": []
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							{
-								"objectId": "42E49E2B-73A7-4BB5-9B27-E6644117BD80",
-								"kind": "group",
-								"name": "Messages1",
-								"originalName": "Messages",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 0,
-									"y": 736,
-									"width": 750,
-									"height": 88
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Messages-ndjfndlf.png",
-									"frame": {
-										"x": 0,
-										"y": 736,
-										"width": 750,
-										"height": 88
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "ABC0E235-A64B-4AE4-9014-3600DF0FB97D",
-								"kind": "group",
-								"name": "Calendar1",
-								"originalName": "Calendar",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 0,
-									"y": 823,
-									"width": 750,
-									"height": 88
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Calendar-qujdmeuy.png",
-									"frame": {
-										"x": 0,
-										"y": 823,
-										"width": 750,
-										"height": 88
-									}
-								},
-								"children": []
-							}
-						]
-					}
-				]
-			}
-		]
-	}
-]
-window.__imported__ = window.__imported__ || {};
 window.__imported__["Framer-Timeslots@1x/layers.json.js"] = [
 	{
 		"objectId": "D4662982-6532-4B49-8627-4125080447ED",
@@ -4890,7 +1167,1752 @@ window.__imported__["Framer-Timeslots@1x/layers.json.js"] = [
 	}
 ]
 window.__imported__ = window.__imported__ || {};
-window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
+window.__imported__["Framer-ConfirmationPage@1x/layers.json.js"] = [
+	{
+		"objectId": "2BE9A906-96A6-4132-B947-EE6EA22032C9",
+		"kind": "artboard",
+		"name": "ConfirmationPage",
+		"originalName": "ConfirmationPage",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 356,
+			"y": 62,
+			"width": 750,
+			"height": 1334
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(249, 250, 252, 1)",
+		"children": [
+			{
+				"objectId": "B81F1A5E-E629-49EA-9818-D164C9DC84F4",
+				"kind": "group",
+				"name": "StatusBar",
+				"originalName": "StatusBar",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 13,
+					"y": 11,
+					"width": 721,
+					"height": 20
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-StatusBar-qjgxrjfb.png",
+					"frame": {
+						"x": 13,
+						"y": 11,
+						"width": 721,
+						"height": 20
+					}
+				},
+				"children": [
+					{
+						"objectId": "E1694018-A7C7-47DE-B10F-9FAC8E202A85",
+						"kind": "group",
+						"name": "Pin_Left1",
+						"originalName": "Pin Left",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 13,
+							"y": 11,
+							"width": 188,
+							"height": 20
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Pin_Left-rte2otqw.png",
+							"frame": {
+								"x": 13,
+								"y": 11,
+								"width": 188,
+								"height": 20
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "226B8A28-587C-4DBA-9B6A-D5B1725DD443",
+						"kind": "group",
+						"name": "Pin_Right",
+						"originalName": "Pin Right",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 619,
+							"y": 11,
+							"width": 115,
+							"height": 20
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Pin_Right-mji2qjhb.png",
+							"frame": {
+								"x": 619,
+								"y": 11,
+								"width": 115,
+								"height": 20
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "42BFB697-E787-4493-A4B1-EE76367651BB",
+				"kind": "group",
+				"name": "Pin_Left",
+				"originalName": "Pin Left",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 36,
+					"width": 110,
+					"height": 88
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Pin_Left-ndjcrki2.png",
+					"frame": {
+						"x": 0,
+						"y": 36,
+						"width": 110,
+						"height": 88
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "42ED0A0D-B629-4D65-BD4D-DEF488FC53E6",
+				"kind": "text",
+				"name": "Title",
+				"originalName": "Title",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 91,
+					"y": 145,
+					"width": 557,
+					"height": 31
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "Are you sure to confirm this time slots?",
+					"css": [
+						"/* Are you sure to conf: */",
+						"font-family: SFUIText-Regular;",
+						"font-size: 32px;",
+						"color: #B3B6BE;",
+						"letter-spacing: -0.77px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-Title-ndjfrdbb.png",
+					"frame": {
+						"x": 91,
+						"y": 145,
+						"width": 557,
+						"height": 31
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "BDC6B5D5-2F3C-4E51-BCB6-3CA11E748ACE",
+				"kind": "group",
+				"name": "ConfirmContent1",
+				"originalName": "ConfirmContent1",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": -206,
+					"y": 237,
+					"width": 1168,
+					"height": 472
+				},
+				"visible": false,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "60FEC019-DA90-4680-8F65-8E24630737B1",
+						"kind": "group",
+						"name": "Time",
+						"originalName": "Time",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 191,
+							"y": 250,
+							"width": 326,
+							"height": 101
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Time-njbgrumw.png",
+							"frame": {
+								"x": 191,
+								"y": 250,
+								"width": 326,
+								"height": 101
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "B1B75C6C-4206-4FC2-92C2-6A05CB82CC4D",
+						"kind": "group",
+						"name": "Going",
+						"originalName": "Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 435,
+							"width": 1168,
+							"height": 253
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Going-qjfcnzvd.png",
+							"frame": {
+								"x": -206,
+								"y": 435,
+								"width": 1168,
+								"height": 253
+							}
+						},
+						"children": [
+							{
+								"objectId": "F94A324B-D391-41F2-9E27-25A8EEDDA179",
+								"kind": "group",
+								"name": "Bitmap",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.26349039220826853,
+									"width": 40,
+									"height": 38.03106080547509
+								},
+								"layerFrame": {
+									"x": 33,
+									"y": 647,
+									"width": 42,
+									"height": 41
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-rjk0qtmy.png",
+									"frame": {
+										"x": 33,
+										"y": 647,
+										"width": 42,
+										"height": 41
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "12775525-EBC6-4ABD-AF90-A4683C455C3B",
+								"kind": "group",
+								"name": "Bitmap1",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.3266649118186251,
+									"width": 40,
+									"height": 39.93261384574884
+								},
+								"layerFrame": {
+									"x": 85,
+									"y": 509,
+									"width": 42,
+									"height": 43
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-mti3nzu1.png",
+									"frame": {
+										"x": 85,
+										"y": 509,
+										"width": 42,
+										"height": 43
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "2249D419-384C-4533-8C4E-3886010AEEBB",
+								"kind": "group",
+								"name": "Bitmap2",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.30983153461411916,
+									"width": 40,
+									"height": 40.930929191892496
+								},
+								"layerFrame": {
+									"x": 33,
+									"y": 509,
+									"width": 42,
+									"height": 44
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-mji0ouq0.png",
+									"frame": {
+										"x": 33,
+										"y": 509,
+										"width": 42,
+										"height": 44
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "67F0FBAA-ABE9-4260-B332-327D0F4924F2",
+						"kind": "group",
+						"name": "Not_Going",
+						"originalName": "Not Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 572,
+							"width": 1168,
+							"height": 137
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Not_Going-njdgmezc.png",
+							"frame": {
+								"x": -206,
+								"y": 572,
+								"width": 1168,
+								"height": 137
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "E7017AB9-77F7-41A4-BD02-C4C809CDC2E2",
+				"kind": "group",
+				"name": "ConfirmContent2",
+				"originalName": "ConfirmContent2",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": -206,
+					"y": 237,
+					"width": 1168,
+					"height": 472
+				},
+				"visible": false,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "BBA20B8A-195A-4E62-B8CF-AD39F94AD73F",
+						"kind": "group",
+						"name": "Time1",
+						"originalName": "Time",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 191,
+							"y": 250,
+							"width": 320,
+							"height": 101
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Time-qkjbmjbc.png",
+							"frame": {
+								"x": 191,
+								"y": 250,
+								"width": 320,
+								"height": 101
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "843453FD-A6DF-4860-8A9D-25DF7F8ACC03",
+						"kind": "group",
+						"name": "Going1",
+						"originalName": "Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 435,
+							"width": 1168,
+							"height": 137
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Going-odqznduz.png",
+							"frame": {
+								"x": -206,
+								"y": 435,
+								"width": 1168,
+								"height": 137
+							}
+						},
+						"children": [
+							{
+								"objectId": "D9CD203F-1A1E-4441-B5A4-60D03C52F88F",
+								"kind": "group",
+								"name": "Bitmap3",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.26349039220826853,
+									"width": 40,
+									"height": 38.03106080547509
+								},
+								"layerFrame": {
+									"x": 140,
+									"y": 507,
+									"width": 42,
+									"height": 41
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-rdldrdiw.png",
+									"frame": {
+										"x": 140,
+										"y": 507,
+										"width": 42,
+										"height": 41
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "99BCEA89-B791-4392-A234-17F226173382",
+								"kind": "group",
+								"name": "Bitmap4",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.3266649118186251,
+									"width": 40,
+									"height": 39.93261384574884
+								},
+								"layerFrame": {
+									"x": 85,
+									"y": 509,
+									"width": 42,
+									"height": 43
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-otlcq0vb.png",
+									"frame": {
+										"x": 85,
+										"y": 509,
+										"width": 42,
+										"height": 43
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "FD7B84F7-F38A-4FAC-93DD-3D36E7A867C3",
+								"kind": "group",
+								"name": "Bitmap5",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.30983153461411916,
+									"width": 40,
+									"height": 40.930929191892496
+								},
+								"layerFrame": {
+									"x": 33,
+									"y": 509,
+									"width": 42,
+									"height": 44
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-rkq3qjg0.png",
+									"frame": {
+										"x": 33,
+										"y": 509,
+										"width": 42,
+										"height": 44
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "16E4A1CD-5766-47CE-97AD-17911597CE47",
+						"kind": "group",
+						"name": "Not_Going1",
+						"originalName": "Not Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 572,
+							"width": 1168,
+							"height": 137
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Not_Going-mtzfneex.png",
+							"frame": {
+								"x": -206,
+								"y": 572,
+								"width": 1168,
+								"height": 137
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "48CB13E5-82F5-43D6-9710-7AB39E79564D",
+				"kind": "group",
+				"name": "ConfirmContent3",
+				"originalName": "ConfirmContent3",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": -206,
+					"y": 237,
+					"width": 1168,
+					"height": 472
+				},
+				"visible": false,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "A926D0B0-94FB-4752-8A1D-7DF8861269FF",
+						"kind": "group",
+						"name": "Time2",
+						"originalName": "Time",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 191,
+							"y": 250,
+							"width": 324,
+							"height": 101
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Time-qtkynkqw.png",
+							"frame": {
+								"x": 191,
+								"y": 250,
+								"width": 324,
+								"height": 101
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "64469388-DEE5-437F-B119-558F4CB6B403",
+						"kind": "group",
+						"name": "Going2",
+						"originalName": "Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 435,
+							"width": 1168,
+							"height": 255
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Going-njq0njkz.png",
+							"frame": {
+								"x": -206,
+								"y": 435,
+								"width": 1168,
+								"height": 255
+							}
+						},
+						"children": [
+							{
+								"objectId": "CA5B2F6E-214E-41EC-A124-1D91D168DFAD",
+								"kind": "group",
+								"name": "Bitmap6",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.26349039220826853,
+									"width": 40,
+									"height": 38.03106080547509
+								},
+								"layerFrame": {
+									"x": 33,
+									"y": 647,
+									"width": 42,
+									"height": 41
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-q0e1qjjg.png",
+									"frame": {
+										"x": 33,
+										"y": 647,
+										"width": 42,
+										"height": 41
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "FCA26528-62CF-4B58-A538-A5FD6742233B",
+								"kind": "group",
+								"name": "Bitmap7",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.3266649118186251,
+									"width": 40,
+									"height": 39.93261384574884
+								},
+								"layerFrame": {
+									"x": 243,
+									"y": 647,
+									"width": 42,
+									"height": 43
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-rknbmjy1.png",
+									"frame": {
+										"x": 243,
+										"y": 647,
+										"width": 42,
+										"height": 43
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "610D3542-3B9D-4738-A026-37684D2808BB",
+								"kind": "group",
+								"name": "Bitmap8",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0.30983153461411916,
+									"width": 40,
+									"height": 40.930929191892496
+								},
+								"layerFrame": {
+									"x": 33,
+									"y": 509,
+									"width": 42,
+									"height": 44
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-njewrdm1.png",
+									"frame": {
+										"x": 33,
+										"y": 509,
+										"width": 42,
+										"height": 44
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "D9BEE8FA-B62E-41F6-B584-1C0DA1354098",
+						"kind": "group",
+						"name": "Not_Going2",
+						"originalName": "Not Going",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -206,
+							"y": 572,
+							"width": 1168,
+							"height": 137
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Not_Going-rdlcruu4.png",
+							"frame": {
+								"x": -206,
+								"y": 572,
+								"width": 1168,
+								"height": 137
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "8EF84871-6AEB-4D9F-9954-D71CA1FFBCB5",
+				"kind": "group",
+				"name": "Alert",
+				"originalName": "Alert",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 3,
+					"y": 734,
+					"width": 750,
+					"height": 88
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Alert-oevgodq4.png",
+					"frame": {
+						"x": 3,
+						"y": 734,
+						"width": 750,
+						"height": 88
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "15CA4ECE-6831-4CA0-9021-1F2C4D708671",
+				"kind": "text",
+				"name": "Notice",
+				"originalName": "Notice",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 101,
+					"y": 1133,
+					"width": 547,
+					"height": 52
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "NOTICE !\nYou cannot change event time after confirmation. ",
+					"css": [
+						"/* NOTICE ! You cannot: */",
+						"font-family: SFUIText-Regular;",
+						"font-size: 24px;",
+						"color: rgba(255,63,0,0.70);",
+						"letter-spacing: -0.58px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-Notice-mtvdqtrf.png",
+					"frame": {
+						"x": 101,
+						"y": 1133,
+						"width": 547,
+						"height": 52
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "CDDAF811-8B5F-4035-8D34-658544BBDC96",
+				"kind": "group",
+				"name": "Btn",
+				"originalName": "Btn",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 10,
+					"y": 1212,
+					"width": 729,
+					"height": 110
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Btn-q0requy4.png",
+					"frame": {
+						"x": 10,
+						"y": 1212,
+						"width": 729,
+						"height": 110
+					}
+				},
+				"children": [
+					{
+						"objectId": "85779452-3C51-4CC4-B978-4E69C54729F6",
+						"kind": "text",
+						"name": "ConfirmeText",
+						"originalName": "ConfirmeText",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 318,
+							"y": 1250,
+							"width": 119,
+							"height": 27
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1,
+							"string": "Confirm",
+							"css": [
+								"/* Confirm: */",
+								"font-family: SFUIText-Regular;",
+								"font-size: 34px;",
+								"color: #FFFFFF;",
+								"letter-spacing: -0.82px;"
+							]
+						},
+						"image": {
+							"path": "images/Layer-ConfirmeText-odu3nzk0.png",
+							"frame": {
+								"x": 318,
+								"y": 1250,
+								"width": 119,
+								"height": 27
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "BAD38114-0E7F-4FA1-BF71-CEE7A1FB510E",
+						"kind": "group",
+						"name": "BarPressed",
+						"originalName": "BarPressed",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 10,
+							"y": 1211,
+							"width": 729,
+							"height": 111
+						},
+						"visible": false,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-BarPressed-qkfemzgx.png",
+							"frame": {
+								"x": 10,
+								"y": 1211,
+								"width": 729,
+								"height": 111
+							}
+						},
+						"children": []
+					}
+				]
+			}
+		]
+	}
+]
+window.__imported__ = window.__imported__ || {};
+window.__imported__["Framer-ConfirmPanel@1x/layers.json.js"] = [
+	{
+		"objectId": "E1A89B9D-842F-41A9-BC99-6E1E696F08A3",
+		"kind": "artboard",
+		"name": "VotePanel",
+		"originalName": "VotePanel",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 788,
+			"y": 579,
+			"width": 750,
+			"height": 1334
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"children": [
+			{
+				"objectId": "E6C4807B-985F-48F5-A60C-95B60E7CF953",
+				"kind": "group",
+				"name": "VPHeader",
+				"originalName": "VPHeader",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 25,
+					"y": 19,
+					"width": 687,
+					"height": 59
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-VPHeader-rtzdndgw.png",
+					"frame": {
+						"x": 25,
+						"y": 19,
+						"width": 687,
+						"height": 59
+					}
+				},
+				"children": [
+					{
+						"objectId": "ED50A65E-1C66-4C23-BBBA-7C8382654AB7",
+						"kind": "group",
+						"name": "Hide",
+						"originalName": "Hide",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 691,
+							"y": 39,
+							"width": 21,
+							"height": 13
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Hide-ruq1mee2.png",
+							"frame": {
+								"x": 691,
+								"y": 39,
+								"width": 21,
+								"height": 13
+							}
+						},
+						"children": [
+							{
+								"objectId": "E9BF2610-5641-44EF-A3FF-C03577D7E527",
+								"kind": "group",
+								"name": "Arow",
+								"originalName": "Arow",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 691,
+									"y": 39,
+									"width": 21,
+									"height": 13
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Arow-rtlcrji2.png",
+									"frame": {
+										"x": 691,
+										"y": 39,
+										"width": 21,
+										"height": 13
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "20671455-7EC9-4DC3-A2C6-A3BD54647A5E",
+						"kind": "group",
+						"name": "ViewInCal",
+						"originalName": "ViewInCal",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 400,
+							"y": 19,
+							"width": 256,
+							"height": 52
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-ViewInCal-mja2nze0.png",
+							"frame": {
+								"x": 400,
+								"y": 19,
+								"width": 256,
+								"height": 52
+							}
+						},
+						"children": [
+							{
+								"objectId": "1CF43E82-65B7-47B7-A752-C9CDBD956DED",
+								"kind": "group",
+								"name": "Icon_View_in_calendar",
+								"originalName": "Icon - View in calendar",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 414,
+									"y": 32,
+									"width": 32,
+									"height": 28
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Icon_View_in_calendar-mungndnf.png",
+									"frame": {
+										"x": 414,
+										"y": 32,
+										"width": 32,
+										"height": 28
+									}
+								},
+								"children": [
+									{
+										"objectId": "46818554-B3EA-4D54-B8AB-01FE5A13DFD5",
+										"kind": "group",
+										"name": "timePressed",
+										"originalName": "timePressed",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 389,
+											"y": 12,
+											"width": 80,
+											"height": 81
+										},
+										"visible": false,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-timePressed-ndy4mtg1.png",
+											"frame": {
+												"x": 389,
+												"y": 12,
+												"width": 80,
+												"height": 81
+											}
+										},
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"objectId": "C506F21D-D7C5-490F-9064-8CEC34A4F641",
+						"kind": "group",
+						"name": "Title_Repeat",
+						"originalName": "Title&Repeat",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 25,
+							"y": 20,
+							"width": 268,
+							"height": 58
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Title_Repeat-qzuwnkyy.png",
+							"frame": {
+								"x": 25,
+								"y": 20,
+								"width": 268,
+								"height": 58
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "B4721606-49F4-4724-BE83-8938BE8B7545",
+				"kind": "group",
+				"name": "VoteUISet",
+				"originalName": "VoteUISet",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 6,
+					"y": 110,
+					"width": 730,
+					"height": 330
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "FD9FFF06-38C3-4866-9901-29F5221E56ED",
+						"kind": "group",
+						"name": "Timeslots_Line3",
+						"originalName": "Timeslots_Line3",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 6,
+							"y": 330,
+							"width": 730,
+							"height": 110
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Timeslots_Line3-rkq5rkzg.png",
+							"frame": {
+								"x": 6,
+								"y": 330,
+								"width": 730,
+								"height": 110
+							}
+						},
+						"children": [
+							{
+								"objectId": "75C3DB60-B8EB-4540-9580-B34C0F0CF8E9",
+								"kind": "group",
+								"name": "VotedPeople",
+								"originalName": "VotedPeople",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 559,
+									"y": 330,
+									"width": 177,
+									"height": 110
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-VotedPeople-nzvdm0rc.png",
+									"frame": {
+										"x": 559,
+										"y": 330,
+										"width": 177,
+										"height": 110
+									}
+								},
+								"children": [
+									{
+										"objectId": "8365C758-84F3-4C82-897D-C02196089D05",
+										"kind": "group",
+										"name": "Bitmap",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 625,
+											"y": 368,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-odm2num3.png",
+											"frame": {
+												"x": 625,
+												"y": 368,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "1219712F-5E5C-4E82-897E-5602B5E38A3C",
+								"kind": "group",
+								"name": "Time",
+								"originalName": "Time",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 33,
+									"y": 351,
+									"width": 303,
+									"height": 68
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Time-mtixotcx.png",
+									"frame": {
+										"x": 33,
+										"y": 351,
+										"width": 303,
+										"height": 68
+									}
+								},
+								"children": [
+									{
+										"objectId": "A0EC648C-D373-4D8B-93E5-3C4C8603F5E6",
+										"kind": "group",
+										"name": "Unselected",
+										"originalName": "Unselected",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 35,
+											"y": 353,
+											"width": 60,
+											"height": 60
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Unselected-qtbfqzy0.png",
+											"frame": {
+												"x": 35,
+												"y": 353,
+												"width": 60,
+												"height": 60
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "CFD143AC-4514-45DE-A7B6-6310A0DB70F3",
+										"kind": "group",
+										"name": "Selected",
+										"originalName": "Selected",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 33,
+											"y": 351,
+											"width": 64,
+											"height": 64
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Selected-q0zemtqz.png",
+											"frame": {
+												"x": 33,
+												"y": 351,
+												"width": 64,
+												"height": 64
+											}
+										},
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"objectId": "5B5C4286-CAD1-4966-BEBA-733225E01B06",
+						"kind": "group",
+						"name": "Timeslots_Line2",
+						"originalName": "Timeslots_Line2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 6,
+							"y": 220,
+							"width": 730,
+							"height": 110
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Timeslots_Line2-nui1qzqy.png",
+							"frame": {
+								"x": 6,
+								"y": 220,
+								"width": 730,
+								"height": 110
+							}
+						},
+						"children": [
+							{
+								"objectId": "68C57737-3A0E-46F2-8AB5-0F7F511B33AF",
+								"kind": "group",
+								"name": "VotedPeople1",
+								"originalName": "VotedPeople",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 559,
+									"y": 220,
+									"width": 177,
+									"height": 110
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-VotedPeople-njhdntc3.png",
+									"frame": {
+										"x": 559,
+										"y": 220,
+										"width": 177,
+										"height": 110
+									}
+								},
+								"children": [
+									{
+										"objectId": "402A0DD8-1986-41AF-910E-2DBAA199F541",
+										"kind": "group",
+										"name": "Bitmap1",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 625,
+											"y": 258,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-ndayqtbe.png",
+											"frame": {
+												"x": 625,
+												"y": 258,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "BDFE372F-5031-4B3D-AFD3-9FF90551363A",
+										"kind": "group",
+										"name": "Bitmap2",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 611,
+											"y": 258,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-qkrgrtm3.png",
+											"frame": {
+												"x": 611,
+												"y": 258,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "54B472A6-2121-408B-8910-0101356FB51E",
+										"kind": "group",
+										"name": "Bitmap3",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 597,
+											"y": 258,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-ntrcndcy.png",
+											"frame": {
+												"x": 597,
+												"y": 258,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "6DC0915F-6F36-4CC4-8F12-D4A16028B138",
+								"kind": "group",
+								"name": "Time1",
+								"originalName": "Time",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 115,
+									"y": 246,
+									"width": 222,
+									"height": 63
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Time-nkrdmdkx.png",
+									"frame": {
+										"x": 115,
+										"y": 246,
+										"width": 222,
+										"height": 63
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "D34EAEB4-8470-4540-8781-222934528E89",
+								"kind": "group",
+								"name": "Unselected1",
+								"originalName": "Unselected",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 35,
+									"y": 247,
+									"width": 60,
+									"height": 60
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Unselected-rdm0ruff.png",
+									"frame": {
+										"x": 35,
+										"y": 247,
+										"width": 60,
+										"height": 60
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "3EBA3C8F-8B1B-4E36-BE79-139F42355010",
+								"kind": "group",
+								"name": "Selected1",
+								"originalName": "Selected",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 33,
+									"y": 245,
+									"width": 64,
+									"height": 64
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Selected-m0vcqtnd.png",
+									"frame": {
+										"x": 33,
+										"y": 245,
+										"width": 64,
+										"height": 64
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "F6820F84-3F68-4113-BFFE-F0F905ED2954",
+						"kind": "group",
+						"name": "Timeslots_Line1",
+						"originalName": "Timeslots_Line1",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 6,
+							"y": 110,
+							"width": 730,
+							"height": 110
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Timeslots_Line1-rjy4mjbg.png",
+							"frame": {
+								"x": 6,
+								"y": 110,
+								"width": 730,
+								"height": 110
+							}
+						},
+						"children": [
+							{
+								"objectId": "D6BF07BF-505C-4FAF-9A0A-2401EFCB25E0",
+								"kind": "group",
+								"name": "VotedPeople2",
+								"originalName": "VotedPeople",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 559,
+									"y": 110,
+									"width": 177,
+									"height": 110
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-VotedPeople-rdzcrja3.png",
+									"frame": {
+										"x": 559,
+										"y": 110,
+										"width": 177,
+										"height": 110
+									}
+								},
+								"children": [
+									{
+										"objectId": "0AA8F9E7-50D0-49E5-9D47-4931C6FD8E10",
+										"kind": "group",
+										"name": "Bitmap4",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 625,
+											"y": 149,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-mefboey5.png",
+											"frame": {
+												"x": 625,
+												"y": 149,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "66C24D7F-7F1D-4E10-91C5-3CF1D3E78EEC",
+										"kind": "group",
+										"name": "Bitmap5",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 611,
+											"y": 148,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-njzdmjre.png",
+											"frame": {
+												"x": 611,
+												"y": 148,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "84531533-70C4-46EE-9315-003CF498917A",
+								"kind": "group",
+								"name": "Time2",
+								"originalName": "Time",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 116,
+									"y": 136,
+									"width": 210,
+									"height": 63
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Time-odq1mze1.png",
+									"frame": {
+										"x": 116,
+										"y": 136,
+										"width": 210,
+										"height": 63
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "DF06A4E2-5C88-49A1-A420-FA8B91388176",
+								"kind": "group",
+								"name": "Unselected2",
+								"originalName": "Unselected",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 35,
+									"y": 136,
+									"width": 60,
+									"height": 60
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Unselected-reywnke0.png",
+									"frame": {
+										"x": 35,
+										"y": 136,
+										"width": 60,
+										"height": 60
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "7B673B2A-1DC9-4460-8E9E-36AFF2D84B39",
+								"kind": "group",
+								"name": "Selected2",
+								"originalName": "Selected",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 33,
+									"y": 134,
+									"width": 64,
+									"height": 64
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Selected-n0i2nznc.png",
+									"frame": {
+										"x": 33,
+										"y": 134,
+										"width": 64,
+										"height": 64
+									}
+								},
+								"children": []
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
+window.__imported__ = window.__imported__ || {};
+window.__imported__["Framer-HostMeetingContents@1x/layers.json.js"] = [
 	{
 		"objectId": "926D8589-D6F5-4674-950E-8817B1194BE4",
 		"kind": "artboard",
@@ -4905,19 +2927,19 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(252, 252, 252, 1)",
+		"backgroundColor": "rgba(255, 255, 255, 1)",
 		"children": [
 			{
-				"objectId": "6486DD0F-62CE-47DB-A80D-501EE900262A",
+				"objectId": "BACD11A2-F8A9-49A9-98FB-83EDF37F9DFB",
 				"kind": "group",
 				"name": "NavBar",
 				"originalName": "NavBar",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -1,
-					"y": -1,
-					"width": 765,
-					"height": 130
+					"x": 8,
+					"y": 6,
+					"width": 729,
+					"height": 104
 				},
 				"visible": true,
 				"metadata": {
@@ -4925,43 +2947,43 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 				},
 				"children": [
 					{
-						"objectId": "2799FA48-8F52-4027-8A01-470985EA75F3",
+						"objectId": "A3B00760-4F55-48CE-9498-0B69089171CF",
 						"kind": "group",
 						"name": "btnBack",
 						"originalName": "btnBack",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 30,
-							"y": 63,
-							"width": 112,
-							"height": 42
+							"x": 25,
+							"y": 58,
+							"width": 121,
+							"height": 52
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-btnBack-mjc5ouzb.png",
+							"path": "images/Layer-btnBack-qtncmda3.png",
 							"frame": {
-								"x": 30,
-								"y": 63,
-								"width": 112,
-								"height": 42
+								"x": 25,
+								"y": 58,
+								"width": 121,
+								"height": 52
 							}
 						},
 						"children": []
 					},
 					{
-						"objectId": "E66C5659-6C42-4D1B-B044-E33C31A86204",
+						"objectId": "CF2160E6-5E7F-45CC-9576-0B6E228A0F46",
 						"kind": "text",
 						"name": "btnOptions",
 						"originalName": "btnOptions",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 694,
-							"y": 88,
-							"width": 24,
-							"height": 6
+							"x": 690,
+							"y": 84,
+							"width": 32,
+							"height": 14
 						},
 						"visible": true,
 						"metadata": {
@@ -4971,123 +2993,1570 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								"/* Edit: */",
 								"font-family: SFUIText-Regular;",
 								"font-size: 34px;",
-								"color: #222222;",
-								"letter-spacing: -0.82px;"
+								"color: #FFFFFF;",
+								"letter-spacing: -0.82px;",
+								"text-shadow: 0 0 5px rgba(0,0,0,0.50);"
 							]
 						},
 						"image": {
-							"path": "images/Layer-btnOptions-rty2qzu2.png",
+							"path": "images/Layer-btnOptions-q0yymtyw.png",
 							"frame": {
-								"x": 694,
-								"y": 88,
-								"width": 24,
-								"height": 6
+								"x": 690,
+								"y": 84,
+								"width": 32,
+								"height": 14
 							}
 						},
 						"children": []
 					},
 					{
-						"objectId": "A2651A85-515F-41EC-832E-8F8831AEEC9B",
+						"objectId": "ADC860FF-A624-4AF6-9698-7A6954995399",
 						"kind": "group",
 						"name": "Navigation_Bar_Back",
 						"originalName": "Navigation Bar/Back",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -1,
-							"y": -1,
-							"width": 765,
-							"height": 130
+							"x": 8,
+							"y": 6,
+							"width": 729,
+							"height": 30
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-Navigation_Bar_Back-qti2ntfb.png",
+							"path": "images/Layer-Navigation_Bar_Back-qurdodyw.png",
 							"frame": {
-								"x": -1,
-								"y": -1,
-								"width": 765,
-								"height": 130
+								"x": 8,
+								"y": 6,
+								"width": 729,
+								"height": 30
 							}
 						},
 						"children": [
 							{
-								"objectId": "2629F110-E7E5-4834-9DA3-EA82B3812BC8",
+								"objectId": "FD6F32FD-5D9C-4675-ABAF-C59A67AF8DBC",
 								"kind": "group",
 								"name": "Status_Bar_White_100_",
 								"originalName": "Status Bar/White/100%",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 13,
-									"y": 11,
-									"width": 719,
-									"height": 20
+									"x": 8,
+									"y": 6,
+									"width": 729,
+									"height": 30
 								},
 								"visible": true,
 								"metadata": {
 									"opacity": 1
 								},
 								"image": {
-									"path": "images/Layer-Status_Bar_White_100_-mjyyouyx.png",
+									"path": "images/Layer-Status_Bar_White_100_-rkq2rjmy.png",
 									"frame": {
-										"x": 13,
-										"y": 11,
-										"width": 719,
-										"height": 20
+										"x": 8,
+										"y": 6,
+										"width": 729,
+										"height": 30
 									}
 								},
 								"children": [
 									{
-										"objectId": "5FB6F684-680D-4DBC-9D65-5016BD07951A",
+										"objectId": "D38C9FE1-6DBD-498B-913B-333ECFB4F411",
 										"kind": "group",
 										"name": "Pin_Left",
 										"originalName": "Pin Left",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 13,
-											"y": 11,
-											"width": 188,
-											"height": 20
+											"x": 8,
+											"y": 6,
+											"width": 198,
+											"height": 30
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Pin_Left-nuzcnky2.png",
+											"path": "images/Layer-Pin_Left-rdm4qzlg.png",
 											"frame": {
-												"x": 13,
-												"y": 11,
-												"width": 188,
-												"height": 20
+												"x": 8,
+												"y": 6,
+												"width": 198,
+												"height": 30
 											}
 										},
 										"children": []
 									},
 									{
-										"objectId": "748EB9EE-6794-404E-A66B-72BFE3F3CB3A",
+										"objectId": "CB8DD89F-4014-4955-906D-E8F7CD986159",
 										"kind": "group",
 										"name": "Pin_Right",
 										"originalName": "Pin Right",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 617,
-											"y": 11,
-											"width": 115,
-											"height": 20
+											"x": 613,
+											"y": 6,
+											"width": 124,
+											"height": 30
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Pin_Right-nzq4rui5.png",
+											"path": "images/Layer-Pin_Right-q0i4req4.png",
 											"frame": {
-												"x": 617,
-												"y": 11,
-												"width": 115,
-												"height": 20
+												"x": 613,
+												"y": 6,
+												"width": 124,
+												"height": 30
+											}
+										},
+										"children": []
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"objectId": "22571A0F-1031-4153-AD39-FDD0F6D17542",
+				"kind": "group",
+				"name": "DetailsUnconfirmed",
+				"originalName": "DetailsUnconfirmed",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": -4,
+					"y": -2,
+					"width": 828,
+					"height": 589
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "D601425A-B72A-4E7C-A62A-861A8D6F770E",
+						"kind": "group",
+						"name": "UnconfirmedNotice",
+						"originalName": "UnconfirmedNotice",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -4,
+							"y": -2,
+							"width": 828,
+							"height": 589
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "A024D8D0-19E6-42BB-B509-65E6FCCDD5A4",
+								"kind": "group",
+								"name": "Bitmap",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0,
+									"width": 72,
+									"height": 71.99999999999974
+								},
+								"layerFrame": {
+									"x": 343,
+									"y": 247,
+									"width": 74,
+									"height": 74
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-qtayneq4.png",
+									"frame": {
+										"x": 343,
+										"y": 247,
+										"width": 74,
+										"height": 74
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "64D0044E-91E4-4806-87A4-F70B2B2AA5D7",
+								"kind": "group",
+								"name": "invitees",
+								"originalName": "invitees",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 276,
+									"y": 385,
+									"width": 203,
+									"height": 33
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-invitees-njremda0.png",
+									"frame": {
+										"x": 276,
+										"y": 385,
+										"width": 203,
+										"height": 33
+									}
+								},
+								"children": [
+									{
+										"objectId": "DCEE163F-9CFC-414A-8BB0-625F448F59B1",
+										"kind": "text",
+										"name": "Invites",
+										"originalName": "Invites",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 341,
+											"y": 385,
+											"width": 138,
+											"height": 32
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "6 Invited >",
+											"css": [
+												"/* 6 Invited >: */",
+												"font-family: SFUIText-Regular;",
+												"font-size: 28px;",
+												"color: #FFFFFF;",
+												"letter-spacing: -0.68px;",
+												"text-shadow: 0 0 5px rgba(0,0,0,0.50);"
+											]
+										},
+										"image": {
+											"path": "images/Layer-Invites-renfrte2.png",
+											"frame": {
+												"x": 341,
+												"y": 385,
+												"width": 138,
+												"height": 32
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "398C1419-A05C-4162-92BF-471BFB9DCAE3",
+										"kind": "group",
+										"name": "Bitmap1",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 304,
+											"y": 387,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-mzk4qze0.png",
+											"frame": {
+												"x": 304,
+												"y": 387,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "06346A5F-7BCB-4D8A-B5A6-0D89B81EBF4F",
+										"kind": "group",
+										"name": "Bitmap2",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 290,
+											"y": 387,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-mdyzndzb.png",
+											"frame": {
+												"x": 290,
+												"y": 387,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "C37EB978-5984-4023-AE55-2CE5063088CA",
+										"kind": "group",
+										"name": "Bitmap3",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 276,
+											"y": 387,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-qzm3rui5.png",
+											"frame": {
+												"x": 276,
+												"y": 387,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "0E675D78-1461-47E1-86E7-95013E39839C",
+								"kind": "group",
+								"name": "Notice",
+								"originalName": "Notice",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 283,
+									"y": 244,
+									"width": 193,
+									"height": 120
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Notice-meu2nzve.png",
+									"frame": {
+										"x": 283,
+										"y": 244,
+										"width": 193,
+										"height": 120
+									}
+								},
+								"children": [
+									{
+										"objectId": "6A58CE28-88C2-4CE5-B573-2AC5389419E4",
+										"kind": "group",
+										"name": "IMG_5164",
+										"originalName": "IMG_5164",
+										"maskFrame": {
+											"x": 0,
+											"y": 0,
+											"width": 72,
+											"height": 70.90076335877862
+										},
+										"layerFrame": {
+											"x": 339,
+											"y": 244,
+											"width": 82,
+											"height": 81
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-IMG_5164-nke1oenf.png",
+											"frame": {
+												"x": 339,
+												"y": 244,
+												"width": 82,
+												"height": 81
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "E01FBC49-B434-4E00-A430-CF6F807D63AE",
+								"kind": "text",
+								"name": "Event_Title",
+								"originalName": "Event Title",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 74,
+									"y": 153,
+									"width": 618,
+									"height": 50
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1,
+									"string": "Telstra Competition Discussion",
+									"css": [
+										"/* Telstra Competition: */",
+										"font-family: SFUIText-Semibold;",
+										"font-size: 42px;",
+										"color: #FFFFFF;",
+										"letter-spacing: -1.01px;",
+										"text-shadow: 0 0 5px #14304C;"
+									]
+								},
+								"image": {
+									"path": "images/Layer-Event_Title-rtaxrkjd.png",
+									"frame": {
+										"x": 74,
+										"y": 153,
+										"width": 618,
+										"height": 50
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "84188A24-FC2A-4C50-85BE-DEA30FBA18C3",
+								"kind": "group",
+								"name": "bg",
+								"originalName": "bg",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": -4,
+									"y": -2,
+									"width": 828,
+									"height": 458
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"children": [
+									{
+										"objectId": "391BA7B8-B7B2-46EE-82CA-9760035847BA",
+										"kind": "group",
+										"name": "Group_4",
+										"originalName": "Group 4",
+										"maskFrame": {
+											"x": 0,
+											"y": 0,
+											"width": 820,
+											"height": 450
+										},
+										"layerFrame": {
+											"x": 0,
+											"y": 0,
+											"width": 820,
+											"height": 450
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_4-mzkxqke3.png",
+											"frame": {
+												"x": 0,
+												"y": 0,
+												"width": 820,
+												"height": 450
+											}
+										},
+										"children": [
+											{
+												"objectId": "5CF793C5-E113-4059-96FA-53CD3398E2D2",
+												"kind": "group",
+												"name": "Group_41",
+												"originalName": "Group 4",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": -77,
+													"y": -516,
+													"width": 897,
+													"height": 1354
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Group_4-nungnzkz.jpg",
+													"frame": {
+														"x": -77,
+														"y": -516,
+														"width": 897,
+														"height": 1354
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "33E5DBA6-64A4-4C18-8548-45C5CDFDF109",
+										"kind": "group",
+										"name": "Group_2",
+										"originalName": "Group 2",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": -4,
+											"y": -2,
+											"width": 828,
+											"height": 458
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_2-mznfnurc.png",
+											"frame": {
+												"x": -4,
+												"y": -2,
+												"width": 828,
+												"height": 458
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "9B714A08-9A85-4CB3-B1F5-651D26DDC02C",
+								"kind": "group",
+								"name": "Location",
+								"originalName": "Location",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 43,
+									"y": 486,
+									"width": 667,
+									"height": 101
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Location-oui3mtrb.png",
+									"frame": {
+										"x": 43,
+										"y": 486,
+										"width": 667,
+										"height": 101
+									}
+								},
+								"children": [
+									{
+										"objectId": "1D2AFD89-2277-4BFC-954C-6C009DB9FCB9",
+										"kind": "group",
+										"name": "icon",
+										"originalName": "icon",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 630,
+											"y": 487,
+											"width": 80,
+											"height": 80
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"children": [
+											{
+												"objectId": "EA2A7C6F-A32B-4C82-BCED-6289F676149B",
+												"kind": "group",
+												"name": "Icon_View_in_map",
+												"originalName": "Icon - View in map",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 630,
+													"y": 487,
+													"width": 80,
+													"height": 80
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Icon_View_in_map-rueyqtdd.png",
+													"frame": {
+														"x": 630,
+														"y": 487,
+														"width": 80,
+														"height": 80
+													}
+												},
+												"children": [
+													{
+														"objectId": "01042FA0-FBFA-4B9D-946F-CC35FE811A77",
+														"kind": "group",
+														"name": "locationPressed",
+														"originalName": "locationPressed",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 630,
+															"y": 487,
+															"width": 80,
+															"height": 81
+														},
+														"visible": false,
+														"metadata": {
+															"opacity": 1
+														},
+														"image": {
+															"path": "images/Layer-locationPressed-mdewndjg.png",
+															"frame": {
+																"x": 630,
+																"y": 487,
+																"width": 80,
+																"height": 81
+															}
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"objectId": "F332D20B-FFC5-4CA1-AF21-8561022B1C43",
+						"kind": "group",
+						"name": "ConfirmedNotice",
+						"originalName": "ConfirmedNotice",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -43,
+							"y": -2,
+							"width": 1032,
+							"height": 1555
+						},
+						"visible": false,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "C68BD94B-2473-4519-B895-2AE42A25C996",
+								"kind": "group",
+								"name": "Bitmap4",
+								"originalName": "Bitmap",
+								"maskFrame": {
+									"x": 0,
+									"y": 0,
+									"width": 72,
+									"height": 71.99999999999974
+								},
+								"layerFrame": {
+									"x": 343,
+									"y": 247,
+									"width": 74,
+									"height": 74
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Bitmap-qzy4qkq5.png",
+									"frame": {
+										"x": 343,
+										"y": 247,
+										"width": 74,
+										"height": 74
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "4D1C95ED-983C-4382-83ED-2DDE89B5F588",
+								"kind": "group",
+								"name": "invitees1",
+								"originalName": "invitees",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 276,
+									"y": 385,
+									"width": 194,
+									"height": 37
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-invitees-neqxqzk1.png",
+									"frame": {
+										"x": 276,
+										"y": 385,
+										"width": 194,
+										"height": 37
+									}
+								},
+								"children": [
+									{
+										"objectId": "20FB0F4F-D87C-44BD-9C2A-99AC9C67177E",
+										"kind": "text",
+										"name": "Invites1",
+										"originalName": "Invites",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 341,
+											"y": 385,
+											"width": 129,
+											"height": 37
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "6 Going >",
+											"css": [
+												"/* 6 Going >: */",
+												"font-family: SFUIText-Regular;",
+												"font-size: 28px;",
+												"color: #FFFFFF;",
+												"letter-spacing: -0.68px;",
+												"text-shadow: 0 0 5px rgba(0,0,0,0.50);"
+											]
+										},
+										"image": {
+											"path": "images/Layer-Invites-mjbgqjbg.png",
+											"frame": {
+												"x": 341,
+												"y": 385,
+												"width": 129,
+												"height": 37
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "6D3C7FF5-461F-4140-B651-C2783D87319E",
+										"kind": "group",
+										"name": "Bitmap5",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 304,
+											"y": 387,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-nkqzqzdg.png",
+											"frame": {
+												"x": 304,
+												"y": 387,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "87F1383E-CC05-4DE5-A53E-831803E5269C",
+										"kind": "group",
+										"name": "Bitmap6",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 290,
+											"y": 387,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-oddgmtm4.png",
+											"frame": {
+												"x": 290,
+												"y": 387,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "203DF8AE-7348-4A17-A442-D266A24D56F9",
+										"kind": "group",
+										"name": "Bitmap7",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 276,
+											"y": 387,
+											"width": 30,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-mjazrey4.png",
+											"frame": {
+												"x": 276,
+												"y": 387,
+												"width": 30,
+												"height": 31
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "B280692A-BB3A-4BAB-9A75-93DA42B3CF80",
+								"kind": "group",
+								"name": "Notice1",
+								"originalName": "Notice",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 283,
+									"y": 244,
+									"width": 193,
+									"height": 120
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Notice-qji4mdy5.png",
+									"frame": {
+										"x": 283,
+										"y": 244,
+										"width": 193,
+										"height": 120
+									}
+								},
+								"children": [
+									{
+										"objectId": "9B704F0F-5C6F-4D70-A54C-2B7C4CC8022B",
+										"kind": "group",
+										"name": "IMG_51641",
+										"originalName": "IMG_5164",
+										"maskFrame": {
+											"x": 0,
+											"y": 0,
+											"width": 72,
+											"height": 70.90076335877862
+										},
+										"layerFrame": {
+											"x": 339,
+											"y": 244,
+											"width": 82,
+											"height": 81
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-IMG_5164-oui3mdrg.png",
+											"frame": {
+												"x": 339,
+												"y": 244,
+												"width": 82,
+												"height": 81
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "FA019D36-E1D9-438D-953E-D9B25086C5A7",
+								"kind": "text",
+								"name": "Event_Title1",
+								"originalName": "Event Title",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 74,
+									"y": 153,
+									"width": 618,
+									"height": 50
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1,
+									"string": "Telstra Competition Discussion",
+									"css": [
+										"/* Telstra Competition: */",
+										"font-family: SFUIText-Semibold;",
+										"font-size: 42px;",
+										"color: #FFFFFF;",
+										"letter-spacing: -1.01px;",
+										"text-shadow: 0 0 5px #14304C;"
+									]
+								},
+								"image": {
+									"path": "images/Layer-Event_Title-rkewmtle.png",
+									"frame": {
+										"x": 74,
+										"y": 153,
+										"width": 618,
+										"height": 50
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "31B48C35-5735-4FB5-9D15-6BBE3630EE1E",
+								"kind": "group",
+								"name": "bg1",
+								"originalName": "bg",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": -4,
+									"y": -2,
+									"width": 828,
+									"height": 458
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"children": [
+									{
+										"objectId": "A58DB21F-BE5C-4311-8566-4919B34FE4CB",
+										"kind": "group",
+										"name": "Group_42",
+										"originalName": "Group 4",
+										"maskFrame": {
+											"x": 0,
+											"y": 0,
+											"width": 820,
+											"height": 450
+										},
+										"layerFrame": {
+											"x": 0,
+											"y": 0,
+											"width": 820,
+											"height": 450
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_4-qtu4reiy.png",
+											"frame": {
+												"x": 0,
+												"y": 0,
+												"width": 820,
+												"height": 450
+											}
+										},
+										"children": [
+											{
+												"objectId": "F784DD8C-522F-4C63-8630-21D6D0B9218E",
+												"kind": "group",
+												"name": "Group_43",
+												"originalName": "Group 4",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": -77,
+													"y": -591,
+													"width": 897,
+													"height": 1354
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Group_4-rjc4nere.jpg",
+													"frame": {
+														"x": -77,
+														"y": -591,
+														"width": 897,
+														"height": 1354
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "9996273F-BFA6-46EF-B767-A400B2CBDEDC",
+										"kind": "group",
+										"name": "Group_21",
+										"originalName": "Group 2",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": -4,
+											"y": -2,
+											"width": 828,
+											"height": 458
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_2-otk5nji3.png",
+											"frame": {
+												"x": -4,
+												"y": -2,
+												"width": 828,
+												"height": 458
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "A7E8C710-93AA-4B6F-86B3-5B489D11B39B",
+								"kind": "group",
+								"name": "Rules",
+								"originalName": "Rules",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": -43,
+									"y": 225,
+									"width": 819,
+									"height": 1328
+								},
+								"visible": false,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Rules-qtdfoem3.png",
+									"frame": {
+										"x": -43,
+										"y": 225,
+										"width": 819,
+										"height": 1328
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "82D81F92-DEC9-4E5F-88A1-02114ADC2651",
+								"kind": "group",
+								"name": "Alert",
+								"originalName": "Alert",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 42,
+									"y": 780,
+									"width": 174,
+									"height": 58
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Alert-odjeodfg.png",
+									"frame": {
+										"x": 42,
+										"y": 780,
+										"width": 174,
+										"height": 58
+									}
+								},
+								"children": [
+									{
+										"objectId": "FEB05A94-7FAA-418B-8414-24A849F26FDF",
+										"kind": "group",
+										"name": "Icon_View_in_calendar",
+										"originalName": "Icon - View in calendar",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 630,
+											"y": 633,
+											"width": 80,
+											"height": 81
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"children": [
+											{
+												"objectId": "716FF20E-57A4-470A-82E8-9F608BABFD00",
+												"kind": "group",
+												"name": "timePressed",
+												"originalName": "timePressed",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 630,
+													"y": 633,
+													"width": 80,
+													"height": 81
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-timePressed-nze2rkyy.png",
+													"frame": {
+														"x": 630,
+														"y": 633,
+														"width": 80,
+														"height": 81
+													}
+												},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"objectId": "4161EE6E-5E86-45CF-B862-0A9DB02094A4",
+								"kind": "group",
+								"name": "Time",
+								"originalName": "Time",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 43,
+									"y": 500,
+									"width": 667,
+									"height": 100
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Time-nde2muvf.png",
+									"frame": {
+										"x": 43,
+										"y": 500,
+										"width": 667,
+										"height": 100
+									}
+								},
+								"children": [
+									{
+										"objectId": "D3DD8A28-F551-408D-A4AC-DA6E3FA15107",
+										"kind": "group",
+										"name": "Icon_View_in_calendar1",
+										"originalName": "Icon - View in calendar",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 630,
+											"y": 501,
+											"width": 80,
+											"height": 80
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Icon_View_in_calendar-rdnerdhb.png",
+											"frame": {
+												"x": 630,
+												"y": 501,
+												"width": 80,
+												"height": 80
+											}
+										},
+										"children": [
+											{
+												"objectId": "3FF90559-60D4-481A-8AE1-C909262221B6",
+												"kind": "group",
+												"name": "timePressed1",
+												"originalName": "timePressed",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 630,
+													"y": 508,
+													"width": 80,
+													"height": 81
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-timePressed-m0zgota1.png",
+													"frame": {
+														"x": 630,
+														"y": 508,
+														"width": 80,
+														"height": 81
+													}
+												},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"objectId": "D1BA9D81-BA9C-4175-838E-55AE3835A576",
+								"kind": "group",
+								"name": "Location1",
+								"originalName": "Location",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 43,
+									"y": 636,
+									"width": 667,
+									"height": 101
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Location-rdfcqtle.png",
+									"frame": {
+										"x": 43,
+										"y": 636,
+										"width": 667,
+										"height": 101
+									}
+								},
+								"children": [
+									{
+										"objectId": "65F3662A-2255-4022-96D9-C5E636A529B0",
+										"kind": "group",
+										"name": "icon1",
+										"originalName": "icon",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 630,
+											"y": 637,
+											"width": 80,
+											"height": 80
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"children": [
+											{
+												"objectId": "0CB46D48-C9C2-422E-8029-0B2FCD504509",
+												"kind": "group",
+												"name": "Icon_View_in_map1",
+												"originalName": "Icon - View in map",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 630,
+													"y": 637,
+													"width": 80,
+													"height": 80
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Icon_View_in_map-mencndze.png",
+													"frame": {
+														"x": 630,
+														"y": 637,
+														"width": 80,
+														"height": 80
+													}
+												},
+												"children": [
+													{
+														"objectId": "FC5A3DD1-F1DB-4A94-81AB-902627008122",
+														"kind": "group",
+														"name": "locationPressed1",
+														"originalName": "locationPressed",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 630,
+															"y": 719,
+															"width": 80,
+															"height": 81
+														},
+														"visible": false,
+														"metadata": {
+															"opacity": 1
+														},
+														"image": {
+															"path": "images/Layer-locationPressed-rkm1qtne.png",
+															"frame": {
+																"x": 630,
+																"y": 719,
+																"width": 80,
+																"height": 81
+															}
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
+window.__imported__ = window.__imported__ || {};
+window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
+	{
+		"objectId": "926D8589-D6F5-4674-950E-8817B1194BE4",
+		"kind": "artboard",
+		"name": "MeetingContent",
+		"originalName": "MeetingContent",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 38,
+			"y": -645,
+			"width": 750,
+			"height": 1616
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(252, 252, 252, 1)",
+		"children": [
+			{
+				"objectId": "E72917DF-DE11-4A27-896C-1D1F0362E817",
+				"kind": "group",
+				"name": "NavBar",
+				"originalName": "NavBar",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 8,
+					"y": 6,
+					"width": 729,
+					"height": 104
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "26CF649A-41B0-41C1-B2E2-BC998D6BD6BF",
+						"kind": "group",
+						"name": "btnBack",
+						"originalName": "btnBack",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 25,
+							"y": 58,
+							"width": 121,
+							"height": 52
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-btnBack-mjzdrjy0.png",
+							"frame": {
+								"x": 25,
+								"y": 58,
+								"width": 121,
+								"height": 52
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "75BB46AE-953D-4371-A0E6-E185D315F8B9",
+						"kind": "text",
+						"name": "btnOptions",
+						"originalName": "btnOptions",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 690,
+							"y": 84,
+							"width": 32,
+							"height": 14
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1,
+							"string": " ...",
+							"css": [
+								"/* Edit: */",
+								"font-family: SFUIText-Regular;",
+								"font-size: 34px;",
+								"color: #FFFFFF;",
+								"letter-spacing: -0.82px;",
+								"text-shadow: 0 0 5px rgba(0,0,0,0.50);"
+							]
+						},
+						"image": {
+							"path": "images/Layer-btnOptions-nzvcqjq2.png",
+							"frame": {
+								"x": 690,
+								"y": 84,
+								"width": 32,
+								"height": 14
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "3EECC037-32AB-4042-A336-855155722B1A",
+						"kind": "group",
+						"name": "Navigation_Bar_Back",
+						"originalName": "Navigation Bar/Back",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 8,
+							"y": 6,
+							"width": 729,
+							"height": 30
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Navigation_Bar_Back-m0vfq0mw.png",
+							"frame": {
+								"x": 8,
+								"y": 6,
+								"width": 729,
+								"height": 30
+							}
+						},
+						"children": [
+							{
+								"objectId": "DD89BB94-0EF4-45E7-A940-44D9E43F72C9",
+								"kind": "group",
+								"name": "Status_Bar_White_100_",
+								"originalName": "Status Bar/White/100%",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 8,
+									"y": 6,
+									"width": 729,
+									"height": 30
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Status_Bar_White_100_-req4oujc.png",
+									"frame": {
+										"x": 8,
+										"y": 6,
+										"width": 729,
+										"height": 30
+									}
+								},
+								"children": [
+									{
+										"objectId": "DBACEC88-6CDD-44BF-9CD7-BE58548FF5DF",
+										"kind": "group",
+										"name": "Pin_Left",
+										"originalName": "Pin Left",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 8,
+											"y": 6,
+											"width": 198,
+											"height": 30
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Pin_Left-rejbq0vd.png",
+											"frame": {
+												"x": 8,
+												"y": 6,
+												"width": 198,
+												"height": 30
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "6E8AB792-F889-4719-82D5-323D6203E680",
+										"kind": "group",
+										"name": "Pin_Right",
+										"originalName": "Pin Right",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 613,
+											"y": 6,
+											"width": 124,
+											"height": 30
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Pin_Right-nku4qui3.png",
+											"frame": {
+												"x": 613,
+												"y": 6,
+												"width": 124,
+												"height": 30
 											}
 										},
 										"children": []
@@ -5106,9 +4575,9 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": -4,
-					"y": 125,
+					"y": -2,
 					"width": 828,
-					"height": 1006
+					"height": 1051
 				},
 				"visible": true,
 				"metadata": {
@@ -5122,10 +4591,10 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 						"originalName": "invitees",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 287,
-							"y": 459,
-							"width": 201,
-							"height": 30
+							"x": 263,
+							"y": 392,
+							"width": 228,
+							"height": 33
 						},
 						"visible": true,
 						"metadata": {
@@ -5134,10 +4603,10 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-invitees-rtfcqtq1.png",
 							"frame": {
-								"x": 287,
-								"y": 459,
-								"width": 201,
-								"height": 30
+								"x": 263,
+								"y": 392,
+								"width": 228,
+								"height": 33
 							}
 						},
 						"children": [
@@ -5153,8 +4622,8 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 									"height": 27.57251908396944
 								},
 								"layerFrame": {
-									"x": 315,
-									"y": 459,
+									"x": 291,
+									"y": 395,
 									"width": 30,
 									"height": 30
 								},
@@ -5165,8 +4634,8 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Bitmap-m0iyruew.png",
 									"frame": {
-										"x": 315,
-										"y": 459,
+										"x": 291,
+										"y": 395,
 										"width": 30,
 										"height": 30
 									}
@@ -5185,8 +4654,8 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 									"height": 27.57251908396944
 								},
 								"layerFrame": {
-									"x": 287,
-									"y": 459,
+									"x": 263,
+									"y": 395,
 									"width": 30,
 									"height": 30
 								},
@@ -5197,8 +4666,8 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Bitmap-mkrgmjaw.png",
 									"frame": {
-										"x": 287,
-										"y": 459,
+										"x": 263,
+										"y": 395,
 										"width": 30,
 										"height": 30
 									}
@@ -5214,10 +4683,10 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 						"originalName": "Notice",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 112,
-							"y": 309,
-							"width": 520,
-							"height": 180
+							"x": 247,
+							"y": 244,
+							"width": 258,
+							"height": 120
 						},
 						"visible": true,
 						"metadata": {
@@ -5226,10 +4695,10 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Notice-m0i0ney1.png",
 							"frame": {
-								"x": 112,
-								"y": 309,
-								"width": 520,
-								"height": 180
+								"x": 247,
+								"y": 244,
+								"width": 258,
+								"height": 120
 							}
 						},
 						"children": [
@@ -5245,10 +4714,10 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 									"height": 70.90076335877862
 								},
 								"layerFrame": {
-									"x": 335,
-									"y": 309,
-									"width": 74,
-									"height": 73
+									"x": 339,
+									"y": 244,
+									"width": 82,
+									"height": 81
 								},
 								"visible": true,
 								"metadata": {
@@ -5257,10 +4726,10 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-IMG_5164-nzi2nzrg.png",
 									"frame": {
-										"x": 335,
-										"y": 309,
-										"width": 74,
-										"height": 73
+										"x": 339,
+										"y": 244,
+										"width": 82,
+										"height": 81
 									}
 								},
 								"children": []
@@ -5269,15 +4738,51 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 					},
 					{
 						"objectId": "3E39F0CE-3AD2-4FE6-8D93-BD41D36B8BCD",
-						"kind": "group",
+						"kind": "text",
 						"name": "Event_Title",
 						"originalName": "Event Title",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 159,
+							"x": 195,
 							"y": 144,
-							"width": 422,
-							"height": 155
+							"width": 370,
+							"height": 60
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1,
+							"string": "Yarra River BBQ",
+							"css": [
+								"/* Yarra River BBQ: */",
+								"font-family: SFUIText-Semibold;",
+								"font-size: 48px;",
+								"color: #FFFFFF;",
+								"letter-spacing: -1.16px;",
+								"text-shadow: 0 0 10px #14304C;"
+							]
+						},
+						"image": {
+							"path": "images/Layer-Event_Title-m0uzouyw.png",
+							"frame": {
+								"x": 195,
+								"y": 144,
+								"width": 370,
+								"height": 60
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "0D377FEF-F719-4838-B9C6-E04F01583888",
+						"kind": "group",
+						"name": "bg",
+						"originalName": "bg",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -4,
+							"y": -2,
+							"width": 828,
+							"height": 458
 						},
 						"visible": true,
 						"metadata": {
@@ -5285,96 +4790,93 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 						},
 						"children": [
 							{
-								"objectId": "B80E8056-3AD0-4D77-87FC-EE50EB09078E",
-								"kind": "text",
-								"name": "Group",
-								"originalName": "Group",
-								"maskFrame": null,
+								"objectId": "F99AAF31-30F9-4219-A651-788C7DA44A96",
+								"kind": "group",
+								"name": "Group_4",
+								"originalName": "Group 4",
+								"maskFrame": {
+									"x": 0,
+									"y": 0,
+									"width": 820,
+									"height": 450
+								},
 								"layerFrame": {
-									"x": 159,
-									"y": 144,
-									"width": 422,
-									"height": 155
+									"x": 0,
+									"y": 0,
+									"width": 820,
+									"height": 450
 								},
 								"visible": true,
 								"metadata": {
-									"opacity": 1,
-									"string": "Yarra River BBQ",
-									"css": [
-										"/* Yarra River BBQ: */",
-										"font-family: SFUIText-Semibold;",
-										"font-size: 42px;",
-										"color: #222222;",
-										"letter-spacing: -1.01px;",
-										"text-shadow: 0 0 64px #FFFFFF;"
-									]
+									"opacity": 1
 								},
 								"image": {
-									"path": "images/Layer-Group-qjgwrtgw.png",
+									"path": "images/Layer-Group_4-rjk5qufg.png",
 									"frame": {
-										"x": 159,
-										"y": 144,
-										"width": 422,
-										"height": 155
+										"x": 0,
+										"y": 0,
+										"width": 820,
+										"height": 450
+									}
+								},
+								"children": [
+									{
+										"objectId": "B2B0619D-7ADA-4641-B5F8-AFAE7930A6DB",
+										"kind": "group",
+										"name": "Group_41",
+										"originalName": "Group 4",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": -1,
+											"y": -16,
+											"width": 754,
+											"height": 466
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_4-qjjcmdyx.jpg",
+											"frame": {
+												"x": -1,
+												"y": -16,
+												"width": 754,
+												"height": 466
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "8CF7E21F-7DC7-4997-81A7-1DCF17D82A43",
+								"kind": "group",
+								"name": "Group_2",
+								"originalName": "Group 2",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": -4,
+									"y": -2,
+									"width": 828,
+									"height": 458
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Group_2-oengn0uy.png",
+									"frame": {
+										"x": -4,
+										"y": -2,
+										"width": 828,
+										"height": 458
 									}
 								},
 								"children": []
 							}
 						]
-					},
-					{
-						"objectId": "8CF7E21F-7DC7-4997-81A7-1DCF17D82A43",
-						"kind": "group",
-						"name": "Group_2",
-						"originalName": "Group 2",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -4,
-							"y": 125,
-							"width": 828,
-							"height": 414
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Group_2-oengn0uy.png",
-							"frame": {
-								"x": -4,
-								"y": 125,
-								"width": 828,
-								"height": 414
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "76D9B59F-6870-4683-92FD-DF33E022D17B",
-						"kind": "group",
-						"name": "Rules",
-						"originalName": "Rules",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -43,
-							"y": 128,
-							"width": 819,
-							"height": 1328
-						},
-						"visible": false,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Rules-nzzeoui1.png",
-							"frame": {
-								"x": -43,
-								"y": 128,
-								"width": 819,
-								"height": 1328
-							}
-						},
-						"children": []
 					},
 					{
 						"objectId": "F645D661-5B78-40AA-9655-4EA2259F0CD2",
@@ -5384,7 +4886,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 42,
-							"y": 887,
+							"y": 805,
 							"width": 652,
 							"height": 244
 						},
@@ -5396,7 +4898,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 							"path": "images/Layer-Photo-rjy0nuq2.png",
 							"frame": {
 								"x": 42,
-								"y": 887,
+								"y": 805,
 								"width": 652,
 								"height": 244
 							}
@@ -5415,7 +4917,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								},
 								"layerFrame": {
 									"x": 594,
-									"y": 1031,
+									"y": 949,
 									"width": 100,
 									"height": 100
 								},
@@ -5427,7 +4929,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 									"path": "images/Layer-IMG_5100-mkfeqtu2.png",
 									"frame": {
 										"x": 594,
-										"y": 1031,
+										"y": 949,
 										"width": 100,
 										"height": 100
 									}
@@ -5447,7 +4949,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								},
 								"layerFrame": {
 									"x": 594,
-									"y": 921,
+									"y": 839,
 									"width": 100,
 									"height": 100
 								},
@@ -5459,7 +4961,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 									"path": "images/Layer-IMG_5110-qum0rjc5.png",
 									"frame": {
 										"x": 594,
-										"y": 921,
+										"y": 839,
 										"width": 100,
 										"height": 100
 									}
@@ -5479,7 +4981,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								},
 								"layerFrame": {
 									"x": 484,
-									"y": 1031,
+									"y": 949,
 									"width": 100,
 									"height": 100
 								},
@@ -5491,7 +4993,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 									"path": "images/Layer-IMG_5063-nti5otq5.png",
 									"frame": {
 										"x": 484,
-										"y": 1031,
+										"y": 949,
 										"width": 100,
 										"height": 100
 									}
@@ -5511,7 +5013,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								},
 								"layerFrame": {
 									"x": 484,
-									"y": 921,
+									"y": 839,
 									"width": 100,
 									"height": 100
 								},
@@ -5523,7 +5025,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 									"path": "images/Layer-IMG_5129-otherjcw.png",
 									"frame": {
 										"x": 484,
-										"y": 921,
+										"y": 839,
 										"width": 100,
 										"height": 100
 									}
@@ -5543,7 +5045,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								},
 								"layerFrame": {
 									"x": 263,
-									"y": 921,
+									"y": 839,
 									"width": 210,
 									"height": 210
 								},
@@ -5555,7 +5057,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 									"path": "images/Layer-IMG_5088-rdqxmky4.png",
 									"frame": {
 										"x": 263,
-										"y": 921,
+										"y": 839,
 										"width": 210,
 										"height": 210
 									}
@@ -5575,7 +5077,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								},
 								"layerFrame": {
 									"x": 42,
-									"y": 921,
+									"y": 839,
 									"width": 210,
 									"height": 210
 								},
@@ -5587,7 +5089,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 									"path": "images/Layer-IMG_5092-merdm0u2.png",
 									"frame": {
 										"x": 42,
-										"y": 921,
+										"y": 839,
 										"width": 210,
 										"height": 210
 									}
@@ -5604,7 +5106,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 43,
-							"y": 571,
+							"y": 489,
 							"width": 667,
 							"height": 96
 						},
@@ -5616,7 +5118,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 							"path": "images/Layer-Location-rjq1mzve.png",
 							"frame": {
 								"x": 43,
-								"y": 571,
+								"y": 489,
 								"width": 667,
 								"height": 96
 							}
@@ -5630,7 +5132,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 630,
-									"y": 572,
+									"y": 490,
 									"width": 80,
 									"height": 80
 								},
@@ -5647,7 +5149,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 630,
-											"y": 572,
+											"y": 490,
 											"width": 80,
 											"height": 80
 										},
@@ -5659,7 +5161,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 											"path": "images/Layer-Icon_View_in_map-mjc5ouvc.png",
 											"frame": {
 												"x": 630,
-												"y": 572,
+												"y": 490,
 												"width": 80,
 												"height": 80
 											}
@@ -5678,7 +5180,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 43,
-							"y": 706,
+							"y": 624,
 							"width": 624,
 							"height": 136
 						},
@@ -5690,7 +5192,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 							"path": "images/Layer-Note-m0rbneje.png",
 							"frame": {
 								"x": 43,
-								"y": 706,
+								"y": 624,
 								"width": 624,
 								"height": 136
 							}
@@ -5871,7 +5373,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 					{
 						"objectId": "A7E8C710-93AA-4B6F-86B3-5B489D11B39B",
 						"kind": "group",
-						"name": "Rules1",
+						"name": "Rules",
 						"originalName": "Rules",
 						"maskFrame": null,
 						"layerFrame": {
@@ -6135,7 +5637,7 @@ window.__imported__["Framer-MeetingContents@1x/layers.json.js"] = [
 							{
 								"objectId": "17C36B59-7760-44CF-A584-E9D481D140BE",
 								"kind": "text",
-								"name": "Group1",
+								"name": "Group",
 								"originalName": "Group",
 								"maskFrame": null,
 								"layerFrame": {
@@ -6345,7 +5847,7 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(251.0969387755102, 251.0969387755102, 251.0969387755102, 1)",
+		"backgroundColor": "rgba(247.8985969387755, 247.8985969387755, 247.8985969387755, 1)",
 		"children": [
 			{
 				"objectId": "85124D56-8569-4A69-82EE-FDFE3277A9A1",
@@ -6381,10 +5883,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 				"originalName": "NavBar",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -6,
-					"y": -5,
-					"width": 762,
-					"height": 140
+					"x": 0,
+					"y": 0,
+					"width": 750,
+					"height": 129
 				},
 				"visible": true,
 				"metadata": {
@@ -6398,10 +5900,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"originalName": "Navigation Bar/Back",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -6,
-							"y": -5,
-							"width": 762,
-							"height": 140
+							"x": 0,
+							"y": 0,
+							"width": 750,
+							"height": 129
 						},
 						"visible": true,
 						"metadata": {
@@ -6410,10 +5912,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Navigation_Bar_Back-nzczmzcz.png",
 							"frame": {
-								"x": -6,
-								"y": -5,
-								"width": 762,
-								"height": 140
+								"x": 0,
+								"y": 0,
+								"width": 750,
+								"height": 129
 							}
 						},
 						"children": []
@@ -6427,10 +5929,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 				"originalName": "ScrollGroup",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 15,
-					"y": 144,
-					"width": 720,
-					"height": 884
+					"x": -4,
+					"y": 147,
+					"width": 758,
+					"height": 877
 				},
 				"visible": true,
 				"metadata": {
@@ -6445,9 +5947,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": -41,
-							"y": 144,
+							"y": 147,
 							"width": 1834,
-							"height": 411
+							"height": 442
 						},
 						"visible": false,
 						"metadata": {
@@ -6461,10 +5963,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Event Info",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
-									"y": 148,
-									"width": 710,
-									"height": 401
+									"x": -4,
+									"y": 147,
+									"width": 758,
+									"height": 441
 								},
 								"visible": true,
 								"metadata": {
@@ -6473,10 +5975,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Event_Info-oeexntu0.png",
 									"frame": {
-										"x": 20,
-										"y": 148,
-										"width": 710,
-										"height": 401
+										"x": -4,
+										"y": 147,
+										"width": 758,
+										"height": 441
 									}
 								},
 								"children": [
@@ -6487,10 +5989,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"originalName": "Event Status bar",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 20,
-											"y": 148,
-											"width": 710,
-											"height": 88
+											"x": -4,
+											"y": 147,
+											"width": 758,
+											"height": 100
 										},
 										"visible": true,
 										"metadata": {
@@ -6499,10 +6001,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Event_Status_bar-rtzcoui3.png",
 											"frame": {
-												"x": 20,
-												"y": 148,
-												"width": 710,
-												"height": 88
+												"x": -4,
+												"y": 147,
+												"width": 758,
+												"height": 100
 											}
 										},
 										"children": [
@@ -6513,15 +6015,15 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 												"originalName": "IMG_5164",
 												"maskFrame": {
 													"x": 0,
-													"y": 0.495252280767057,
-													"width": 28,
-													"height": 26.90001861850679
+													"y": 0.7075032582386529,
+													"width": 40,
+													"height": 38.42859802643828
 												},
 												"layerFrame": {
-													"x": 39,
-													"y": 171,
-													"width": 38,
-													"height": 38
+													"x": 25,
+													"y": 173,
+													"width": 50,
+													"height": 49
 												},
 												"visible": true,
 												"metadata": {
@@ -6530,10 +6032,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-IMG_5164-rtk4mzk5.png",
 													"frame": {
-														"x": 39,
-														"y": 171,
-														"width": 38,
-														"height": 38
+														"x": 25,
+														"y": 173,
+														"width": 50,
+														"height": 49
 													}
 												},
 												"children": []
@@ -6574,10 +6076,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"originalName": "Status",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 20,
-											"y": 449,
-											"width": 710,
-											"height": 100
+											"x": 19,
+											"y": 487,
+											"width": 712,
+											"height": 101
 										},
 										"visible": true,
 										"metadata": {
@@ -6586,10 +6088,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Status-ntldnjnd.png",
 											"frame": {
-												"x": 20,
-												"y": 449,
-												"width": 710,
-												"height": 100
+												"x": 19,
+												"y": 487,
+												"width": 712,
+												"height": 101
 											}
 										},
 										"children": []
@@ -6630,10 +6132,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Card_bg",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 15,
-									"y": 144,
-									"width": 720,
-									"height": 411
+									"x": 0,
+									"y": 148,
+									"width": 750,
+									"height": 441
 								},
 								"visible": true,
 								"metadata": {
@@ -6642,10 +6144,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Card_bg-mtgzq0u2.png",
 									"frame": {
-										"x": 15,
-										"y": 144,
-										"width": 720,
-										"height": 411
+										"x": 0,
+										"y": 148,
+										"width": 750,
+										"height": 441
 									}
 								},
 								"children": []
@@ -6721,10 +6223,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"originalName": "M3",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 15,
-							"y": 609,
-							"width": 720,
-							"height": 419
+							"x": -4,
+							"y": 612,
+							"width": 758,
+							"height": 411
 						},
 						"visible": true,
 						"metadata": {
@@ -6733,10 +6235,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-M3-mzizndde.png",
 							"frame": {
-								"x": 15,
-								"y": 609,
-								"width": 720,
-								"height": 419
+								"x": -4,
+								"y": 612,
+								"width": 758,
+								"height": 411
 							}
 						},
 						"children": [
@@ -6747,10 +6249,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Status",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
-									"y": 922,
-									"width": 710,
-									"height": 100
+									"x": 19,
+									"y": 921,
+									"width": 712,
+									"height": 101
 								},
 								"visible": true,
 								"metadata": {
@@ -6759,24 +6261,24 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Status-rue4qjy3.png",
 									"frame": {
-										"x": 20,
-										"y": 922,
-										"width": 710,
-										"height": 100
+										"x": 19,
+										"y": 921,
+										"width": 712,
+										"height": 101
 									}
 								},
 								"children": []
 							},
 							{
-								"objectId": "9765435B-0198-48D1-B671-EA05FD78AE75",
+								"objectId": "3CB5207A-4F35-4552-839A-EB3BC5D3AF91",
 								"kind": "group",
 								"name": "Event_Status_bar1",
 								"originalName": "Event Status bar",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
-									"y": 613,
-									"width": 710,
+									"x": -4,
+									"y": 612,
+									"width": 758,
 									"height": 100
 								},
 								"visible": true,
@@ -6784,17 +6286,17 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 									"opacity": 1
 								},
 								"image": {
-									"path": "images/Layer-Event_Status_bar-otc2ntqz.png",
+									"path": "images/Layer-Event_Status_bar-m0ncntiw.png",
 									"frame": {
-										"x": 20,
-										"y": 613,
-										"width": 710,
+										"x": -4,
+										"y": 612,
+										"width": 758,
 										"height": 100
 									}
 								},
 								"children": [
 									{
-										"objectId": "5CC604B0-C9CE-40C6-9219-5D93A3959751",
+										"objectId": "203F5221-07D7-4929-9579-A90A81D1EC8E",
 										"kind": "group",
 										"name": "Bitmap",
 										"originalName": "Bitmap",
@@ -6805,8 +6307,8 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 											"height": 39.99999999999986
 										},
 										"layerFrame": {
-											"x": 35,
-											"y": 622,
+											"x": 25,
+											"y": 638,
 											"width": 50,
 											"height": 50
 										},
@@ -6815,10 +6317,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Bitmap-nundnja0.png",
+											"path": "images/Layer-Bitmap-mjazrjuy.png",
 											"frame": {
-												"x": 35,
-												"y": 622,
+												"x": 25,
+												"y": 638,
 												"width": 50,
 												"height": 50
 											}
@@ -6863,10 +6365,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"originalName": "M3_AllVoted",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 15,
-							"y": 609,
-							"width": 720,
-							"height": 365
+							"x": -2,
+							"y": 612,
+							"width": 754,
+							"height": 411
 						},
 						"visible": true,
 						"metadata": {
@@ -6875,10 +6377,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-M3_AllVoted-qjy1odhb.png",
 							"frame": {
-								"x": 15,
-								"y": 609,
-								"width": 720,
-								"height": 365
+								"x": -2,
+								"y": 612,
+								"width": 754,
+								"height": 411
 							}
 						},
 						"children": [
@@ -6890,9 +6392,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 20,
-									"y": 868,
+									"y": 921,
 									"width": 710,
-									"height": 100
+									"height": 101
 								},
 								"visible": true,
 								"metadata": {
@@ -6902,9 +6404,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 									"path": "images/Layer-Status-quu3mda5.png",
 									"frame": {
 										"x": 20,
-										"y": 868,
+										"y": 921,
 										"width": 710,
-										"height": 100
+										"height": 101
 									}
 								},
 								"children": []
@@ -6916,10 +6418,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Event Status bar",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
+									"x": -2,
 									"y": 613,
-									"width": 710,
-									"height": 88
+									"width": 754,
+									"height": 101
 								},
 								"visible": true,
 								"metadata": {
@@ -6928,10 +6430,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Event_Status_bar-qtg0qkrf.png",
 									"frame": {
-										"x": 20,
+										"x": -2,
 										"y": 613,
-										"width": 710,
-										"height": 88
+										"width": 754,
+										"height": 101
 									}
 								},
 								"children": [
@@ -6943,14 +6445,14 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"maskFrame": {
 											"x": 0,
 											"y": 0,
-											"width": 28,
-											"height": 27.9999999999999
+											"width": 40,
+											"height": 39.99999999999986
 										},
 										"layerFrame": {
-											"x": 42,
-											"y": 636,
-											"width": 38,
-											"height": 38
+											"x": 25,
+											"y": 638,
+											"width": 50,
+											"height": 50
 										},
 										"visible": true,
 										"metadata": {
@@ -6959,10 +6461,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bitmap-mzzbmei0.png",
 											"frame": {
-												"x": 42,
-												"y": 636,
-												"width": 38,
-												"height": 38
+												"x": 25,
+												"y": 638,
+												"width": 50,
+												"height": 50
 											}
 										},
 										"children": []
@@ -7005,10 +6507,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"originalName": "M1_Replied",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 15,
-							"y": 144,
-							"width": 720,
-							"height": 450
+							"x": -3,
+							"y": 147,
+							"width": 756,
+							"height": 442
 						},
 						"visible": true,
 						"metadata": {
@@ -7022,10 +6524,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Event Info",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
-									"y": 148,
-									"width": 710,
-									"height": 439
+									"x": -3,
+									"y": 147,
+									"width": 756,
+									"height": 440
 								},
 								"visible": true,
 								"metadata": {
@@ -7034,10 +6536,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Event_Info-rtqxotdd.png",
 									"frame": {
-										"x": 20,
-										"y": 148,
-										"width": 710,
-										"height": 439
+										"x": -3,
+										"y": 147,
+										"width": 756,
+										"height": 440
 									}
 								},
 								"children": [
@@ -7048,9 +6550,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"originalName": "Event Status bar",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 20,
-											"y": 148,
-											"width": 710,
+											"x": -3,
+											"y": 147,
+											"width": 756,
 											"height": 100
 										},
 										"visible": true,
@@ -7060,9 +6562,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Event_Status_bar-rthcndlg.png",
 											"frame": {
-												"x": 20,
-												"y": 148,
-												"width": 710,
+												"x": -3,
+												"y": 147,
+												"width": 756,
 												"height": 100
 											}
 										},
@@ -7079,8 +6581,8 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 													"height": 39.99999999999986
 												},
 												"layerFrame": {
-													"x": 31,
-													"y": 159,
+													"x": 25,
+													"y": 170,
 													"width": 50,
 													"height": 50
 												},
@@ -7091,8 +6593,8 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Bitmap-nem2mzy3.png",
 													"frame": {
-														"x": 31,
-														"y": 159,
+														"x": 25,
+														"y": 170,
 														"width": 50,
 														"height": 50
 													}
@@ -7136,9 +6638,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 20,
-											"y": 487,
+											"y": 486,
 											"width": 710,
-											"height": 100
+											"height": 101
 										},
 										"visible": true,
 										"metadata": {
@@ -7148,9 +6650,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 											"path": "images/Layer-Status-q0e1oeyw.png",
 											"frame": {
 												"x": 20,
-												"y": 487,
+												"y": 486,
 												"width": 710,
-												"height": 100
+												"height": 101
 											}
 										},
 										"children": []
@@ -7191,10 +6693,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Card_bg",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 15,
-									"y": 144,
-									"width": 720,
-									"height": 450
+									"x": 0,
+									"y": 148,
+									"width": 750,
+									"height": 441
 								},
 								"visible": true,
 								"metadata": {
@@ -7203,10 +6705,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Card_bg-qjm0qjk3.png",
 									"frame": {
-										"x": 15,
-										"y": 144,
-										"width": 720,
-										"height": 450
+										"x": 0,
+										"y": 148,
+										"width": 750,
+										"height": 441
 									}
 								},
 								"children": []
@@ -7247,10 +6749,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"originalName": "M3_Confirmed",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 15,
-							"y": 609,
-							"width": 720,
-							"height": 338
+							"x": -2,
+							"y": 612,
+							"width": 755,
+							"height": 330
 						},
 						"visible": true,
 						"metadata": {
@@ -7259,10 +6761,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-M3_Confirmed-nzq4m0ne.png",
 							"frame": {
-								"x": 15,
-								"y": 609,
-								"width": 720,
-								"height": 338
+								"x": -2,
+								"y": 612,
+								"width": 755,
+								"height": 330
 							}
 						},
 						"children": [
@@ -7274,9 +6776,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 20,
-									"y": 841,
+									"y": 840,
 									"width": 710,
-									"height": 100
+									"height": 101
 								},
 								"visible": true,
 								"metadata": {
@@ -7286,9 +6788,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 									"path": "images/Layer-Status-nta4qzlb.png",
 									"frame": {
 										"x": 20,
-										"y": 841,
+										"y": 840,
 										"width": 710,
-										"height": 100
+										"height": 101
 									}
 								},
 								"children": []
@@ -7300,10 +6802,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Event Status bar",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
-									"y": 613,
-									"width": 710,
-									"height": 50
+									"x": -2,
+									"y": 612,
+									"width": 755,
+									"height": 51
 								},
 								"visible": true,
 								"metadata": {
@@ -7312,10 +6814,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Event_Status_bar-ourcnda2.png",
 									"frame": {
-										"x": 20,
-										"y": 613,
-										"width": 710,
-										"height": 50
+										"x": -2,
+										"y": 612,
+										"width": 755,
+										"height": 51
 									}
 								},
 								"children": [
@@ -7327,14 +6829,14 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"maskFrame": {
 											"x": 0,
 											"y": 0,
-											"width": 28,
-											"height": 27.9999999999999
+											"width": 40,
+											"height": 39.99999999999986
 										},
 										"layerFrame": {
-											"x": 42,
-											"y": 618,
-											"width": 38,
-											"height": 38
+											"x": 25,
+											"y": 613,
+											"width": 50,
+											"height": 50
 										},
 										"visible": true,
 										"metadata": {
@@ -7343,10 +6845,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bitmap-ndcwoevb.png",
 											"frame": {
-												"x": 42,
-												"y": 618,
-												"width": 38,
-												"height": 38
+												"x": 25,
+												"y": 613,
+												"width": 50,
+												"height": 50
 											}
 										},
 										"children": []
@@ -8528,6 +8030,842 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 							}
 						},
 						"children": []
+					}
+				]
+			}
+		]
+	}
+]
+window.__imported__ = window.__imported__ || {};
+window.__imported__["Framer-VotePanel@1x/layers.json.js"] = [
+	{
+		"objectId": "E1A89B9D-842F-41A9-BC99-6E1E696F08A3",
+		"kind": "artboard",
+		"name": "VotePanel",
+		"originalName": "VotePanel",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 788,
+			"y": 579,
+			"width": 750,
+			"height": 1334
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"children": [
+			{
+				"objectId": "B4721606-49F4-4724-BE83-8938BE8B7545",
+				"kind": "group",
+				"name": "VoteUISet",
+				"originalName": "VoteUISet",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 6,
+					"y": 19,
+					"width": 730,
+					"height": 421
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "8DECC89C-54E3-47BF-8034-1BC1D4D17BC7",
+						"kind": "group",
+						"name": "VPHeader",
+						"originalName": "VPHeader",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 25,
+							"y": 19,
+							"width": 687,
+							"height": 59
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-VPHeader-oerfq0m4.png",
+							"frame": {
+								"x": 25,
+								"y": 19,
+								"width": 687,
+								"height": 59
+							}
+						},
+						"children": [
+							{
+								"objectId": "1A447823-A9E1-45A0-AC51-978D41D9D072",
+								"kind": "group",
+								"name": "Hide",
+								"originalName": "Hide",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 691,
+									"y": 39,
+									"width": 21,
+									"height": 13
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Hide-mue0ndc4.png",
+									"frame": {
+										"x": 691,
+										"y": 39,
+										"width": 21,
+										"height": 13
+									}
+								},
+								"children": [
+									{
+										"objectId": "7E5229B2-3BD9-4480-89C2-707EE02CFDF9",
+										"kind": "group",
+										"name": "Arow",
+										"originalName": "Arow",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 691,
+											"y": 39,
+											"width": 21,
+											"height": 13
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Arow-n0u1mji5.png",
+											"frame": {
+												"x": 691,
+												"y": 39,
+												"width": 21,
+												"height": 13
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "22F218C0-CA42-4A35-8339-7378BBCFA132",
+								"kind": "group",
+								"name": "ViewInCal",
+								"originalName": "ViewInCal",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 400,
+									"y": 19,
+									"width": 256,
+									"height": 52
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-ViewInCal-mjjgmje4.png",
+									"frame": {
+										"x": 400,
+										"y": 19,
+										"width": 256,
+										"height": 52
+									}
+								},
+								"children": [
+									{
+										"objectId": "3DD518F0-AC76-46D5-8B3D-98B9156474E2",
+										"kind": "group",
+										"name": "Icon_View_in_calendar",
+										"originalName": "Icon - View in calendar",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 414,
+											"y": 32,
+											"width": 32,
+											"height": 28
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Icon_View_in_calendar-m0rente4.png",
+											"frame": {
+												"x": 414,
+												"y": 32,
+												"width": 32,
+												"height": 28
+											}
+										},
+										"children": [
+											{
+												"objectId": "68A40668-1972-416D-AD80-C6D1179B72AD",
+												"kind": "group",
+												"name": "timePressed",
+												"originalName": "timePressed",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 389,
+													"y": 12,
+													"width": 80,
+													"height": 81
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-timePressed-njhbnda2.png",
+													"frame": {
+														"x": 389,
+														"y": 12,
+														"width": 80,
+														"height": 81
+													}
+												},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"objectId": "959273B4-57E0-49BD-9FF2-7C84330C3EB4",
+								"kind": "group",
+								"name": "Title_Repeat",
+								"originalName": "Title&Repeat",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 25,
+									"y": 20,
+									"width": 268,
+									"height": 58
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Title_Repeat-otu5mjcz.png",
+									"frame": {
+										"x": 25,
+										"y": 20,
+										"width": 268,
+										"height": 58
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "FD9FFF06-38C3-4866-9901-29F5221E56ED",
+						"kind": "group",
+						"name": "Timeslots_Line3",
+						"originalName": "Timeslots_Line3",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 6,
+							"y": 330,
+							"width": 730,
+							"height": 110
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Timeslots_Line3-rkq5rkzg.png",
+							"frame": {
+								"x": 6,
+								"y": 330,
+								"width": 730,
+								"height": 110
+							}
+						},
+						"children": [
+							{
+								"objectId": "75C3DB60-B8EB-4540-9580-B34C0F0CF8E9",
+								"kind": "group",
+								"name": "VotedPeople",
+								"originalName": "VotedPeople",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 559,
+									"y": 330,
+									"width": 177,
+									"height": 110
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-VotedPeople-nzvdm0rc.png",
+									"frame": {
+										"x": 559,
+										"y": 330,
+										"width": 177,
+										"height": 110
+									}
+								},
+								"children": [
+									{
+										"objectId": "21EAC4B4-CB8E-488A-AFB1-14D49F922676",
+										"kind": "group",
+										"name": "Bitmap",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 628,
+											"y": 368,
+											"width": 32,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-mjffqum0.png",
+											"frame": {
+												"x": 628,
+												"y": 368,
+												"width": 32,
+												"height": 31
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "1219712F-5E5C-4E82-897E-5602B5E38A3C",
+								"kind": "group",
+								"name": "Time",
+								"originalName": "Time",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 116,
+									"y": 356,
+									"width": 210,
+									"height": 64
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Time-mtixotcx.png",
+									"frame": {
+										"x": 116,
+										"y": 356,
+										"width": 210,
+										"height": 64
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "F907E5FF-63B0-4C97-B549-59A4AB39B584",
+								"kind": "group",
+								"name": "Unselected",
+								"originalName": "Unselected",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 35,
+									"y": 353,
+									"width": 60,
+									"height": 60
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Unselected-rjkwn0u1.png",
+									"frame": {
+										"x": 35,
+										"y": 353,
+										"width": 60,
+										"height": 60
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "06ECDD9B-38AA-4A32-B7E9-0C536F08358B",
+								"kind": "group",
+								"name": "Selected",
+								"originalName": "Selected",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 33,
+									"y": 351,
+									"width": 64,
+									"height": 64
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Selected-mdzfq0re.png",
+									"frame": {
+										"x": 33,
+										"y": 351,
+										"width": 64,
+										"height": 64
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "5B5C4286-CAD1-4966-BEBA-733225E01B06",
+						"kind": "group",
+						"name": "Timeslots_Line2",
+						"originalName": "Timeslots_Line2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 6,
+							"y": 220,
+							"width": 730,
+							"height": 110
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Timeslots_Line2-nui1qzqy.png",
+							"frame": {
+								"x": 6,
+								"y": 220,
+								"width": 730,
+								"height": 110
+							}
+						},
+						"children": [
+							{
+								"objectId": "68C57737-3A0E-46F2-8AB5-0F7F511B33AF",
+								"kind": "group",
+								"name": "VotedPeople1",
+								"originalName": "VotedPeople",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 559,
+									"y": 220,
+									"width": 177,
+									"height": 110
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-VotedPeople-njhdntc3.png",
+									"frame": {
+										"x": 559,
+										"y": 220,
+										"width": 177,
+										"height": 110
+									}
+								},
+								"children": [
+									{
+										"objectId": "D456004D-E0A5-43B4-9E2C-D79982C61FD8",
+										"kind": "group",
+										"name": "Bitmap1",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 630,
+											"y": 258,
+											"width": 32,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-rdq1njaw.png",
+											"frame": {
+												"x": 630,
+												"y": 258,
+												"width": 32,
+												"height": 31
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "55AF6869-EAC5-4578-B743-B7C6D967D17B",
+										"kind": "group",
+										"name": "Bitmap2",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 614,
+											"y": 258,
+											"width": 32,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-ntvbrjy4.png",
+											"frame": {
+												"x": 614,
+												"y": 258,
+												"width": 32,
+												"height": 31
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "6DC0915F-6F36-4CC4-8F12-D4A16028B138",
+								"kind": "group",
+								"name": "Time1",
+								"originalName": "Time",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 115,
+									"y": 246,
+									"width": 229,
+									"height": 63
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Time-nkrdmdkx.png",
+									"frame": {
+										"x": 115,
+										"y": 246,
+										"width": 229,
+										"height": 63
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "0C744F2F-4357-40DF-BA6B-B9F22090E9F7",
+								"kind": "group",
+								"name": "Unselected1",
+								"originalName": "Unselected",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 35,
+									"y": 250,
+									"width": 60,
+									"height": 60
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Unselected-mem3ndrg.png",
+									"frame": {
+										"x": 35,
+										"y": 250,
+										"width": 60,
+										"height": 60
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "2ED0CF4E-7E2C-4E73-AC64-14A663200F6D",
+								"kind": "group",
+								"name": "Selected1",
+								"originalName": "Selected",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 33,
+									"y": 248,
+									"width": 64,
+									"height": 64
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Selected-mkvemeng.png",
+									"frame": {
+										"x": 33,
+										"y": 248,
+										"width": 64,
+										"height": 64
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "F6820F84-3F68-4113-BFFE-F0F905ED2954",
+						"kind": "group",
+						"name": "Timeslots_Line1",
+						"originalName": "Timeslots_Line1",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 6,
+							"y": 110,
+							"width": 730,
+							"height": 110
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Timeslots_Line1-rjy4mjbg.png",
+							"frame": {
+								"x": 6,
+								"y": 110,
+								"width": 730,
+								"height": 110
+							}
+						},
+						"children": [
+							{
+								"objectId": "D6BF07BF-505C-4FAF-9A0A-2401EFCB25E0",
+								"kind": "group",
+								"name": "VotedPeople2",
+								"originalName": "VotedPeople",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 559,
+									"y": 110,
+									"width": 177,
+									"height": 110
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-VotedPeople-rdzcrja3.png",
+									"frame": {
+										"x": 559,
+										"y": 110,
+										"width": 177,
+										"height": 110
+									}
+								},
+								"children": [
+									{
+										"objectId": "B3B08D67-B56D-4A1D-B372-8DFAE87F8BD3",
+										"kind": "group",
+										"name": "Bitmap3",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0.9160305343509663,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 628,
+											"y": 147,
+											"width": 32,
+											"height": 33
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-qjncmdhe.png",
+											"frame": {
+												"x": 628,
+												"y": 147,
+												"width": 32,
+												"height": 33
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "35CA75B0-F26F-4AB6-BCA5-E438C7CA5A59",
+										"kind": "group",
+										"name": "Bitmap4",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0,
+											"width": 28,
+											"height": 28.00000000000004
+										},
+										"layerFrame": {
+											"x": 614,
+											"y": 148,
+											"width": 32,
+											"height": 32
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-mzvdqtc1.png",
+											"frame": {
+												"x": 614,
+												"y": 148,
+												"width": 32,
+												"height": 32
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "1B961912-FC83-4D88-B47C-111B37EB35C8",
+										"kind": "group",
+										"name": "Bitmap5",
+										"originalName": "Bitmap",
+										"maskFrame": {
+											"x": 0,
+											"y": 0,
+											"width": 28,
+											"height": 27.57251908396944
+										},
+										"layerFrame": {
+											"x": 602,
+											"y": 148,
+											"width": 32,
+											"height": 32
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Bitmap-mui5nje5.png",
+											"frame": {
+												"x": 602,
+												"y": 148,
+												"width": 32,
+												"height": 32
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "84531533-70C4-46EE-9315-003CF498917A",
+								"kind": "group",
+								"name": "Time2",
+								"originalName": "Time",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 116,
+									"y": 136,
+									"width": 210,
+									"height": 63
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Time-odq1mze1.png",
+									"frame": {
+										"x": 116,
+										"y": 136,
+										"width": 210,
+										"height": 63
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "882AF13D-5414-4604-B11D-AADBF616FDC4",
+								"kind": "group",
+								"name": "Unselected2",
+								"originalName": "Unselected",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 35,
+									"y": 140,
+									"width": 60,
+									"height": 60
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Unselected-odgyquyx.png",
+									"frame": {
+										"x": 35,
+										"y": 140,
+										"width": 60,
+										"height": 60
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "9C3E1F80-1EB1-4D85-AC30-E1EA9DA14B5E",
+								"kind": "group",
+								"name": "Selected2",
+								"originalName": "Selected",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 33,
+									"y": 138,
+									"width": 64,
+									"height": 64
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Selected-oumzrtfg.png",
+									"frame": {
+										"x": 33,
+										"y": 138,
+										"width": 64,
+										"height": 64
+									}
+								},
+								"children": []
+							}
+						]
 					}
 				]
 			}

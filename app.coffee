@@ -30,11 +30,14 @@ PUBLIC:
 
 Colors
 Public Funtions
+General panels: change cover photo, event options, view in map, invitees
 -----------------------------------------------------------------###
 
 # Colors
 White="#ffffff"
+Grey="#D8DADF"
 lightGrey="#fcfcfc"
+bgGrey="#F8F8F8"
 
 paleOrange="#FFF6EF"
 lightOrange="FFEEE0"
@@ -44,6 +47,10 @@ darkOrange="#F68023"
 pressedLightRed="#FFE8E8"
 lightRed="#FFF1F1"
 Red="#EB5858"
+
+brightBlue="#0086FF"
+darkBlue="#3A4A6A"
+
 
 # meetings states
 isRefreshingMeetings=false
@@ -205,7 +212,6 @@ moveHostingEventLinkTo=(card)->
 
 
 
-
 ###-----------------------------------------------------------------
 PAGE MANAGEMENT:
 page_Meetings
@@ -216,7 +222,7 @@ page_DetailsAsHost
 page_Meetings=new Layer
 	width: Screen.width
 	height: Screen.height
-	backgroundColor: lightGrey
+	backgroundColor: bgGrey
 
 page_DetailsAsInvitee=new Layer
 	width: Screen.width
@@ -246,6 +252,8 @@ scrollMeetings = ScrollComponent.wrap(sketchMeetings.ScrollGroup)
 scrollMeetings.contentInset = {bottom: 130}
 scrollMeetings.scrollHorizontal = false
 scrollMeetings.propagateEvents = false
+#高度为空白区域
+scrollMeetings.height=1096
 
 
 # Meetings Status
@@ -253,7 +261,7 @@ meetingAnimationTime=0.5
 currentMeetingStatus=0
 meetingTitle=new TextLayer
 	parent: page_Meetings
-	text:"Meetings(1)"
+	text:"Invitations(1)"
 	fontSize: 34
 	color:"#000"
 	fontStyle: "bold"
@@ -269,9 +277,7 @@ newInvitationNotice=new Layer
 	width: 200
 	borderRadius: 100
 	shadowBlur: 4
-	backgroundColor: Orange
-	shadowSpread: 1
-	shadowColor: "rgba(194,112,1,1)"
+	backgroundColor: Red
 	shadowY: 0
 	opacity: 0
 	
@@ -297,15 +303,15 @@ MeetingsStatus1=()->
 		y: 150
 		opacity: 1
 		options: 
-			time: 0.5
+			time: 1
 			curve: Bezier.ease
 		
-	meetingTitle.text="Meetings(1)"
+	meetingTitle.text="Invitations(1)"
 	sketchMeetings.Hosting_Title.visible=true
 	sketchMeetings.M3.visible=true
 	currentMeetingStatus=1
 	sketchMeetings.Hosting_Title.y=0
-	sketchMeetings.M3.y=20
+	sketchMeetings.M3.y=40
 	moveHostingEventLinkTo(sketchMeetings.M3)
 	
 	sketchMeetings.M1.visible=false
@@ -363,7 +369,7 @@ MeetingsStatus2=()->
 	
 	moveInvitationLinkTo(sketchMeetings.M1)
 	moveHostingEventLinkTo(sketchMeetings.M3_AllVoted)
-	meetingTitle.text="Meetings(2)"
+	meetingTitle.text="Invitations(2)"
 
 ###
 MeetingsStatus3:
@@ -425,7 +431,7 @@ MeetingsStatus3=()->
 				time: meetingAnimationTime
 				curve: Bezier.ease
 	
-	meetingTitle.text="Meetings(1)"
+	meetingTitle.text="Invitations(1)"
 
 ### 
 MeetingsStatus4:
@@ -478,7 +484,7 @@ MeetingsStatus4=()->
 			time: meetingAnimationTime
 			curve: Bezier.ease
 			
-	meetingTitle.text="Meetings"
+	meetingTitle.text="Invitations"
 	
 ###
 Switching status
@@ -547,7 +553,7 @@ subpage_VotePanel=new Layer
 mask_VotePanel=new Layer
 	width: Screen.width
 	height: Screen.height
-	backgroundColor: "#fff"
+	backgroundColor: Grey
 	opacity: 0
 
 # Group in page page_DetailsAsInvitee
@@ -555,6 +561,8 @@ sketchDetailsInvitee.NavBar.parent=page_DetailsAsInvitee
 subpage_MeetingContent.parent=page_DetailsAsInvitee
 mask_VotePanel.parent=page_DetailsAsInvitee
 subpage_VotePanel.parent=page_DetailsAsInvitee
+sketchDetailsInvitee.NavBar.index=3
+
 
 # Back Btn
 sketchDetailsInvitee.btnBack.onClick (event, layer) ->
@@ -825,6 +833,9 @@ subpage_HostMeetingContent.parent=page_DetailsAsHost
 mask_ConfirmPanel.parent=page_DetailsAsHost
 subpage_ConfirmPanel.parent=page_DetailsAsHost
 
+# pu it befor the cover photo
+sketchHostMeetingContent.NavBar.index=3
+
 sketchHostMeetingContent.btnBack.onClick (event, layer) ->
 	mask_ConfirmPanel.stateSwitch("Hide")
 	subpage_ConfirmPanel.stateSwitch("Hide")
@@ -850,35 +861,35 @@ subpage_confirmedBar=new Layer
 
 Going=new TextLayer
 	parent: subpage_confirmedBar
-	text: "Going?"
+	text: "Status："
 	y: Align.center
 	x: Align.left(40)
-	color: "#3A4A6A"
+	color: darkBlue
 	fontSize: 34
 
 Yes=new TextLayer
 	parent: subpage_confirmedBar
-	text: "Yes"
+	text: "Going"
 	y: Align.center
-	x: Align.right(-150)
-	color: "#0086FF"
+	x: Align.right(-200)
+	color: brightBlue
 	fontSize: 34
 
 No=new TextLayer
 	parent: subpage_confirmedBar
-	text: "No"
+	text: "Not going"
 	y: Align.center
-	x: Align.right(-50)
-	color: "#B3B8C3"
+	x: Align.right(-20)
+	color: Grey
 	fontSize: 34
 
 Yes.onClick (event, layer) ->
-	Yes.color="#0086FF"
-	No.color="#B3B8C3"
+	Yes.color=brightBlue
+	No.color=Grey
 	
 No.onClick (event, layer) ->
-	Yes.color="#B3B8C3"
-	No.color="#F45B69"
+	Yes.color=Grey
+	No.color=Red
 
 
 #Behaviours of mask_ConfirmPanel
@@ -1018,8 +1029,10 @@ sketchConfirmationPage.Btn.onTapEnd (event, layer) ->
 	isHostingEventConfirmed=true
 	if currentMeetingStatus==3
 		MeetingsStatus4()
-	#关闭当前页
+	#关闭当前confirm页
 	sub_subpage_ConfirmationPage.stateCycle("Hide","Show")
+	#回到Meetings首页
+	page_DetailsAsHost.stateCycle("Hide","Show")
 	#重置confirm page
 	resetConfirmationPage()
 	#隐藏Confirm Panel
@@ -1069,8 +1082,6 @@ ConfirmButton.onTapStart (event, layer) ->
 	textConfirmButton.color="#fff"
 
 ConfirmButton.onTapEnd (event, layer) ->
-	bg_ConfirmButton.backgroundColor=lightOrange
-	textConfirmButton.color=darkOrange
 	showConfirmationPageAt(currentTimeslotId)
 	
 #Confirm Button Default Status

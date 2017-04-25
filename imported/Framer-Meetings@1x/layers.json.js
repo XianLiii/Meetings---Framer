@@ -14,7 +14,7 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(251.0969387755102, 251.0969387755102, 251.0969387755102, 1)",
+		"backgroundColor": "rgba(247.8985969387755, 247.8985969387755, 247.8985969387755, 1)",
 		"children": [
 			{
 				"objectId": "85124D56-8569-4A69-82EE-FDFE3277A9A1",
@@ -50,10 +50,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 				"originalName": "NavBar",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -6,
-					"y": -5,
-					"width": 762,
-					"height": 140
+					"x": 0,
+					"y": 0,
+					"width": 750,
+					"height": 129
 				},
 				"visible": true,
 				"metadata": {
@@ -67,10 +67,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"originalName": "Navigation Bar/Back",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -6,
-							"y": -5,
-							"width": 762,
-							"height": 140
+							"x": 0,
+							"y": 0,
+							"width": 750,
+							"height": 129
 						},
 						"visible": true,
 						"metadata": {
@@ -79,10 +79,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Navigation_Bar_Back-nzczmzcz.png",
 							"frame": {
-								"x": -6,
-								"y": -5,
-								"width": 762,
-								"height": 140
+								"x": 0,
+								"y": 0,
+								"width": 750,
+								"height": 129
 							}
 						},
 						"children": []
@@ -96,10 +96,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 				"originalName": "ScrollGroup",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 15,
-					"y": 144,
-					"width": 720,
-					"height": 884
+					"x": -4,
+					"y": 147,
+					"width": 758,
+					"height": 877
 				},
 				"visible": true,
 				"metadata": {
@@ -114,9 +114,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": -41,
-							"y": 144,
+							"y": 147,
 							"width": 1834,
-							"height": 411
+							"height": 442
 						},
 						"visible": false,
 						"metadata": {
@@ -130,10 +130,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Event Info",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
-									"y": 148,
-									"width": 710,
-									"height": 401
+									"x": -4,
+									"y": 147,
+									"width": 758,
+									"height": 441
 								},
 								"visible": true,
 								"metadata": {
@@ -142,10 +142,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Event_Info-oeexntu0.png",
 									"frame": {
-										"x": 20,
-										"y": 148,
-										"width": 710,
-										"height": 401
+										"x": -4,
+										"y": 147,
+										"width": 758,
+										"height": 441
 									}
 								},
 								"children": [
@@ -156,10 +156,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"originalName": "Event Status bar",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 20,
-											"y": 148,
-											"width": 710,
-											"height": 88
+											"x": -4,
+											"y": 147,
+											"width": 758,
+											"height": 100
 										},
 										"visible": true,
 										"metadata": {
@@ -168,10 +168,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Event_Status_bar-rtzcoui3.png",
 											"frame": {
-												"x": 20,
-												"y": 148,
-												"width": 710,
-												"height": 88
+												"x": -4,
+												"y": 147,
+												"width": 758,
+												"height": 100
 											}
 										},
 										"children": [
@@ -182,15 +182,15 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 												"originalName": "IMG_5164",
 												"maskFrame": {
 													"x": 0,
-													"y": 0.495252280767057,
-													"width": 28,
-													"height": 26.90001861850679
+													"y": 0.7075032582386529,
+													"width": 40,
+													"height": 38.42859802643828
 												},
 												"layerFrame": {
-													"x": 39,
-													"y": 171,
-													"width": 38,
-													"height": 38
+													"x": 25,
+													"y": 173,
+													"width": 50,
+													"height": 49
 												},
 												"visible": true,
 												"metadata": {
@@ -199,10 +199,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-IMG_5164-rtk4mzk5.png",
 													"frame": {
-														"x": 39,
-														"y": 171,
-														"width": 38,
-														"height": 38
+														"x": 25,
+														"y": 173,
+														"width": 50,
+														"height": 49
 													}
 												},
 												"children": []
@@ -243,10 +243,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"originalName": "Status",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 20,
-											"y": 449,
-											"width": 710,
-											"height": 100
+											"x": 19,
+											"y": 487,
+											"width": 712,
+											"height": 101
 										},
 										"visible": true,
 										"metadata": {
@@ -255,10 +255,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Status-ntldnjnd.png",
 											"frame": {
-												"x": 20,
-												"y": 449,
-												"width": 710,
-												"height": 100
+												"x": 19,
+												"y": 487,
+												"width": 712,
+												"height": 101
 											}
 										},
 										"children": []
@@ -299,10 +299,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Card_bg",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 15,
-									"y": 144,
-									"width": 720,
-									"height": 411
+									"x": 0,
+									"y": 148,
+									"width": 750,
+									"height": 441
 								},
 								"visible": true,
 								"metadata": {
@@ -311,10 +311,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Card_bg-mtgzq0u2.png",
 									"frame": {
-										"x": 15,
-										"y": 144,
-										"width": 720,
-										"height": 411
+										"x": 0,
+										"y": 148,
+										"width": 750,
+										"height": 441
 									}
 								},
 								"children": []
@@ -390,10 +390,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"originalName": "M3",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 15,
-							"y": 609,
-							"width": 720,
-							"height": 419
+							"x": -4,
+							"y": 612,
+							"width": 758,
+							"height": 411
 						},
 						"visible": true,
 						"metadata": {
@@ -402,10 +402,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-M3-mzizndde.png",
 							"frame": {
-								"x": 15,
-								"y": 609,
-								"width": 720,
-								"height": 419
+								"x": -4,
+								"y": 612,
+								"width": 758,
+								"height": 411
 							}
 						},
 						"children": [
@@ -416,10 +416,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Status",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
-									"y": 922,
-									"width": 710,
-									"height": 100
+									"x": 19,
+									"y": 921,
+									"width": 712,
+									"height": 101
 								},
 								"visible": true,
 								"metadata": {
@@ -428,24 +428,24 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Status-rue4qjy3.png",
 									"frame": {
-										"x": 20,
-										"y": 922,
-										"width": 710,
-										"height": 100
+										"x": 19,
+										"y": 921,
+										"width": 712,
+										"height": 101
 									}
 								},
 								"children": []
 							},
 							{
-								"objectId": "9765435B-0198-48D1-B671-EA05FD78AE75",
+								"objectId": "3CB5207A-4F35-4552-839A-EB3BC5D3AF91",
 								"kind": "group",
 								"name": "Event_Status_bar1",
 								"originalName": "Event Status bar",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
-									"y": 613,
-									"width": 710,
+									"x": -4,
+									"y": 612,
+									"width": 758,
 									"height": 100
 								},
 								"visible": true,
@@ -453,17 +453,17 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 									"opacity": 1
 								},
 								"image": {
-									"path": "images/Layer-Event_Status_bar-otc2ntqz.png",
+									"path": "images/Layer-Event_Status_bar-m0ncntiw.png",
 									"frame": {
-										"x": 20,
-										"y": 613,
-										"width": 710,
+										"x": -4,
+										"y": 612,
+										"width": 758,
 										"height": 100
 									}
 								},
 								"children": [
 									{
-										"objectId": "5CC604B0-C9CE-40C6-9219-5D93A3959751",
+										"objectId": "203F5221-07D7-4929-9579-A90A81D1EC8E",
 										"kind": "group",
 										"name": "Bitmap",
 										"originalName": "Bitmap",
@@ -474,8 +474,8 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 											"height": 39.99999999999986
 										},
 										"layerFrame": {
-											"x": 35,
-											"y": 622,
+											"x": 25,
+											"y": 638,
 											"width": 50,
 											"height": 50
 										},
@@ -484,10 +484,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Bitmap-nundnja0.png",
+											"path": "images/Layer-Bitmap-mjazrjuy.png",
 											"frame": {
-												"x": 35,
-												"y": 622,
+												"x": 25,
+												"y": 638,
 												"width": 50,
 												"height": 50
 											}
@@ -532,10 +532,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"originalName": "M3_AllVoted",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 15,
-							"y": 609,
-							"width": 720,
-							"height": 365
+							"x": -2,
+							"y": 612,
+							"width": 754,
+							"height": 411
 						},
 						"visible": true,
 						"metadata": {
@@ -544,10 +544,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-M3_AllVoted-qjy1odhb.png",
 							"frame": {
-								"x": 15,
-								"y": 609,
-								"width": 720,
-								"height": 365
+								"x": -2,
+								"y": 612,
+								"width": 754,
+								"height": 411
 							}
 						},
 						"children": [
@@ -559,9 +559,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 20,
-									"y": 868,
+									"y": 921,
 									"width": 710,
-									"height": 100
+									"height": 101
 								},
 								"visible": true,
 								"metadata": {
@@ -571,9 +571,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 									"path": "images/Layer-Status-quu3mda5.png",
 									"frame": {
 										"x": 20,
-										"y": 868,
+										"y": 921,
 										"width": 710,
-										"height": 100
+										"height": 101
 									}
 								},
 								"children": []
@@ -585,10 +585,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Event Status bar",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
+									"x": -2,
 									"y": 613,
-									"width": 710,
-									"height": 88
+									"width": 754,
+									"height": 101
 								},
 								"visible": true,
 								"metadata": {
@@ -597,10 +597,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Event_Status_bar-qtg0qkrf.png",
 									"frame": {
-										"x": 20,
+										"x": -2,
 										"y": 613,
-										"width": 710,
-										"height": 88
+										"width": 754,
+										"height": 101
 									}
 								},
 								"children": [
@@ -612,14 +612,14 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"maskFrame": {
 											"x": 0,
 											"y": 0,
-											"width": 28,
-											"height": 27.9999999999999
+											"width": 40,
+											"height": 39.99999999999986
 										},
 										"layerFrame": {
-											"x": 42,
-											"y": 636,
-											"width": 38,
-											"height": 38
+											"x": 25,
+											"y": 638,
+											"width": 50,
+											"height": 50
 										},
 										"visible": true,
 										"metadata": {
@@ -628,10 +628,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bitmap-mzzbmei0.png",
 											"frame": {
-												"x": 42,
-												"y": 636,
-												"width": 38,
-												"height": 38
+												"x": 25,
+												"y": 638,
+												"width": 50,
+												"height": 50
 											}
 										},
 										"children": []
@@ -674,10 +674,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"originalName": "M1_Replied",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 15,
-							"y": 144,
-							"width": 720,
-							"height": 450
+							"x": -3,
+							"y": 147,
+							"width": 756,
+							"height": 442
 						},
 						"visible": true,
 						"metadata": {
@@ -691,10 +691,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Event Info",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
-									"y": 148,
-									"width": 710,
-									"height": 439
+									"x": -3,
+									"y": 147,
+									"width": 756,
+									"height": 440
 								},
 								"visible": true,
 								"metadata": {
@@ -703,10 +703,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Event_Info-rtqxotdd.png",
 									"frame": {
-										"x": 20,
-										"y": 148,
-										"width": 710,
-										"height": 439
+										"x": -3,
+										"y": 147,
+										"width": 756,
+										"height": 440
 									}
 								},
 								"children": [
@@ -717,9 +717,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"originalName": "Event Status bar",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 20,
-											"y": 148,
-											"width": 710,
+											"x": -3,
+											"y": 147,
+											"width": 756,
 											"height": 100
 										},
 										"visible": true,
@@ -729,9 +729,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Event_Status_bar-rthcndlg.png",
 											"frame": {
-												"x": 20,
-												"y": 148,
-												"width": 710,
+												"x": -3,
+												"y": 147,
+												"width": 756,
 												"height": 100
 											}
 										},
@@ -748,8 +748,8 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 													"height": 39.99999999999986
 												},
 												"layerFrame": {
-													"x": 31,
-													"y": 159,
+													"x": 25,
+													"y": 170,
 													"width": 50,
 													"height": 50
 												},
@@ -760,8 +760,8 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Bitmap-nem2mzy3.png",
 													"frame": {
-														"x": 31,
-														"y": 159,
+														"x": 25,
+														"y": 170,
 														"width": 50,
 														"height": 50
 													}
@@ -805,9 +805,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 20,
-											"y": 487,
+											"y": 486,
 											"width": 710,
-											"height": 100
+											"height": 101
 										},
 										"visible": true,
 										"metadata": {
@@ -817,9 +817,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 											"path": "images/Layer-Status-q0e1oeyw.png",
 											"frame": {
 												"x": 20,
-												"y": 487,
+												"y": 486,
 												"width": 710,
-												"height": 100
+												"height": 101
 											}
 										},
 										"children": []
@@ -860,10 +860,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Card_bg",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 15,
-									"y": 144,
-									"width": 720,
-									"height": 450
+									"x": 0,
+									"y": 148,
+									"width": 750,
+									"height": 441
 								},
 								"visible": true,
 								"metadata": {
@@ -872,10 +872,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Card_bg-qjm0qjk3.png",
 									"frame": {
-										"x": 15,
-										"y": 144,
-										"width": 720,
-										"height": 450
+										"x": 0,
+										"y": 148,
+										"width": 750,
+										"height": 441
 									}
 								},
 								"children": []
@@ -916,10 +916,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"originalName": "M3_Confirmed",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 15,
-							"y": 609,
-							"width": 720,
-							"height": 338
+							"x": -2,
+							"y": 612,
+							"width": 755,
+							"height": 330
 						},
 						"visible": true,
 						"metadata": {
@@ -928,10 +928,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-M3_Confirmed-nzq4m0ne.png",
 							"frame": {
-								"x": 15,
-								"y": 609,
-								"width": 720,
-								"height": 338
+								"x": -2,
+								"y": 612,
+								"width": 755,
+								"height": 330
 							}
 						},
 						"children": [
@@ -943,9 +943,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 20,
-									"y": 841,
+									"y": 840,
 									"width": 710,
-									"height": 100
+									"height": 101
 								},
 								"visible": true,
 								"metadata": {
@@ -955,9 +955,9 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 									"path": "images/Layer-Status-nta4qzlb.png",
 									"frame": {
 										"x": 20,
-										"y": 841,
+										"y": 840,
 										"width": 710,
-										"height": 100
+										"height": 101
 									}
 								},
 								"children": []
@@ -969,10 +969,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"originalName": "Event Status bar",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 20,
-									"y": 613,
-									"width": 710,
-									"height": 50
+									"x": -2,
+									"y": 612,
+									"width": 755,
+									"height": 51
 								},
 								"visible": true,
 								"metadata": {
@@ -981,10 +981,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Event_Status_bar-ourcnda2.png",
 									"frame": {
-										"x": 20,
-										"y": 613,
-										"width": 710,
-										"height": 50
+										"x": -2,
+										"y": 612,
+										"width": 755,
+										"height": 51
 									}
 								},
 								"children": [
@@ -996,14 +996,14 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"maskFrame": {
 											"x": 0,
 											"y": 0,
-											"width": 28,
-											"height": 27.9999999999999
+											"width": 40,
+											"height": 39.99999999999986
 										},
 										"layerFrame": {
-											"x": 42,
-											"y": 618,
-											"width": 38,
-											"height": 38
+											"x": 25,
+											"y": 613,
+											"width": 50,
+											"height": 50
 										},
 										"visible": true,
 										"metadata": {
@@ -1012,10 +1012,10 @@ window.__imported__["Framer-Meetings@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bitmap-ndcwoevb.png",
 											"frame": {
-												"x": 42,
-												"y": 618,
-												"width": 38,
-												"height": 38
+												"x": 25,
+												"y": 613,
+												"width": 50,
+												"height": 50
 											}
 										},
 										"children": []

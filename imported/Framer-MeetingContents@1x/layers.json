@@ -9,23 +9,23 @@
 			"x": 38,
 			"y": -645,
 			"width": 750,
-			"height": 2450
+			"height": 1616
 		},
 		"visible": true,
 		"metadata": {},
 		"backgroundColor": "rgba(252, 252, 252, 1)",
 		"children": [
 			{
-				"objectId": "6486DD0F-62CE-47DB-A80D-501EE900262A",
+				"objectId": "E72917DF-DE11-4A27-896C-1D1F0362E817",
 				"kind": "group",
 				"name": "NavBar",
 				"originalName": "NavBar",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -1,
-					"y": -1,
-					"width": 765,
-					"height": 130
+					"x": 8,
+					"y": 6,
+					"width": 729,
+					"height": 104
 				},
 				"visible": true,
 				"metadata": {
@@ -33,43 +33,43 @@
 				},
 				"children": [
 					{
-						"objectId": "2799FA48-8F52-4027-8A01-470985EA75F3",
+						"objectId": "26CF649A-41B0-41C1-B2E2-BC998D6BD6BF",
 						"kind": "group",
 						"name": "btnBack",
 						"originalName": "btnBack",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 30,
-							"y": 63,
-							"width": 112,
-							"height": 42
+							"x": 25,
+							"y": 58,
+							"width": 121,
+							"height": 52
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-btnBack-mjc5ouzb.png",
+							"path": "images/Layer-btnBack-mjzdrjy0.png",
 							"frame": {
-								"x": 30,
-								"y": 63,
-								"width": 112,
-								"height": 42
+								"x": 25,
+								"y": 58,
+								"width": 121,
+								"height": 52
 							}
 						},
 						"children": []
 					},
 					{
-						"objectId": "E66C5659-6C42-4D1B-B044-E33C31A86204",
+						"objectId": "75BB46AE-953D-4371-A0E6-E185D315F8B9",
 						"kind": "text",
 						"name": "btnOptions",
 						"originalName": "btnOptions",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 694,
-							"y": 88,
-							"width": 24,
-							"height": 6
+							"x": 690,
+							"y": 84,
+							"width": 32,
+							"height": 14
 						},
 						"visible": true,
 						"metadata": {
@@ -79,123 +79,124 @@
 								"/* Edit: */",
 								"font-family: SFUIText-Regular;",
 								"font-size: 34px;",
-								"color: #222222;",
-								"letter-spacing: -0.82px;"
+								"color: #FFFFFF;",
+								"letter-spacing: -0.82px;",
+								"text-shadow: 0 0 5px rgba(0,0,0,0.50);"
 							]
 						},
 						"image": {
-							"path": "images/Layer-btnOptions-rty2qzu2.png",
+							"path": "images/Layer-btnOptions-nzvcqjq2.png",
 							"frame": {
-								"x": 694,
-								"y": 88,
-								"width": 24,
-								"height": 6
+								"x": 690,
+								"y": 84,
+								"width": 32,
+								"height": 14
 							}
 						},
 						"children": []
 					},
 					{
-						"objectId": "A2651A85-515F-41EC-832E-8F8831AEEC9B",
+						"objectId": "3EECC037-32AB-4042-A336-855155722B1A",
 						"kind": "group",
 						"name": "Navigation_Bar_Back",
 						"originalName": "Navigation Bar/Back",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -1,
-							"y": -1,
-							"width": 765,
-							"height": 130
+							"x": 8,
+							"y": 6,
+							"width": 729,
+							"height": 30
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-Navigation_Bar_Back-qti2ntfb.png",
+							"path": "images/Layer-Navigation_Bar_Back-m0vfq0mw.png",
 							"frame": {
-								"x": -1,
-								"y": -1,
-								"width": 765,
-								"height": 130
+								"x": 8,
+								"y": 6,
+								"width": 729,
+								"height": 30
 							}
 						},
 						"children": [
 							{
-								"objectId": "2629F110-E7E5-4834-9DA3-EA82B3812BC8",
+								"objectId": "DD89BB94-0EF4-45E7-A940-44D9E43F72C9",
 								"kind": "group",
 								"name": "Status_Bar_White_100_",
 								"originalName": "Status Bar/White/100%",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 13,
-									"y": 11,
-									"width": 719,
-									"height": 20
+									"x": 8,
+									"y": 6,
+									"width": 729,
+									"height": 30
 								},
 								"visible": true,
 								"metadata": {
 									"opacity": 1
 								},
 								"image": {
-									"path": "images/Layer-Status_Bar_White_100_-mjyyouyx.png",
+									"path": "images/Layer-Status_Bar_White_100_-req4oujc.png",
 									"frame": {
-										"x": 13,
-										"y": 11,
-										"width": 719,
-										"height": 20
+										"x": 8,
+										"y": 6,
+										"width": 729,
+										"height": 30
 									}
 								},
 								"children": [
 									{
-										"objectId": "5FB6F684-680D-4DBC-9D65-5016BD07951A",
+										"objectId": "DBACEC88-6CDD-44BF-9CD7-BE58548FF5DF",
 										"kind": "group",
 										"name": "Pin_Left",
 										"originalName": "Pin Left",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 13,
-											"y": 11,
-											"width": 188,
-											"height": 20
+											"x": 8,
+											"y": 6,
+											"width": 198,
+											"height": 30
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Pin_Left-nuzcnky2.png",
+											"path": "images/Layer-Pin_Left-rejbq0vd.png",
 											"frame": {
-												"x": 13,
-												"y": 11,
-												"width": 188,
-												"height": 20
+												"x": 8,
+												"y": 6,
+												"width": 198,
+												"height": 30
 											}
 										},
 										"children": []
 									},
 									{
-										"objectId": "748EB9EE-6794-404E-A66B-72BFE3F3CB3A",
+										"objectId": "6E8AB792-F889-4719-82D5-323D6203E680",
 										"kind": "group",
 										"name": "Pin_Right",
 										"originalName": "Pin Right",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 617,
-											"y": 11,
-											"width": 115,
-											"height": 20
+											"x": 613,
+											"y": 6,
+											"width": 124,
+											"height": 30
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Pin_Right-nzq4rui5.png",
+											"path": "images/Layer-Pin_Right-nku4qui3.png",
 											"frame": {
-												"x": 617,
-												"y": 11,
-												"width": 115,
-												"height": 20
+												"x": 613,
+												"y": 6,
+												"width": 124,
+												"height": 30
 											}
 										},
 										"children": []
@@ -214,9 +215,9 @@
 				"maskFrame": null,
 				"layerFrame": {
 					"x": -4,
-					"y": 125,
+					"y": -2,
 					"width": 828,
-					"height": 1006
+					"height": 1051
 				},
 				"visible": true,
 				"metadata": {
@@ -230,10 +231,10 @@
 						"originalName": "invitees",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 287,
-							"y": 459,
-							"width": 201,
-							"height": 30
+							"x": 263,
+							"y": 392,
+							"width": 228,
+							"height": 33
 						},
 						"visible": true,
 						"metadata": {
@@ -242,10 +243,10 @@
 						"image": {
 							"path": "images/Layer-invitees-rtfcqtq1.png",
 							"frame": {
-								"x": 287,
-								"y": 459,
-								"width": 201,
-								"height": 30
+								"x": 263,
+								"y": 392,
+								"width": 228,
+								"height": 33
 							}
 						},
 						"children": [
@@ -261,8 +262,8 @@
 									"height": 27.57251908396944
 								},
 								"layerFrame": {
-									"x": 315,
-									"y": 459,
+									"x": 291,
+									"y": 395,
 									"width": 30,
 									"height": 30
 								},
@@ -273,8 +274,8 @@
 								"image": {
 									"path": "images/Layer-Bitmap-m0iyruew.png",
 									"frame": {
-										"x": 315,
-										"y": 459,
+										"x": 291,
+										"y": 395,
 										"width": 30,
 										"height": 30
 									}
@@ -293,8 +294,8 @@
 									"height": 27.57251908396944
 								},
 								"layerFrame": {
-									"x": 287,
-									"y": 459,
+									"x": 263,
+									"y": 395,
 									"width": 30,
 									"height": 30
 								},
@@ -305,8 +306,8 @@
 								"image": {
 									"path": "images/Layer-Bitmap-mkrgmjaw.png",
 									"frame": {
-										"x": 287,
-										"y": 459,
+										"x": 263,
+										"y": 395,
 										"width": 30,
 										"height": 30
 									}
@@ -322,10 +323,10 @@
 						"originalName": "Notice",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 112,
-							"y": 309,
-							"width": 520,
-							"height": 180
+							"x": 247,
+							"y": 244,
+							"width": 258,
+							"height": 120
 						},
 						"visible": true,
 						"metadata": {
@@ -334,10 +335,10 @@
 						"image": {
 							"path": "images/Layer-Notice-m0i0ney1.png",
 							"frame": {
-								"x": 112,
-								"y": 309,
-								"width": 520,
-								"height": 180
+								"x": 247,
+								"y": 244,
+								"width": 258,
+								"height": 120
 							}
 						},
 						"children": [
@@ -353,10 +354,10 @@
 									"height": 70.90076335877862
 								},
 								"layerFrame": {
-									"x": 335,
-									"y": 309,
-									"width": 74,
-									"height": 73
+									"x": 339,
+									"y": 244,
+									"width": 82,
+									"height": 81
 								},
 								"visible": true,
 								"metadata": {
@@ -365,10 +366,10 @@
 								"image": {
 									"path": "images/Layer-IMG_5164-nzi2nzrg.png",
 									"frame": {
-										"x": 335,
-										"y": 309,
-										"width": 74,
-										"height": 73
+										"x": 339,
+										"y": 244,
+										"width": 82,
+										"height": 81
 									}
 								},
 								"children": []
@@ -377,15 +378,51 @@
 					},
 					{
 						"objectId": "3E39F0CE-3AD2-4FE6-8D93-BD41D36B8BCD",
-						"kind": "group",
+						"kind": "text",
 						"name": "Event_Title",
 						"originalName": "Event Title",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 159,
+							"x": 195,
 							"y": 144,
-							"width": 422,
-							"height": 155
+							"width": 370,
+							"height": 60
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1,
+							"string": "Yarra River BBQ",
+							"css": [
+								"/* Yarra River BBQ: */",
+								"font-family: SFUIText-Semibold;",
+								"font-size: 48px;",
+								"color: #FFFFFF;",
+								"letter-spacing: -1.16px;",
+								"text-shadow: 0 0 10px #14304C;"
+							]
+						},
+						"image": {
+							"path": "images/Layer-Event_Title-m0uzouyw.png",
+							"frame": {
+								"x": 195,
+								"y": 144,
+								"width": 370,
+								"height": 60
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "0D377FEF-F719-4838-B9C6-E04F01583888",
+						"kind": "group",
+						"name": "bg",
+						"originalName": "bg",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -4,
+							"y": -2,
+							"width": 828,
+							"height": 458
 						},
 						"visible": true,
 						"metadata": {
@@ -393,96 +430,93 @@
 						},
 						"children": [
 							{
-								"objectId": "B80E8056-3AD0-4D77-87FC-EE50EB09078E",
-								"kind": "text",
-								"name": "Group",
-								"originalName": "Group",
-								"maskFrame": null,
+								"objectId": "F99AAF31-30F9-4219-A651-788C7DA44A96",
+								"kind": "group",
+								"name": "Group_4",
+								"originalName": "Group 4",
+								"maskFrame": {
+									"x": 0,
+									"y": 0,
+									"width": 820,
+									"height": 450
+								},
 								"layerFrame": {
-									"x": 159,
-									"y": 144,
-									"width": 422,
-									"height": 155
+									"x": 0,
+									"y": 0,
+									"width": 820,
+									"height": 450
 								},
 								"visible": true,
 								"metadata": {
-									"opacity": 1,
-									"string": "Yarra River BBQ",
-									"css": [
-										"/* Yarra River BBQ: */",
-										"font-family: SFUIText-Semibold;",
-										"font-size: 42px;",
-										"color: #222222;",
-										"letter-spacing: -1.01px;",
-										"text-shadow: 0 0 64px #FFFFFF;"
-									]
+									"opacity": 1
 								},
 								"image": {
-									"path": "images/Layer-Group-qjgwrtgw.png",
+									"path": "images/Layer-Group_4-rjk5qufg.png",
 									"frame": {
-										"x": 159,
-										"y": 144,
-										"width": 422,
-										"height": 155
+										"x": 0,
+										"y": 0,
+										"width": 820,
+										"height": 450
+									}
+								},
+								"children": [
+									{
+										"objectId": "B2B0619D-7ADA-4641-B5F8-AFAE7930A6DB",
+										"kind": "group",
+										"name": "Group_41",
+										"originalName": "Group 4",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": -1,
+											"y": -16,
+											"width": 754,
+											"height": 466
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_4-qjjcmdyx.jpg",
+											"frame": {
+												"x": -1,
+												"y": -16,
+												"width": 754,
+												"height": 466
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "8CF7E21F-7DC7-4997-81A7-1DCF17D82A43",
+								"kind": "group",
+								"name": "Group_2",
+								"originalName": "Group 2",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": -4,
+									"y": -2,
+									"width": 828,
+									"height": 458
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Group_2-oengn0uy.png",
+									"frame": {
+										"x": -4,
+										"y": -2,
+										"width": 828,
+										"height": 458
 									}
 								},
 								"children": []
 							}
 						]
-					},
-					{
-						"objectId": "8CF7E21F-7DC7-4997-81A7-1DCF17D82A43",
-						"kind": "group",
-						"name": "Group_2",
-						"originalName": "Group 2",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -4,
-							"y": 125,
-							"width": 828,
-							"height": 414
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Group_2-oengn0uy.png",
-							"frame": {
-								"x": -4,
-								"y": 125,
-								"width": 828,
-								"height": 414
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "76D9B59F-6870-4683-92FD-DF33E022D17B",
-						"kind": "group",
-						"name": "Rules",
-						"originalName": "Rules",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": -43,
-							"y": 128,
-							"width": 819,
-							"height": 1328
-						},
-						"visible": false,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Rules-nzzeoui1.png",
-							"frame": {
-								"x": -43,
-								"y": 128,
-								"width": 819,
-								"height": 1328
-							}
-						},
-						"children": []
 					},
 					{
 						"objectId": "F645D661-5B78-40AA-9655-4EA2259F0CD2",
@@ -492,7 +526,7 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 42,
-							"y": 887,
+							"y": 805,
 							"width": 652,
 							"height": 244
 						},
@@ -504,7 +538,7 @@
 							"path": "images/Layer-Photo-rjy0nuq2.png",
 							"frame": {
 								"x": 42,
-								"y": 887,
+								"y": 805,
 								"width": 652,
 								"height": 244
 							}
@@ -523,7 +557,7 @@
 								},
 								"layerFrame": {
 									"x": 594,
-									"y": 1031,
+									"y": 949,
 									"width": 100,
 									"height": 100
 								},
@@ -535,7 +569,7 @@
 									"path": "images/Layer-IMG_5100-mkfeqtu2.png",
 									"frame": {
 										"x": 594,
-										"y": 1031,
+										"y": 949,
 										"width": 100,
 										"height": 100
 									}
@@ -555,7 +589,7 @@
 								},
 								"layerFrame": {
 									"x": 594,
-									"y": 921,
+									"y": 839,
 									"width": 100,
 									"height": 100
 								},
@@ -567,7 +601,7 @@
 									"path": "images/Layer-IMG_5110-qum0rjc5.png",
 									"frame": {
 										"x": 594,
-										"y": 921,
+										"y": 839,
 										"width": 100,
 										"height": 100
 									}
@@ -587,7 +621,7 @@
 								},
 								"layerFrame": {
 									"x": 484,
-									"y": 1031,
+									"y": 949,
 									"width": 100,
 									"height": 100
 								},
@@ -599,7 +633,7 @@
 									"path": "images/Layer-IMG_5063-nti5otq5.png",
 									"frame": {
 										"x": 484,
-										"y": 1031,
+										"y": 949,
 										"width": 100,
 										"height": 100
 									}
@@ -619,7 +653,7 @@
 								},
 								"layerFrame": {
 									"x": 484,
-									"y": 921,
+									"y": 839,
 									"width": 100,
 									"height": 100
 								},
@@ -631,7 +665,7 @@
 									"path": "images/Layer-IMG_5129-otherjcw.png",
 									"frame": {
 										"x": 484,
-										"y": 921,
+										"y": 839,
 										"width": 100,
 										"height": 100
 									}
@@ -651,7 +685,7 @@
 								},
 								"layerFrame": {
 									"x": 263,
-									"y": 921,
+									"y": 839,
 									"width": 210,
 									"height": 210
 								},
@@ -663,7 +697,7 @@
 									"path": "images/Layer-IMG_5088-rdqxmky4.png",
 									"frame": {
 										"x": 263,
-										"y": 921,
+										"y": 839,
 										"width": 210,
 										"height": 210
 									}
@@ -683,7 +717,7 @@
 								},
 								"layerFrame": {
 									"x": 42,
-									"y": 921,
+									"y": 839,
 									"width": 210,
 									"height": 210
 								},
@@ -695,7 +729,7 @@
 									"path": "images/Layer-IMG_5092-merdm0u2.png",
 									"frame": {
 										"x": 42,
-										"y": 921,
+										"y": 839,
 										"width": 210,
 										"height": 210
 									}
@@ -712,7 +746,7 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 43,
-							"y": 571,
+							"y": 489,
 							"width": 667,
 							"height": 96
 						},
@@ -724,7 +758,7 @@
 							"path": "images/Layer-Location-rjq1mzve.png",
 							"frame": {
 								"x": 43,
-								"y": 571,
+								"y": 489,
 								"width": 667,
 								"height": 96
 							}
@@ -738,7 +772,7 @@
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 630,
-									"y": 572,
+									"y": 490,
 									"width": 80,
 									"height": 80
 								},
@@ -755,7 +789,7 @@
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 630,
-											"y": 572,
+											"y": 490,
 											"width": 80,
 											"height": 80
 										},
@@ -767,7 +801,7 @@
 											"path": "images/Layer-Icon_View_in_map-mjc5ouvc.png",
 											"frame": {
 												"x": 630,
-												"y": 572,
+												"y": 490,
 												"width": 80,
 												"height": 80
 											}
@@ -786,7 +820,7 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 43,
-							"y": 706,
+							"y": 624,
 							"width": 624,
 							"height": 136
 						},
@@ -798,7 +832,7 @@
 							"path": "images/Layer-Note-m0rbneje.png",
 							"frame": {
 								"x": 43,
-								"y": 706,
+								"y": 624,
 								"width": 624,
 								"height": 136
 							}
@@ -979,7 +1013,7 @@
 					{
 						"objectId": "A7E8C710-93AA-4B6F-86B3-5B489D11B39B",
 						"kind": "group",
-						"name": "Rules1",
+						"name": "Rules",
 						"originalName": "Rules",
 						"maskFrame": null,
 						"layerFrame": {
@@ -1243,7 +1277,7 @@
 							{
 								"objectId": "17C36B59-7760-44CF-A584-E9D481D140BE",
 								"kind": "text",
-								"name": "Group1",
+								"name": "Group",
 								"originalName": "Group",
 								"maskFrame": null,
 								"layerFrame": {
