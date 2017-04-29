@@ -113,22 +113,22 @@
 				"originalName": "Month",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -2,
-					"y": 188,
-					"width": 107,
-					"height": 92
+					"x": -33,
+					"y": 185,
+					"width": 138,
+					"height": 112
 				},
-				"visible": true,
+				"visible": false,
 				"metadata": {
 					"opacity": 1
 				},
 				"image": {
 					"path": "images/Layer-Month-oeq3rtg2.png",
 					"frame": {
-						"x": -2,
-						"y": 188,
-						"width": 107,
-						"height": 92
+						"x": -33,
+						"y": 185,
+						"width": 138,
+						"height": 112
 					}
 				},
 				"children": [
@@ -139,27 +139,54 @@
 						"originalName": "icon",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 38,
-							"y": 202,
-							"width": 27,
-							"height": 27
+							"x": 41,
+							"y": 203,
+							"width": 22,
+							"height": 23
 						},
-						"visible": true,
+						"visible": false,
 						"metadata": {
 							"opacity": 1
 						},
 						"image": {
 							"path": "images/Layer-icon-njbenee5.png",
 							"frame": {
-								"x": 38,
-								"y": 202,
-								"width": 27,
-								"height": 27
+								"x": 41,
+								"y": 203,
+								"width": 22,
+								"height": 23
 							}
 						},
 						"children": []
 					}
 				]
+			},
+			{
+				"objectId": "10F2D1C8-B7C7-41F8-A43B-1C9AFAB627EE",
+				"kind": "group",
+				"name": "Group_2",
+				"originalName": "Group 2",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 28,
+					"y": 209,
+					"width": 644,
+					"height": 49
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Group_2-mtbgmkqx.png",
+					"frame": {
+						"x": 28,
+						"y": 209,
+						"width": 644,
+						"height": 49
+					}
+				},
+				"children": []
 			},
 			{
 				"objectId": "1679B5DF-3C16-4C88-9676-379804F624D4",
@@ -1141,7 +1168,7 @@
 								},
 								"visible": true,
 								"metadata": {
-									"opacity": 0.33610733695652173
+									"opacity": 0.3361073369565217
 								},
 								"image": {
 									"path": "images/Layer-LinesH-qji3rdcy.png",
