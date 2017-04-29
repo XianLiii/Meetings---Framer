@@ -24,9 +24,9 @@ window.__imported__["Framer-ConfirmPanel@1x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 25,
-					"y": 19,
-					"width": 687,
-					"height": 59
+					"y": 1,
+					"width": 716,
+					"height": 90
 				},
 				"visible": true,
 				"metadata": {
@@ -36,9 +36,9 @@ window.__imported__["Framer-ConfirmPanel@1x/layers.json.js"] = [
 					"path": "images/Layer-VPHeader-rtzdndgw.png",
 					"frame": {
 						"x": 25,
-						"y": 19,
-						"width": 687,
-						"height": 59
+						"y": 1,
+						"width": 716,
+						"height": 90
 					}
 				},
 				"children": [
@@ -49,10 +49,10 @@ window.__imported__["Framer-ConfirmPanel@1x/layers.json.js"] = [
 						"originalName": "Hide",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 691,
-							"y": 39,
-							"width": 21,
-							"height": 13
+							"x": 664,
+							"y": 1,
+							"width": 77,
+							"height": 90
 						},
 						"visible": true,
 						"metadata": {
@@ -61,10 +61,10 @@ window.__imported__["Framer-ConfirmPanel@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Hide-ruq1mee2.png",
 							"frame": {
-								"x": 691,
-								"y": 39,
-								"width": 21,
-								"height": 13
+								"x": 664,
+								"y": 1,
+								"width": 77,
+								"height": 90
 							}
 						},
 						"children": [

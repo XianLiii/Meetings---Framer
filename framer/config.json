@@ -1,8 +1,10 @@
 {
   "orientation" : 0,
   "updateDelay" : 0.3,
+  "cachedDeviceHeight" : 1334,
   "contentScale" : 1,
   "fullScreen" : false,
+  "cachedDeviceWidth" : 750,
   "sharedPrototype" : true,
   "propertyPanelToggleStates" : {
     "Filters" : false

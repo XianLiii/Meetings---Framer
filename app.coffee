@@ -553,7 +553,7 @@ subpage_VotePanel=new Layer
 mask_VotePanel=new Layer
 	width: Screen.width
 	height: Screen.height
-	backgroundColor: Grey
+	backgroundColor: brightBlue
 	opacity: 0
 
 # Group in page page_DetailsAsInvitee
@@ -823,7 +823,7 @@ mask_ConfirmPanel=new Layer
 	x: 0
 	width: Screen.width
 	height: Screen.height
-	backgroundColor: "#000"
+	backgroundColor: brightBlue
 	opacity: 0
 
 
